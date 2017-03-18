@@ -1,0 +1,60 @@
+﻿#container {
+	MARGIN: 20px auto; WIDTH: 1000px
+}
+#header {
+	WIDTH: 1000px; HEIGHT: 143px
+}
+.maroonstrip {
+	WIDTH: 1000px; HEIGHT: 1em
+}
+.horizontalcssmenu .arrowdiv
+{
+display:none;
+background:none;
+}
+#leftcol {
+	WIDTH: 200px
+}
+#rightcol img {
+	height:338px;
+	width:299px;
+}
+.mainpiccont {
+	WIDTH: 601px; HEIGHT: 451px
+}
+#latestmessagebox {
+	WIDTH: 900px
+}
+#service {
+	WIDTH: 250px
+}
+#gallery {
+	WIDTH: 250px
+}
+#gallery IMG {
+	WIDTH: 225px; HEIGHT: auto
+}
+#news {
+	WIDTH: 250px
+}
+.bar1 {
+	VISIBILITY: hidden
+}
+.bar2 {
+	VISIBILITY: hidden
+}
+.bigpiclink {
+	WIDTH: 285px; HEIGHT: 172px
+}
+.payneimage {
+	WIDTH: auto; HEIGHT: 400px
+}
+.choirimage {
+	WIDTH: 771px; HEIGHT: 527px
+}
+.congregation {
+	WIDTH: 771px; HEIGHT: 527px
+}
+.yearginpreach {
+	WIDTH: auto; HEIGHT: 400px
+}
