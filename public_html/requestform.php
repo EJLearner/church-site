@@ -1,4 +1,6 @@
 ﻿<?php
+include "../private/confidential.php";
+
 header("Cache-Control: no-cache, must-revalidate"); // HTTP/1.1
 header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
 
@@ -111,7 +113,7 @@ $address = preg_replace("/\/.*\//","",__FILE__)."?p=".$page;
 <?
 	if ($valid)
 		{
-		$to="emailaddress@somewhere.com";
+		$to=getRequestFormAddress();
 		$subject="$title . 'has been submitted'";
 		$message="(<Resolve phpmatic> submitted an $title request. Submitted information is below\r\n\r\n";
 		$message= $message . "Ministry Leader Name: " . "PHP magic" . "\r\n";

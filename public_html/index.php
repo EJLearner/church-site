@@ -163,8 +163,6 @@
 		</div>
 		<div class="clear"></div>
 	</div>
-
-
 </div>
 <? include "footer.php" ?>
 </body>

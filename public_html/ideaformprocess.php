@@ -1,4 +1,5 @@
 ﻿<?php
+include "../private/confidential.php";
 
 function clean_input($data) {
   $data = trim($data);
@@ -21,7 +22,7 @@ $phone=clean_input($_POST["phone"]);
 
 if ($valid)
 		{
-		$to="emailaddress@somewhere.com";
+		$to=getIdeaFormAddress();
 		$subject= "Someone told us what they think";
 		$message="Submitted information is below:\r\n\r\n";
 		$message .="Idea type is " . $ideatype . "\r\n";
