@@ -9,13 +9,6 @@
 <link rel="stylesheet" href="css/anythingslider.css">
 <script src="js/jquery.anythingslider.js"></script>
 
-<!-- Add the stylesheet(s) you are going to use here. All stylesheets are included below, remove the ones you don't use. -->
-<link rel="stylesheet" href="css/theme-metallic.css">
-<link rel="stylesheet" href="css/theme-minimalist-round.css">
-<link rel="stylesheet" href="css/theme-minimalist-square.css">
-<link rel="stylesheet" href="css/theme-construction.css">
-<link rel="stylesheet" href="css/theme-cs-portfolio.css">
-
 <!-- AnythingSlider optional extensions -->
 <script src="js/jquery.anythingslider.fx.js"></script>
 <script src="js/jquery.anythingslider.video.js"></script>
