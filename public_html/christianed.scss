@@ -30,7 +30,7 @@ h1{
 	text-transform:uppercase;
 	color:$main-green;
 	font-weight:normal;
-	
+
 
 	span{
 		font-size:150%;
@@ -42,7 +42,7 @@ form
 	{
 		border:1px solid $RGB95;
 		padding:1em 10%;
-		
+
 		input[type=text], input[type=email],input[type=tel], textarea, select{
 		border:1px solid gray;
 		width:99%;
@@ -50,27 +50,27 @@ form
 		}
 		select{
 			width:150px;
-			
+
 		}
-		
-	
+
+
 		textarea{
 		height:120pt;
 		border:1px solid gray;
 		}
-		
+
 		button{
 			display:block;
 			text-align:center;
 			margin:auto;
 			background-color:RGB(178,178,178);
 		}
-		
+
 	}
 
 body{
-	width:1000px; 
-	margin:auto; 
+	width:1000px;
+	margin:auto;
 	overflow-x:hidden;}
 
 #header{
@@ -82,6 +82,10 @@ body{
 	}
 }
 
+#slider-chris{
+	list-style-type: none;
+	width: 100%;
+}
 
 #menubar{
 	width:600%;
@@ -101,7 +105,7 @@ body{
 		vertical-align:center;
 		margin:auto;
 		width:1000px;
-	
+
 		li{
 			padding:0px;
 			margin-top:0px;
@@ -111,7 +115,7 @@ body{
 			&:first-child {
 				padding:0px;
 				float:left;
-			}			
+			}
 
 			&:last-child {
 				float:right;
@@ -137,7 +141,7 @@ body{
 				cursor:pointer;
 			}
 		}
-	
+
 	}
 }
 
@@ -149,13 +153,13 @@ body{
 		padding-left:3em;
 		width:120%;
 	}
-	
+
 }
 
 #leftcontent{
 	font-family:$calibri;
 	color:$RGB63;
-	
+
 	p,ol,ul{
 		margin-left:auto;
 		margin-right:auto;
@@ -182,29 +186,29 @@ ul.member-list{
 	font-family:$calibri;
 	font-size:10pt;
 	color:$RGB95;
-	
+
 	h1{
 		font-weight:normal;
 		margin:.1em 0;
 		font-size:24pt;
 	}
-	
+
 	h2{
 		font-family:$arial;
 		margin:.1em 0;
 		font-size:12pt;
 		text-transform:uppercase;
 	}
-	
+
 	p#bottomnote{
-	
+
 	text-align:center;
-	
+
 	font-size:10pt;
 	font-family:cgothic;
 	color:rgb(0,204,0);
 	}
-	
+
 	a:visited{
 		color:$RGB95;
 	}
@@ -234,17 +238,17 @@ $tableleft:300px;
 	margin-right:auto;
 	width:$instorewidth;
 	font-family:$calibri;
-	
+
 	.tableline{
 		margin:0;
 		border-bottom:1px solid orange;
 		clear:both;
 	}
-	
+
 	.tableline:last-child{
 		border-bottom:none;
 	}
-	
+
 	.tableleft{
 		box-sizing:border-box;
 		float:left;
@@ -270,7 +274,7 @@ $tableleft:300px;
 .valuedesc{
 	clear:left;
 	background-color:grey;
-	
+
 	p{
 	float:right;
 	margin:0px;
@@ -291,7 +295,7 @@ $tableleft:300px;
 	width:55%;
 	margin-bottom:10px;
 	font-size:75%
-	
+
 }
 
 .radiobutts{

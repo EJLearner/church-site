@@ -1,4 +1,4 @@
-﻿<?php 
+﻿<?php
 if (isset($_GET['p'])) {
 		$page=$_GET['p'];
 } else {
@@ -18,7 +18,7 @@ function randomquote()
 	,"&ldquo;Whoever walks with the wise becomes wise, but the companion of fools will suffer harm. Proverbs 13:20&rdquo;"
 	,"&ldquo;Iron sharpens iron, and one man sharpens another. Proverbs 27:17&rdquo;"
 	);
-	
+
 	return $quotes[rand(0,count($quotes)-1)];
 }
 
@@ -27,7 +27,7 @@ function randomquote()
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
 "http://www.w3.org/TR/html4/strict.dtd">
 
-<html> 
+<html>
 <head>
 <link rel="stylesheet" type="text/css" href="christianed.css">
 <link rel="icon" type="image/png" href="images/favicon.png">
@@ -36,11 +36,11 @@ function randomquote()
 <script src="ideaform.js"></script>
 
 
-<meta name="keywords" content="baltimore, baptist, city, temple, christian, education, church, grady, yeargin" > 
-<meta name="description" content="City Temple Baptist Church - Christian Education Page" > 
-<meta name="revised" content="Earl Jones, <?php echo date ("F d Y H:i:s.", filemtime(__FILE__))?>" > 
+<meta name="keywords" content="baltimore, baptist, city, temple, christian, education, church, grady, yeargin" >
+<meta name="description" content="City Temple Baptist Church - Christian Education Page" >
+<meta name="revised" content="Earl Jones, <?php echo date ("F d Y H:i:s.", filemtime(__FILE__))?>" >
 <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" >
-<title id='title'>City Temple of Baltimore - Christian Education</title> 
+<title id='title'>City Temple of Baltimore - Christian Education</title>
 </head>
 <body>
 <div id="header"><img src="images\chrisedtopbanner.png" alt=""></div>
@@ -66,8 +66,6 @@ function randomquote()
 		else if ($page=="instreg") {echo $instregform;}
 		else if ($page=='opinionsent') {echo $opinionsent;}
 		else {
-			// TODO: Fix styling so that slider php isn't necessary
-			include "sliderheadchris.php";
 			echo $welcomecontent;
 		}
 	?>
@@ -112,5 +110,5 @@ function randomquote()
 	</div>
 </div>
 </div>
-</body> 
+</body>
 </html>

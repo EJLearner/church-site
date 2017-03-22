@@ -1,18 +1,19 @@
 ﻿<?php if(isset($_GET['x'])) {$content=$_GET['x'];} else {$content='';}
 
 $welcomecontent="
-		
+
 <div id='lefthome'>
-		<ul id='sliderchris'>
+		<ul id='slider-chris'>
+		<li><img src='images/CEBannerwalk.png' alt='Service Times 9 AM Every Sunday'></li>
 		<li><img src='images/CEBannerwalk.png' alt='Service Times 9 AM Every Sunday'></li>
 		</ul>
 		<h1 class='moveright'>Welcome To <span class='emphwelcomeline'>Christian Education</span></h1>
 	</div>";
-	
+
 $whocontent="
 <div id='leftpics'>
 		<h1>Who We <span class='emphwelcomeline'>Are</span></h1>
-		
+
 		<ul class='member-list'>
 			<li>April S. Jones, Co-chair</li>
 			<li>Davina Morton, Co-chair</li>
@@ -66,19 +67,19 @@ $whatcontent="
 	<h1>What's In <span>Store</span></h1>
 	<div id='instoretable'>
 		<div class='tableline'>
-			<p class='tableleft'>Church-wide Institute<br>September 26</p> 
+			<p class='tableleft'>Church-wide Institute<br>September 26</p>
 			<p class='tableright'>Registration is now open for the 2015 Church-wide Institute. This year's topic is Managing & Maintaining Intimate Relationships. Whether single, married or somewhere inbetween, you can benefit from this Institute! The Institute will cover common relationship killers and thrillers, how to manage your emotions and resolve conflict, managing household finances, learning your love language, how to problem solve common sexual roadblocks, and much, much more! Registration closes September 20!</p>
 		</div>
-		
+
 		<div class='tableline'>
 			<p class='tableleft'>The Jesus Connection<br>
 			2nd & 4th Fridays<br>starting October 9</p>
 			<p class='tableright'>Bring your youth and teens out every 2nd & 4th Friday as we deepen our knowledge of God and His word through fun and interactive engagement. Parents, please plan to stay. We have plenty of discussion-provoking classes for you too! Come get connected! </p>
 		</div>
-		
+
 		<div class='tableline'>
-			<p class='tableleft'>Leadership Retreat<br>March 25-26, 2016</p> 
-			<p class='tableright'>Christian Education is planning a Leadership Retreat for all ministers, officers, and group leaders in order to support opportunities for leadership development. The retreat has several goals:</p> 
+			<p class='tableleft'>Leadership Retreat<br>March 25-26, 2016</p>
+			<p class='tableright'>Christian Education is planning a Leadership Retreat for all ministers, officers, and group leaders in order to support opportunities for leadership development. The retreat has several goals:</p>
 			<ol class='tableright'>
 				<li>To rejuvenate and renew us so we may lead successfully;</li>
 				<li>To offer training in how to communicate effectively;</li>
@@ -89,40 +90,40 @@ $whatcontent="
 		</div>
 	</div>
 	</div>";
-	
+
 $ideaform="
 <div id='leftform'>
 <h1>Tell Us What You Think!</h1>
-	
+
 	<form id='ideaform' action='ideaformprocess.php' method='post'>
 		<p>
 		<label for='institute'>This idea is for:<span class='mandatory'>*</span></label><br>
 		<input type='radio' name='ideatype' id='institute' value='institute' required>
 		<label for='institute'>Institute/Seminar</label>
 		<br>
-		
+
 		<input type='radio' name='ideatype' id='class' value='class' required>
 		<label for='class'>Class</label><br>
-		
+
 		<input type='radio' name='ideatype' id='retreat' value='retreat' required>
 		<label for='retreat'>Retreat</label><br>
-		
+
 		<input type='radio' name='ideatype' id='workshop' value='workshop' required>
 		<label for='workshop'>Workshop</label>
 		</p>
-		
+
 		<p><label for='ideadesc'>Describe your idea here:<span class='mandatory'>*</span></label><br>
 		<textarea class='ideatextbox' name='ideadesc' id='ideadesc' rows='5' cols='41' maxlength='1000' required></textarea></p>
-		
+
 		<p><label for='name'>Contact Name:</label><br>
 		<input type='text' class='smalltextbox' name='name' id='name' size='40' maxlength='50'></p>
-		
+
 		<p><label for='email'>Email:</label><br>
 		<input type='email' class='smalltextbox' name='email' id='email' size='40' maxlength='50'></p>
-		
+
 		<p><label for='phone'>Contact Telephone:</label><br>
 		<input type='tel' class='smalltextbox' name='phone' id='phone' size='40' maxlength='50'></p>
-		
+
 		<button type='submit'>Submit</button>
 </div>";
 
