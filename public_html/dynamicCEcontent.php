@@ -1,14 +1,12 @@
 ﻿<?php if(isset($_GET['x'])) {$content=$_GET['x'];} else {$content='';}
 
 $welcomecontent="
-
-<div id='lefthome'>
-		<ul id='slider-chris'>
+	<ul id='slider-chris'>
 		<li><img src='images/CEBannerwalk.png' alt='Service Times 9 AM Every Sunday'></li>
 		<li><img src='images/CEBannerwalk.png' alt='Service Times 9 AM Every Sunday'></li>
-		</ul>
-		<h1 class='moveright'>Welcome To <span class='emphwelcomeline'>Christian Education</span></h1>
-	</div>";
+	</ul>
+	<h1 class='moveright'>Welcome To <span class='emphwelcomeline'>Christian Education</span></h1>
+";
 
 $whocontent="
 <div id='leftpics'>

@@ -9,6 +9,11 @@ $RGB77: RGB(77,77,77);
 $RGB63: RGB(63,63,63);
 $RGB95: RGB(95,95,95);
 
+body{
+	margin:auto;
+	overflow-x:hidden;
+}
+
 a{
 	text-decoration:none;
 }
@@ -68,29 +73,34 @@ form
 
 	}
 
-body{
-	width:1000px;
-	margin:auto;
-	overflow-x:hidden;}
-
 #header{
-	width:100%;
+	width:1000px;
+	margin: auto;
+
 	img{
-	padding:1em;
-	width:40%;
-	float:right;
+		padding:1em;
+		width:30%;
+		float:right;
 	}
 }
 
 #slider-chris{
+	margin: 0px;
+	padding: 0;
 	list-style-type: none;
-	width: 100%;
+
+	li {
+		padding: 0px;
+
+		img {
+			width: 100%;
+		}
+	}
 }
 
 #menubar{
-	width:600%;
+	width:100%;
 	margin-bottom: 4.5em;
-	margin-left:-250%;
 	background-color:$main-green;
 	font-size:90%;
 	font-family: $calibri;
@@ -143,17 +153,6 @@ body{
 		}
 
 	}
-}
-
-#lefthome{
-	float:left;
-	width:600px;
-	img{
-		padding:1.5em;
-		padding-left:3em;
-		width:120%;
-	}
-
 }
 
 #leftcontent{

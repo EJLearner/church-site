@@ -1,3 +1,7 @@
+body {
+  margin: auto;
+  overflow-x: hidden; }
+
 a {
   text-decoration: none; }
 
@@ -39,26 +43,26 @@ form {
     margin: auto;
     background-color: RGB(178, 178, 178); }
 
-body {
-  width: 1000px;
-  margin: auto;
-  overflow-x: hidden; }
-
 #header {
-  width: 100%; }
+  width: 1000px;
+  margin: auto; }
   #header img {
     padding: 1em;
-    width: 40%;
+    width: 30%;
     float: right; }
 
 #slider-chris {
-  list-style-type: none;
-  width: 100%; }
+  margin: 0px;
+  padding: 0;
+  list-style-type: none; }
+  #slider-chris li {
+    padding: 0px; }
+    #slider-chris li img {
+      width: 100%; }
 
 #menubar {
-  width: 600%;
+  width: 100%;
   margin-bottom: 4.5em;
-  margin-left: -250%;
   background-color: RGB(146, 208, 80);
   font-size: 90%;
   font-family: "Segoe UI", Calibri, Candara, Segoe, Optima, Arial, sans-serif;
@@ -95,14 +99,6 @@ body {
         text-decoration: underline;
         color: white;
         cursor: pointer; }
-
-#lefthome {
-  float: left;
-  width: 600px; }
-  #lefthome img {
-    padding: 1.5em;
-    padding-left: 3em;
-    width: 120%; }
 
 #leftcontent {
   font-family: "Segoe UI", Calibri, Candara, Segoe, Optima, Arial, sans-serif;

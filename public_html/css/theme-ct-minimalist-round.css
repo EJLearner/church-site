@@ -29,12 +29,6 @@
  =================================
  Default state (no keyboard focus)
  ==================================*/
-/* Overall Wrapper */
-.anythingSlider-ct-minimalist-round {
-}
-/* slider window - top & bottom borders, default state */
-.anythingSlider-ct-minimalist-round .anythingWindow {
-}
 /* Navigation buttons + start/stop button, default state */
 .anythingSlider-ct-minimalist-round .anythingControls a {
 	background-color: #333;
@@ -301,7 +295,6 @@ COMMON SLIDER STYLING
 }
 .anythingSlider.rtl .anythingControls ul { float: left; } /* move nav link group to left */
 .anythingSlider.rtl .anythingControls ul a { float: right; } /* reverse order of nav links */
-.anythingSlider.rtl .start-stop { /* float: right; */ } /* move start/stop button - in case you want to switch sides */
 
 /* probably not necessary, but added just in case */
 .anythingSlider .anythingWindow,

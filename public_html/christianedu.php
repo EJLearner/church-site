@@ -32,9 +32,7 @@ function randomquote()
 <link rel="stylesheet" type="text/css" href="christianed.css">
 <link rel="icon" type="image/png" href="images/favicon.png">
 
-
 <script src="ideaform.js"></script>
-
 
 <meta name="keywords" content="baltimore, baptist, city, temple, christian, education, church, grady, yeargin" >
 <meta name="description" content="City Temple Baptist Church - Christian Education Page" >
@@ -55,7 +53,6 @@ function randomquote()
 </ul>
 </div>
 <div id="maincontent" class="cf">
-	<div id="ajaxmaincont">
 	<?
 		include 'dynamicCEcontent.php';
 		if ($page=="opinion") {echo $ideaform;}
@@ -69,7 +66,6 @@ function randomquote()
 			echo $welcomecontent;
 		}
 	?>
-	</div>
 </div>
 <p id="bottomquote"><?php echo randomquote();?></p>
 <div id="footerbar">
