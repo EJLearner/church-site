@@ -1,15 +1,20 @@
 ﻿<?php if(isset($_GET['x'])) {$content=$_GET['x'];} else {$content='';}
 
 $welcomecontent="
-	<ul id='slider-chris'>
-		<li><img src='images/CEBannerwalk.png' alt='Service Times 9 AM Every Sunday'></li>
-		<li><img src='images/CEBannerwalk.png' alt='Service Times 9 AM Every Sunday'></li>
-	</ul>
-	<h1 class='moveright'>Welcome To <span class='emphwelcomeline'>Christian Education</span></h1>
+	<div id='slider-chris'>
+		<div class='pic-control-button left'>Left</div>
+		<ul>
+			<li>
+				<img src='images/CEBannerwalk.png' alt='Service Times 9 AM Every Sunday'>
+			</li>
+		</ul>
+		<div class='pic-control-button right'>Right</div>
+	</div>
+	<div id='leftcontent'><h1 class='moveright'>Welcome To <span class='emphwelcomeline'>Christian Education</span></h1></div>
 ";
 
 $whocontent="
-<div id='leftpics'>
+<div id='leftcontent'>
 		<h1>Who We <span class='emphwelcomeline'>Are</span></h1>
 
 		<ul class='member-list'>
@@ -90,8 +95,8 @@ $whatcontent="
 	</div>";
 
 $ideaform="
+<div id='leftcontent'><h1>Tell Us What You <span>Think!</span></h1></div>
 <div id='leftform'>
-<h1>Tell Us What You Think!</h1>
 
 	<form id='ideaform' action='ideaformprocess.php' method='post'>
 		<p>

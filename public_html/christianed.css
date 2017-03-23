@@ -43,23 +43,6 @@ form {
     margin: auto;
     background-color: RGB(178, 178, 178); }
 
-#header {
-  width: 1000px;
-  margin: auto; }
-  #header img {
-    padding: 1em;
-    width: 30%;
-    float: right; }
-
-#slider-chris {
-  margin: 0px;
-  padding: 0;
-  list-style-type: none; }
-  #slider-chris li {
-    padding: 0px; }
-    #slider-chris li img {
-      width: 100%; }
-
 #menubar {
   width: 100%;
   margin-bottom: 4.5em;
@@ -100,7 +83,37 @@ form {
         color: white;
         cursor: pointer; }
 
+#header {
+  width: 1000px;
+  margin: auto; }
+  #header img {
+    padding: 1em;
+    width: 30%;
+    float: right; }
+
+#slider-chris {
+  position: relative; }
+  #slider-chris .pic-control-button {
+    position: absolute;
+    top: 30px;
+    color: white;
+    background: black; }
+    #slider-chris .pic-control-button.right {
+      right: 5px; }
+    #slider-chris .pic-control-button.left {
+      left: 5px; }
+  #slider-chris ul {
+    margin: 0px;
+    padding: 0;
+    list-style-type: none; }
+    #slider-chris ul li {
+      padding: 0px; }
+      #slider-chris ul li img {
+        width: 100%; }
+
 #leftcontent {
+  width: 1000px;
+  margin: auto;
   font-family: "Segoe UI", Calibri, Candara, Segoe, Optima, Arial, sans-serif;
   color: RGB(63, 63, 63); }
   #leftcontent p, #leftcontent ol, #leftcontent ul {
@@ -119,7 +132,7 @@ ul.member-list {
   color: RGB(146, 208, 80); }
 
 #leftform {
-  margin-left: 20px;
+  margin: auto;
   padding-top: 2em;
   width: 400px;
   font-family: "Segoe UI", Calibri, Candara, Segoe, Optima, Arial, sans-serif;
@@ -231,14 +244,12 @@ ul.member-list {
   color: grey; }
 
 #footerbar {
-  width: 600%;
-  margin-left: -250%;
   overflow: auto;
   background-color: RGB(180, 180, 180); }
 
 #footer {
   width: 1000px;
-  margin-left: 2500px;
+  margin: auto;
   padding-bottom: 10px;
   font-size: 70%; }
 

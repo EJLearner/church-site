@@ -73,31 +73,6 @@ form
 
 	}
 
-#header{
-	width:1000px;
-	margin: auto;
-
-	img{
-		padding:1em;
-		width:30%;
-		float:right;
-	}
-}
-
-#slider-chris{
-	margin: 0px;
-	padding: 0;
-	list-style-type: none;
-
-	li {
-		padding: 0px;
-
-		img {
-			width: 100%;
-		}
-	}
-}
-
 #menubar{
 	width:100%;
 	margin-bottom: 4.5em;
@@ -155,7 +130,53 @@ form
 	}
 }
 
+#header{
+	width:1000px;
+	margin: auto;
+
+	img{
+		padding:1em;
+		width:30%;
+		float:right;
+	}
+}
+
+#slider-chris{
+	position: relative;
+
+	.pic-control-button {
+		position: absolute;
+		top: 30px;
+		color:white;
+		background: black;
+
+		&.right {
+			right: 5px;
+		}
+
+		&.left {
+			left: 5px;
+		}
+	}
+
+	ul{
+		margin: 0px;
+		padding: 0;
+		list-style-type: none;
+
+		li {
+			padding: 0px;
+
+			img {
+				width: 100%;
+			}
+		}
+	}
+}
+
 #leftcontent{
+	width: 1000px;
+	margin: auto;
 	font-family:$calibri;
 	color:$RGB63;
 
@@ -179,7 +200,7 @@ ul.member-list{
 }
 
 #leftform{
-	margin-left:20px;
+	margin:auto;
 	padding-top:2em;
 	width:400px;
 	font-family:$calibri;
@@ -322,15 +343,13 @@ color:grey;
 }
 
 #footerbar{
-	width:600%;
-	margin-left:-250%;
 	overflow:auto;
 	background-color:RGB(180,180,180);
 
 }
 #footer{
 	width:1000px;
-	margin-left:2500px;
+	margin: auto;
 	padding-bottom: 10px;
 	font-size:70%;
 }
