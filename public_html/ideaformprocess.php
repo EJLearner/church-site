@@ -41,4 +41,4 @@ if ($valid)
 
 		}
 
-echo json_encode($data);
+header('Location: christianedu.php?p=opinionsent');

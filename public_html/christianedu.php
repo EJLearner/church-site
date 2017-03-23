@@ -33,6 +33,7 @@ function randomquote()
 <link rel="icon" type="image/png" href="images/favicon.png">
 
 <script src="ideaform.js"></script>
+<script src="https://use.fontawesome.com/7410044abd.js"></script>
 
 <meta name="keywords" content="baltimore, baptist, city, temple, christian, education, church, grady, yeargin" >
 <meta name="description" content="City Temple Baptist Church - Christian Education Page" >

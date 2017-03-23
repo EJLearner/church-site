@@ -1,18 +1,23 @@
-﻿<?php if(isset($_GET['x'])) {$content=$_GET['x'];} else {$content='';}
+﻿<?php if (isset($_GET['x'])) {
+    $content=$_GET['x'];
+} else {
+    $content='';
+}
 
 $welcomecontent="
 	<div id='slider-chris'>
-		<div class='pic-control-button left'>Left</div>
+		<div>
+			<button type='button'class='pic-control-button prev' /button>
+			<button type='button'class='pic-control-button next fa fa-chevron-circle-right' /button>
+		</div>
 		<ul>
 			<li>
 				<img src='images/CEBannerwalk.png' alt='Service Times 9 AM Every Sunday'>
 			</li>
 		</ul>
-		<div class='pic-control-button right'>Right</div>
 	</div>
 	<div id='leftcontent'><h1 class='moveright'>Welcome To <span class='emphwelcomeline'>Christian Education</span></h1></div>
 ";
-
 $whocontent="
 <div id='leftcontent'>
 		<h1>Who We <span class='emphwelcomeline'>Are</span></h1>
@@ -31,7 +36,6 @@ $whocontent="
 		</ul>
 	</div>
 ";
-
 $whycontent="
 	<div id='leftcontent'>
 		<h1>Why We Are <span class='emphwelcomeline'>Here</span></h1>
@@ -48,7 +52,6 @@ $whycontent="
 		</ol>
 		<p>We seek to create a desire among our membership to remain committed to Christian education and contribute to the overall effectiveness of our church&rsquo;s ministry.</p>
 	</div>";
-
 $wherecontent="
 <div id='leftcontent'>
 <h1>Where We Are <span>Going</span></h1>
@@ -64,7 +67,6 @@ $wherecontent="
 In the past, City Temple operated &ldquo;Children&rsquo;s Church.&rdquo; Children&rsquo;s Church provided a safe and fun environment for children to learn about the bible and their faith on their level, while offering an opportunity for parents to engage in the worship service free of distractions.</p>
 <p>Christian Education plans to design a new Children&rsquo;s Church model to determine if we can support bringing this program back to City Temple.</p>
 	</div>";
-
 $whatcontent="
 	<div id='leftcontent'>
 	<h1>What's In <span>Store</span></h1>
@@ -93,7 +95,6 @@ $whatcontent="
 		</div>
 	</div>
 	</div>";
-
 $ideaform="
 <div id='leftcontent'><h1>Tell Us What You <span>Think!</span></h1></div>
 <div id='leftform'>
@@ -129,7 +130,6 @@ $ideaform="
 
 		<button type='submit'>Submit</button>
 </div>";
-
 $opinionsent="
 <div id='leftform'>
 <h1 class='opinionsent'>Thank You For Submitting Your Opinion!</h1>

@@ -146,15 +146,16 @@ form
 
 	.pic-control-button {
 		position: absolute;
-		top: 30px;
+		top: 50%;
+		transform: translate(0, -50%);
 		color:white;
 		background: black;
 
-		&.right {
+		&.next {
 			right: 5px;
 		}
 
-		&.left {
+		&.prev {
 			left: 5px;
 		}
 	}
@@ -169,6 +170,7 @@ form
 
 			img {
 				width: 100%;
+				height:200px;
 			}
 		}
 	}
