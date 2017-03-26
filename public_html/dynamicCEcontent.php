@@ -7,8 +7,9 @@
 $welcomecontent="
 	<div id='slider-chris'>
 		<div>
-			<button type='button'class='pic-control-button prev' /button>
-			<button type='button'class='pic-control-button next fa fa-chevron-circle-right' /button>
+			<button type='button'class='pic-control-button prev'></button>
+			<button type='button'class='pic-control-button next fa fa-chevron-circle-right'></button>
+			<div class='picture-and-pause-controls'><button type='button'>Click me</button></div>
 		</div>
 		<ul>
 			<li>
