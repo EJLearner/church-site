@@ -6,13 +6,48 @@
 
 $welcomecontent="
 	<div id='slider-chris'>
+	<script>
+		var showPicture = function(control) {
+			console.log('code to show picture here');
+			console.log(control);
+		}
+
+		var toggleSlideShow = function() {
+			console.log('code to toggle slideshow here');
+		}
+	</script>
 		<div class='slider-control-buttons'>
-			<button type='button'class='pic-control-button prev fa fa-chevron-circle-left'></button>
-			<button type='button'class='pic-control-button next fa fa-chevron-circle-right'></button>
+			<button
+				type='button'
+				class='pic-control-button prev fa fa-chevron-circle-left'
+				onClick=\"showPicture('previous')\"
+			>
+			</button>
+			<button
+				type='button'
+				class='pic-control-button next fa fa-chevron-circle-right'
+				onClick=\"showPicture('next')\"
+			>
+			</button>
 			<div class='select-and-pause-controls'>
-				<button type='button' class='fa fa-circle'></button>
-				<button type='button' class='fa fa-circle'></button>
-				<button type='button' class='fa fa-circle'></button>
+				<button
+					type='button'
+					class='fa fa-circle'
+					onClick=\"showPicture(0)\"
+				>
+				</button>
+				<button
+					type='button'
+					class='fa fa-circle'
+					onClick=\"showPicture(1)\"
+				>
+				</button>
+				<button
+					type='button'
+					class='fa fa-circle'
+					onClick='toggleSlideShow()'
+				>
+				</button>
 			</div>
 		</div>
 		<ul>
