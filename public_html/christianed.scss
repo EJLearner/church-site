@@ -143,6 +143,7 @@ form
 
 #slider-chris{
 	position: relative;
+	width: 100%;
 
 	.pic-control-button {
 		position: absolute;
@@ -160,8 +161,11 @@ form
 		}
 	}
 
-	.picture-and-pause-controls {
-		display:none;
+	.select-and-pause-controls {
+		position: absolute;
+		bottom: 10px;
+		left: 50%;
+		transform: translate(-50%);
 	}
 
 	ul{

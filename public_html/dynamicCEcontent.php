@@ -6,10 +6,14 @@
 
 $welcomecontent="
 	<div id='slider-chris'>
-		<div>
-			<button type='button'class='pic-control-button prev'></button>
+		<div class='slider-control-buttons'>
+			<button type='button'class='pic-control-button prev fa fa-chevron-circle-left'></button>
 			<button type='button'class='pic-control-button next fa fa-chevron-circle-right'></button>
-			<div class='picture-and-pause-controls'><button type='button'>Click me</button></div>
+			<div class='select-and-pause-controls'>
+				<button type='button' class='fa fa-circle'></button>
+				<button type='button' class='fa fa-circle'></button>
+				<button type='button' class='fa fa-circle'></button>
+			</div>
 		</div>
 		<ul>
 			<li>
@@ -17,7 +21,11 @@ $welcomecontent="
 			</li>
 		</ul>
 	</div>
-	<div id='leftcontent'><h1 class='moveright'>Welcome To <span class='emphwelcomeline'>Christian Education</span></h1></div>
+	<div id='leftcontent'>
+		<h1 class='moveright'>
+			Welcome To <span class='emphwelcomeline'>Christian Education</span>
+		</h1>
+	</div>
 ";
 $whocontent="
 <div id='leftcontent'>

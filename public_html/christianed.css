@@ -92,7 +92,8 @@ form {
     float: right; }
 
 #slider-chris {
-  position: relative; }
+  position: relative;
+  width: 100%; }
   #slider-chris .pic-control-button {
     position: absolute;
     top: 50%;
@@ -103,6 +104,11 @@ form {
       right: 5px; }
     #slider-chris .pic-control-button.prev {
       left: 5px; }
+  #slider-chris .select-and-pause-controls {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%); }
   #slider-chris ul {
     margin: 0px;
     padding: 0;
