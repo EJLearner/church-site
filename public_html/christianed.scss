@@ -144,8 +144,10 @@ form
 #slider-chris{
 	position: relative;
 	width: 100%;
+	height: 200px;
 
 	.pic-control-button {
+		z-index: 20;
 		position: absolute;
 		top: 50%;
 		transform: translate(0, -50%);
@@ -162,24 +164,35 @@ form
 	}
 
 	.select-and-pause-controls {
+		z-index: 20;
 		position: absolute;
 		bottom: 10px;
 		left: 50%;
 		transform: translate(-50%);
 	}
 
-	ul{
-		margin: 0px;
-		padding: 0;
-		list-style-type: none;
+	.slide-picture {
+		position: absolute;
+		width: 100%;
 
-		li {
-			padding: 0px;
+		&.hidden {
+			z-index: 0;
+			left: 100%;
+			transition: left 0s 1s;
+			// display: none;
+		}
 
-			img {
-				width: 100%;
-				height:200px;
-			}
+		&.current {
+			left: 0;
+			transition: left 1s ease-out;
+			z-index: 5;
+			// display: block;
+		}
+
+		img {
+			position: absolute;
+			width: 100%;
+			height:200px;
 		}
 	}
 }

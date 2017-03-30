@@ -7,14 +7,62 @@
 $welcomecontent="
 	<div id='slider-chris'>
 	<script>
-		var showPicture = function(control) {
-			console.log('code to show picture here');
-			console.log(control);
+		var slideIndex = 0;
+		var pictures;
+		var slideCount;
+		var slideShowOn;
+
+
+		window.onload = function() {
+			pictures = document.getElementsByClassName('slide-picture');
+			slideCount = pictures.length;
+			slideShowOn = true;
+			slideShow(slideShowOn);
 		}
 
-		var toggleSlideShow = function() {
-			console.log('code to toggle slideshow here');
+		var slideShow = function(on) {
+			if (on) {
+				slideShowTimer = setInterval(showPicture.bind(null, 'next'), 3000);
+			} else {
+				slideShowTimer && clearInterval(slideShowTimer);
+			}
 		}
+
+		var singleDisplay = function(displayIndex) {
+			var pictures = document.getElementsByClassName('slide-picture');
+			[].forEach.call(pictures, function(picture, index) {
+				if (index === displayIndex) {
+					picture.className = 'slide-picture current';
+				} else {
+
+					picture.className = 'slide-picture hidden';
+				}
+			});
+		};
+
+		var showPicture = function(control) {
+			var onLastSlide = slideIndex === slideCount - 1;
+			var onFirstSlide = slideIndex === 0;
+			switch(control) {
+				case 'next':
+					slideIndex = onLastSlide ? 0 : ++slideIndex;
+					break;
+				case 'previous':
+					slideIndex = onFirstSlide ? slideCount -1 : --slideIndex;
+					break;
+				default:
+					if (typeof(control) === 'number' && 0 <= control && control < slideCount) {
+						slideIndex = control;
+					}
+			}
+			singleDisplay(slideIndex);
+		};
+
+		var toggleSlideShow = function() {
+			slideShowOn = !slideShowOn;
+			slideShow(slideShowOn);
+		};
+
 	</script>
 		<div class='slider-control-buttons'>
 			<button
@@ -50,11 +98,11 @@ $welcomecontent="
 				</button>
 			</div>
 		</div>
-		<ul>
-			<li>
-				<img src='images/CEBannerwalk.png' alt='Service Times 9 AM Every Sunday'>
-			</li>
-		</ul>
+		<div class='slideshow'>
+			<div class='slide-picture current'><img src='images/CEBannerwalk.png' alt='Service Times 9 AM Every Sunday'></div>
+			<div class='slide-picture hidden'><img src='http://loremflickr.com/1400/400'></div>
+			<div class='slide-picture hidden'><img src='http://loremflickr.com/1300/400'></div>
+		</div>
 	</div>
 	<div id='leftcontent'>
 		<h1 class='moveright'>
