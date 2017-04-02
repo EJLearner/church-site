@@ -156,6 +156,10 @@ form
 			z-index: 20;
 		}
 
+		&.hide {
+			display: none;
+		}
+
 		.pic-control-button {
 			@include slider-control-button();
 			top: 50%;

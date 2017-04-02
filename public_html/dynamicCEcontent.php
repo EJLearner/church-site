@@ -18,21 +18,30 @@ $welcomecontent="
 
 		document.addEventListener('DOMContentLoaded', function() {
 			pictures = document.getElementsByClassName('slide-picture');
-			slideCount = pictures.length;
-			slideShowIsOn = true;
-			slideShow(slideShowIsOn);
+			slideCount = pictures && pictures.length;
 
-			var firstSelectButton = document.getElementsByClassName('picture-select-button')[0];
-			var selectAndPauseControlsDiv = document.getElementsByClassName('select-and-pause-controls')[0];
-			playPauseButton = document.getElementById('play-pause-button');
-			[].forEach.call(pictures, function (picture, index) {
-				if (index) {
-					var newSelectButton = firstSelectButton.cloneNode(true);
-					newSelectButton.onclick=showPicture.bind(null, index);
-					var insertedNode = selectAndPauseControlsDiv.insertBefore(newSelectButton, playPauseButton);
-				}
-			});
-			pictureSelectButtons = document.getElementsByClassName('picture-select-button');
+			var moreThanOnePicture = slideCount > 1;
+			if (moreThanOnePicture) {
+				slideShowIsOn = true;
+				slideShow(slideShowIsOn);
+				var firstSelectButton = document.getElementsByClassName('picture-select-button')[0];
+				var selectAndPauseControlsDiv = document.getElementsByClassName('select-and-pause-controls')[0];
+				playPauseButton = document.getElementById('play-pause-button');
+				[].forEach.call(pictures, function (picture, index) {
+					if (index) {
+						var newSelectButton = firstSelectButton.cloneNode(true);
+						newSelectButton.onclick=showPicture.bind(null, index);
+						var insertedNode = selectAndPauseControlsDiv.insertBefore(newSelectButton, playPauseButton);
+					}
+				});
+
+				firstSelectButton.className += ' current';
+
+				pictureSelectButtons = document.getElementsByClassName('picture-select-button');
+			} else {
+				var sliderControlButtons = document.getElementsByClassName('slider-control-buttons')[0];
+				sliderControlButtons.className += ' hide';
+			}
 		});
 
 		var slideShow = function(on) {
@@ -59,7 +68,6 @@ $welcomecontent="
 				if (index === displayIndex) {
 					picture.className = 'slide-picture current';
 					pictureSelectButtons[index].className='picture-select-button fa fa-circle current';
-					console.log(pictureSelectButtons[index]);
 				} else {
 					picture.className = 'slide-picture hidden';
 					pictureSelectButtons[index].className='picture-select-button fa fa-circle hidden';
@@ -148,7 +156,7 @@ $welcomecontent="
 		</div>
 		<div class='slideshow'>
 			<div class='slide-picture current'><img src='images/CEBannerwalk.png' alt='Service Times 9 AM Every Sunday'></div>
-			<div class='slide-picture hidden'><img src='http://loremflickr.com/1400/400'></div>
+			<!--<div class='slide-picture hidden'><img src='http://loremflickr.com/1400/400'></div>-->
 			<div class='slide-picture hidden'><img src='http://loremflickr.com/1300/400'></div>
 		</div>
 	</div>
