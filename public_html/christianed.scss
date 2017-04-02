@@ -9,6 +9,11 @@ $RGB77: RGB(77,77,77);
 $RGB63: RGB(63,63,63);
 $RGB95: RGB(95,95,95);
 
+body{
+	margin:auto;
+	overflow-x:hidden;
+}
+
 a{
 	text-decoration:none;
 }
@@ -30,7 +35,7 @@ h1{
 	text-transform:uppercase;
 	color:$main-green;
 	font-weight:normal;
-	
+
 
 	span{
 		font-size:150%;
@@ -42,7 +47,7 @@ form
 	{
 		border:1px solid $RGB95;
 		padding:1em 10%;
-		
+
 		input[type=text], input[type=email],input[type=tel], textarea, select{
 		border:1px solid gray;
 		width:99%;
@@ -50,43 +55,27 @@ form
 		}
 		select{
 			width:150px;
-			
+
 		}
-		
-	
+
+
 		textarea{
 		height:120pt;
 		border:1px solid gray;
 		}
-		
+
 		button{
 			display:block;
 			text-align:center;
 			margin:auto;
 			background-color:RGB(178,178,178);
 		}
-		
+
 	}
-
-body{
-	width:1000px; 
-	margin:auto; 
-	overflow-x:hidden;}
-
-#header{
-	width:100%;
-	img{
-	padding:1em;
-	width:40%;
-	float:right;
-	}
-}
-
 
 #menubar{
-	width:600%;
+	width:100%;
 	margin-bottom: 4.5em;
-	margin-left:-250%;
 	background-color:$main-green;
 	font-size:90%;
 	font-family: $calibri;
@@ -101,7 +90,7 @@ body{
 		vertical-align:center;
 		margin:auto;
 		width:1000px;
-	
+
 		li{
 			padding:0px;
 			margin-top:0px;
@@ -111,7 +100,7 @@ body{
 			&:first-child {
 				padding:0px;
 				float:left;
-			}			
+			}
 
 			&:last-child {
 				float:right;
@@ -137,25 +126,118 @@ body{
 				cursor:pointer;
 			}
 		}
-	
+
 	}
 }
 
-#lefthome{
-	float:left;
-	width:600px;
+#header{
+	width:1000px;
+	margin: auto;
+
 	img{
-		padding:1.5em;
-		padding-left:3em;
-		width:120%;
+		padding:1em;
+		width:30%;
+		float:right;
 	}
-	
+}
+
+#slider-chris{
+$image-width: 720px;
+$image-height: 287px;
+
+	position: relative;
+	width: $image-width;
+	height: $image-height;;
+	overflow: hidden;
+	margin-left: 48px;
+
+	.slider-control-buttons {
+		font-size: 20px;
+		@mixin slider-control-button() {
+			position: absolute;
+			color: white;
+			background: transparent;
+			border: none;
+			z-index: 20;
+		}
+
+		&.hide {
+			display: none;
+		}
+
+		.pic-control-button {
+			@include slider-control-button();
+			top: 50%;
+			transform: translate(0, -50%);
+
+			&.next {
+				right: 5px;
+			}
+
+			&.prev {
+				left: 5px;
+			}
+		}
+
+		.select-and-pause-controls {
+			position: absolute;
+			z-index: 20;
+			bottom: 10px;
+			left: 50%;
+			transform: translate(-50%);
+
+			.picture-select-button, #play-pause-button {
+				@include slider-control-button();
+				position: static;
+
+				&.current {
+					color: black;
+					transition: color .5s
+				}
+			}
+		}
+	}
+
+	.slide-picture {
+		position: absolute;
+		width: 100%;
+
+		&.hidden {
+			z-index: 0;
+			left: 100%;
+			transition: left 0s 1s;
+			// display: none;
+			&.instant {
+				transition: left 0s .3s;
+			}
+		}
+
+		&.current {
+			left: 0;
+			transition: left 1s ease-out;
+			z-index: 5;
+			// display: block;
+
+		&.instant {
+			transition: left .2s ease-out;
+		}
+
+		}
+
+		img {
+			position: absolute;
+			width: $image-width;
+			height:$image-height;
+		}
+	}
 }
 
 #leftcontent{
+	width: 1000px;
+	margin: auto;
 	font-family:$calibri;
 	color:$RGB63;
-	
+
 	p,ol,ul{
 		margin-left:auto;
 		margin-right:auto;
@@ -176,35 +258,35 @@ ul.member-list{
 }
 
 #leftform{
-	margin-left:20px;
+	margin:auto;
 	padding-top:2em;
 	width:400px;
 	font-family:$calibri;
 	font-size:10pt;
 	color:$RGB95;
-	
+
 	h1{
 		font-weight:normal;
 		margin:.1em 0;
 		font-size:24pt;
 	}
-	
+
 	h2{
 		font-family:$arial;
 		margin:.1em 0;
 		font-size:12pt;
 		text-transform:uppercase;
 	}
-	
+
 	p#bottomnote{
-	
+
 	text-align:center;
-	
+
 	font-size:10pt;
 	font-family:cgothic;
 	color:rgb(0,204,0);
 	}
-	
+
 	a:visited{
 		color:$RGB95;
 	}
@@ -234,17 +316,17 @@ $tableleft:300px;
 	margin-right:auto;
 	width:$instorewidth;
 	font-family:$calibri;
-	
+
 	.tableline{
 		margin:0;
 		border-bottom:1px solid orange;
 		clear:both;
 	}
-	
+
 	.tableline:last-child{
 		border-bottom:none;
 	}
-	
+
 	.tableleft{
 		box-sizing:border-box;
 		float:left;
@@ -270,7 +352,7 @@ $tableleft:300px;
 .valuedesc{
 	clear:left;
 	background-color:grey;
-	
+
 	p{
 	float:right;
 	margin:0px;
@@ -291,7 +373,7 @@ $tableleft:300px;
 	width:55%;
 	margin-bottom:10px;
 	font-size:75%
-	
+
 }
 
 .radiobutts{
@@ -319,15 +401,13 @@ color:grey;
 }
 
 #footerbar{
-	width:600%;
-	margin-left:-250%;
 	overflow:auto;
 	background-color:RGB(180,180,180);
 
 }
 #footer{
 	width:1000px;
-	margin-left:2500px;
+	margin: auto;
 	padding-bottom: 10px;
 	font-size:70%;
 }
