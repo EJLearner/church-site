@@ -95,23 +95,36 @@ form {
   position: relative;
   width: 100%;
   height: 200px; }
-  #slider-chris .pic-control-button {
-    z-index: 20;
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
-    color: white;
-    background: black; }
-    #slider-chris .pic-control-button.next {
-      right: 5px; }
-    #slider-chris .pic-control-button.prev {
-      left: 5px; }
-  #slider-chris .select-and-pause-controls {
-    z-index: 20;
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translate(-50%); }
+  #slider-chris .slider-control-buttons {
+    font-size: 20px; }
+    #slider-chris .slider-control-buttons .pic-control-button {
+      position: absolute;
+      color: white;
+      background: transparent;
+      border: none;
+      z-index: 20;
+      top: 50%;
+      transform: translate(0, -50%); }
+      #slider-chris .slider-control-buttons .pic-control-button.next {
+        right: 5px; }
+      #slider-chris .slider-control-buttons .pic-control-button.prev {
+        left: 5px; }
+    #slider-chris .slider-control-buttons .select-and-pause-controls {
+      position: absolute;
+      z-index: 20;
+      bottom: 10px;
+      left: 50%;
+      transform: translate(-50%); }
+      #slider-chris .slider-control-buttons .select-and-pause-controls .picture-select-button, #slider-chris .slider-control-buttons .select-and-pause-controls #play-pause-button {
+        position: absolute;
+        color: white;
+        background: transparent;
+        border: none;
+        z-index: 20;
+        position: static; }
+        #slider-chris .slider-control-buttons .select-and-pause-controls .picture-select-button.current, #slider-chris .slider-control-buttons .select-and-pause-controls #play-pause-button.current {
+          color: black;
+          transition: color 0.5s; }
   #slider-chris .slide-picture {
     position: absolute;
     width: 100%; }
@@ -119,10 +132,14 @@ form {
       z-index: 0;
       left: 100%;
       transition: left 0s 1s; }
+      #slider-chris .slide-picture.hidden.instant {
+        transition: left 0s .3s; }
     #slider-chris .slide-picture.current {
       left: 0;
       transition: left 1s ease-out;
       z-index: 5; }
+      #slider-chris .slide-picture.current.instant {
+        transition: left .2s ease-out; }
     #slider-chris .slide-picture img {
       position: absolute;
       width: 100%;

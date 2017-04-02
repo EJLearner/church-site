@@ -146,29 +146,47 @@ form
 	width: 100%;
 	height: 200px;
 
-	.pic-control-button {
-		z-index: 20;
-		position: absolute;
-		top: 50%;
-		transform: translate(0, -50%);
-		color:white;
-		background: black;
-
-		&.next {
-			right: 5px;
+	.slider-control-buttons {
+		font-size: 20px;
+		@mixin slider-control-button() {
+			position: absolute;
+			color: white;
+			background: transparent;
+			border: none;
+			z-index: 20;
 		}
 
-		&.prev {
-			left: 5px;
-		}
-	}
+		.pic-control-button {
+			@include slider-control-button();
+			top: 50%;
+			transform: translate(0, -50%);
 
-	.select-and-pause-controls {
-		z-index: 20;
-		position: absolute;
-		bottom: 10px;
-		left: 50%;
-		transform: translate(-50%);
+			&.next {
+				right: 5px;
+			}
+
+			&.prev {
+				left: 5px;
+			}
+		}
+
+		.select-and-pause-controls {
+			position: absolute;
+			z-index: 20;
+			bottom: 10px;
+			left: 50%;
+			transform: translate(-50%);
+
+			.picture-select-button, #play-pause-button {
+				@include slider-control-button();
+				position: static;
+
+				&.current {
+					color: black;
+					transition: color .5s
+				}
+			}
+		}
 	}
 
 	.slide-picture {
@@ -180,6 +198,9 @@ form
 			left: 100%;
 			transition: left 0s 1s;
 			// display: none;
+			&.instant {
+				transition: left 0s .3s;
+			}
 		}
 
 		&.current {
@@ -187,6 +208,11 @@ form
 			transition: left 1s ease-out;
 			z-index: 5;
 			// display: block;
+
+		&.instant {
+			transition: left .2s ease-out;
+		}
+
 		}
 
 		img {
