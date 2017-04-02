@@ -5,163 +5,161 @@
 }
 
 $welcomecontent="
-	<div id='slider-chris'>
-	<script>
-		var slideIndex = 0;
-		var pictures;
-		var pictureSelectButtons;
-		var slideCount;
-		var slideShowIsOn;
-		var slideShowTimer;
-		var playPauseButton;
+	<div id='leftcontent'>
+		<div id='slider-chris'>
+			<script>
+				var slideIndex = 0;
+				var pictures;
+				var pictureSelectButtons;
+				var slideCount;
+				var slideShowIsOn;
+				var slideShowTimer;
+				var playPauseButton;
 
 
-		document.addEventListener('DOMContentLoaded', function() {
-			pictures = document.getElementsByClassName('slide-picture');
-			slideCount = pictures && pictures.length;
+				document.addEventListener('DOMContentLoaded', function() {
+					pictures = document.getElementsByClassName('slide-picture');
+					slideCount = pictures && pictures.length;
 
-			var moreThanOnePicture = slideCount > 1;
-			if (moreThanOnePicture) {
-				slideShowIsOn = true;
-				slideShow(slideShowIsOn);
-				var firstSelectButton = document.getElementsByClassName('picture-select-button')[0];
-				var selectAndPauseControlsDiv = document.getElementsByClassName('select-and-pause-controls')[0];
-				playPauseButton = document.getElementById('play-pause-button');
-				[].forEach.call(pictures, function (picture, index) {
-					if (index) {
-						var newSelectButton = firstSelectButton.cloneNode(true);
-						newSelectButton.onclick=showPicture.bind(null, index);
-						var insertedNode = selectAndPauseControlsDiv.insertBefore(newSelectButton, playPauseButton);
+					var moreThanOnePicture = slideCount > 1;
+					if (moreThanOnePicture) {
+						slideShowIsOn = true;
+						slideShow(slideShowIsOn);
+						var firstSelectButton = document.getElementsByClassName('picture-select-button')[0];
+						var selectAndPauseControlsDiv = document.getElementsByClassName('select-and-pause-controls')[0];
+						playPauseButton = document.getElementById('play-pause-button');
+						[].forEach.call(pictures, function (picture, index) {
+							if (index) {
+								var newSelectButton = firstSelectButton.cloneNode(true);
+								newSelectButton.onclick=showPicture.bind(null, index);
+								var insertedNode = selectAndPauseControlsDiv.insertBefore(newSelectButton, playPauseButton);
+							}
+						});
+
+						firstSelectButton.className += ' current';
+
+						pictureSelectButtons = document.getElementsByClassName('picture-select-button');
+					} else {
+						var sliderControlButtons = document.getElementsByClassName('slider-control-buttons')[0];
+						sliderControlButtons.className += ' hide';
 					}
 				});
 
-				firstSelectButton.className += ' current';
-
-				pictureSelectButtons = document.getElementsByClassName('picture-select-button');
-			} else {
-				var sliderControlButtons = document.getElementsByClassName('slider-control-buttons')[0];
-				sliderControlButtons.className += ' hide';
-			}
-		});
-
-		var slideShow = function(on) {
-			// always reset the slideShow
-			slideShowTimer && clearInterval(slideShowTimer);
-			if (on) {
-				slideShowTimer = setInterval(
-					function() {
-						slideIndex = getNextNumber(slideIndex, slideCount);
-						setPictureAndButtonClasses(slideIndex, true);
-					},
-					3000
-				);
-			}
-		}
-
-		var setPictureAndButtonClasses = function(displayIndex, automaticSlide) {
-			// want the slideShow timer to reset if picture changed by user button press
-			if (!automaticSlide) {
-				slideShow(slideShowIsOn);
-			}
-
-			[].forEach.call(pictures, function(picture, index) {
-				if (index === displayIndex) {
-					picture.className = 'slide-picture current';
-					pictureSelectButtons[index].className='picture-select-button fa fa-circle current';
-				} else {
-					picture.className = 'slide-picture hidden';
-					pictureSelectButtons[index].className='picture-select-button fa fa-circle hidden';
+				var slideShow = function(on) {
+					// always reset the slideShow
+					slideShowTimer && clearInterval(slideShowTimer);
+					if (on) {
+						slideShowTimer = setInterval(
+							function() {
+								slideIndex = getNextNumber(slideIndex, slideCount);
+								setPictureAndButtonClasses(slideIndex, true);
+							},
+							3000
+						);
+					}
 				}
 
-				// user initiated picture changes should have instant class that doesn't do transition
-				// things currently get messy when transitioning random clicks
-				picture.className += automaticSlide ? '' : ' instant';
-			});
-		};
-
-		var getNextNumber = function(currentNumber, length, reverse) {
-			var nextNumber = currentNumber;
-			var lastSlideIndex = length - 1;
-			var firstSlideIndex = 0;
-			var onLastSlide = currentNumber === lastSlideIndex;
-			var onFirstSlide = currentNumber === firstSlideIndex;
-
-			if (reverse) {
-				currentNumber = onFirstSlide ? lastSlideIndex : --currentNumber;
-			} else {
-				currentNumber = onLastSlide ? firstSlideIndex : ++currentNumber;
-			}
-
-			return currentNumber
-		};
-
-		var showPicture = function(control) {
-			switch(control) {
-				case 'next':
-					slideIndex = getNextNumber(slideIndex, slideCount);
-					break;
-				case 'previous':
-					slideIndex = getNextNumber(slideIndex, slideCount, true);
-					break;
-				default:
-					if (typeof(control) === 'number' && 0 <= control && control < slideCount) {
+				var setPictureAndButtonClasses = function(displayIndex, automaticSlide) {
+					// want the slideShow timer to reset if picture changed by user button press
+					if (!automaticSlide) {
 						slideShow(slideShowIsOn);
-						slideIndex = control;
 					}
-			}
-			setPictureAndButtonClasses(slideIndex);
-		};
 
-		var toggleSlideShow = function() {
-			slideShowIsOn = !slideShowIsOn;
-			slideShow(slideShowIsOn);
-			var playPauseClassname;
-			if (slideShowIsOn) {
-				playPauseClassname = 'fa fa-pause';
-			} else {
-				playPauseClassname = 'fa fa-play';
-			}
-			playPauseButton.className = playPauseClassname;
-		};
+					[].forEach.call(pictures, function(picture, index) {
+						if (index === displayIndex) {
+							picture.className = 'slide-picture current';
+							pictureSelectButtons[index].className='picture-select-button fa fa-circle current';
+						} else {
+							picture.className = 'slide-picture hidden';
+							pictureSelectButtons[index].className='picture-select-button fa fa-circle hidden';
+						}
 
-	</script>
-		<div class='slider-control-buttons'>
-			<button
-				type='button'
-				class='pic-control-button prev fa fa-chevron-circle-left'
-				onClick=\"showPicture('previous')\"
-			>
-			</button>
-			<button
-				type='button'
-				class='pic-control-button next fa fa-chevron-circle-right'
-				onClick=\"showPicture('next')\"
-			>
-			</button>
-			<div class='select-and-pause-controls'>
+						// user initiated picture changes should have instant class that doesn't do transition
+						// things currently get messy when transitioning random clicks
+						picture.className += automaticSlide ? '' : ' instant';
+					});
+				};
+
+				var getNextNumber = function(currentNumber, length, reverse) {
+					var nextNumber = currentNumber;
+					var lastSlideIndex = length - 1;
+					var firstSlideIndex = 0;
+					var onLastSlide = currentNumber === lastSlideIndex;
+					var onFirstSlide = currentNumber === firstSlideIndex;
+
+					if (reverse) {
+						currentNumber = onFirstSlide ? lastSlideIndex : --currentNumber;
+					} else {
+						currentNumber = onLastSlide ? firstSlideIndex : ++currentNumber;
+					}
+
+					return currentNumber
+				};
+
+				var showPicture = function(control) {
+					switch(control) {
+						case 'next':
+							slideIndex = getNextNumber(slideIndex, slideCount);
+							break;
+						case 'previous':
+							slideIndex = getNextNumber(slideIndex, slideCount, true);
+							break;
+						default:
+							if (typeof(control) === 'number' && 0 <= control && control < slideCount) {
+								slideShow(slideShowIsOn);
+								slideIndex = control;
+							}
+					}
+					setPictureAndButtonClasses(slideIndex);
+				};
+
+				var toggleSlideShow = function() {
+					slideShowIsOn = !slideShowIsOn;
+					slideShow(slideShowIsOn);
+					var playPauseClassname;
+					if (slideShowIsOn) {
+						playPauseClassname = 'fa fa-pause';
+					} else {
+						playPauseClassname = 'fa fa-play';
+					}
+					playPauseButton.className = playPauseClassname;
+				};
+
+			</script>
+			<div class='slider-control-buttons'>
 				<button
 					type='button'
-					class='picture-select-button fa fa-circle'
-					onClick=\"showPicture(0)\"
+					class='pic-control-button prev fa fa-chevron-circle-left'
+					onClick=\"showPicture('previous')\"
 				>
 				</button>
 				<button
-					id='play-pause-button'
 					type='button'
-					class='fa fa-pause'
-					onClick='toggleSlideShow()'
+					class='pic-control-button next fa fa-chevron-circle-right'
+					onClick=\"showPicture('next')\"
 				>
 				</button>
+				<div class='select-and-pause-controls'>
+					<button
+						type='button'
+						class='picture-select-button fa fa-circle'
+						onClick=\"showPicture(0)\"
+					>
+					</button>
+					<button
+						id='play-pause-button'
+						type='button'
+						class='fa fa-pause'
+						onClick='toggleSlideShow()'
+					>
+					</button>
+				</div>
+			</div>
+			<div class='slideshow'>
+				<div class='slide-picture current'><img src='images/CEBannerwalk.png' alt='Service Times 9 AM Every Sunday'></div>
 			</div>
 		</div>
-		<div class='slideshow'>
-			<div class='slide-picture current'><img src='images/CEBannerwalk.png' alt='Service Times 9 AM Every Sunday'></div>
-			<!--<div class='slide-picture hidden'><img src='http://loremflickr.com/1400/400'></div>-->
-			<div class='slide-picture hidden'><img src='http://loremflickr.com/1300/400'></div>
-		</div>
-	</div>
-	<div id='leftcontent'>
-		<h1 class='moveright'>
+		<h1>
 			Welcome To <span class='emphwelcomeline'>Christian Education</span>
 		</h1>
 	</div>

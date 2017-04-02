@@ -142,9 +142,14 @@ form
 }
 
 #slider-chris{
+$image-width: 720px;
+$image-height: 287px;
+
 	position: relative;
-	width: 100%;
-	height: 200px;
+	width: $image-width;
+	height: $image-height;;
+	overflow: hidden;
+	margin-left: 48px;
 
 	.slider-control-buttons {
 		font-size: 20px;
@@ -221,8 +226,8 @@ form
 
 		img {
 			position: absolute;
-			width: 100%;
-			height:200px;
+			width: $image-width;
+			height:$image-height;
 		}
 	}
 }
