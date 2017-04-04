@@ -9,9 +9,21 @@ $RGB77: RGB(77,77,77);
 $RGB63: RGB(63,63,63);
 $RGB95: RGB(95,95,95);
 
+html{
+	height: 100%
+}
+
 body{
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
 	margin:auto;
 	overflow-x:hidden;
+	position: relative;
+}
+
+#maincontent{
+	flex: 1;
 }
 
 a{
