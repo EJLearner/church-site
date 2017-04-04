@@ -162,6 +162,20 @@ $welcomecontent="
 		<h1>
 			Welcome To <span class='emphwelcomeline'>Christian Education</span>
 		</h1>
+		<div class='home-page-bottom-content'>
+				<div>
+					<h2>Events</h2>
+				</div>
+				<div>
+					<h2>News</h2>
+				</div>
+				<div>
+					<h2>Sunday School Lessons</h2>
+				</div>
+				<div>
+					<h2>Member Spotlight</h2>
+				</div>
+		</div>
 	</div>
 ";
 $whocontent="

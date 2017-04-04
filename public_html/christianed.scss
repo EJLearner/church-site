@@ -142,9 +142,8 @@ form
 }
 
 #slider-chris{
-$image-width: 720px;
-$image-height: 287px;
-
+	$image-width: 720px;
+	$image-height: 287px;
 	position: relative;
 	width: $image-width;
 	height: $image-height;;
@@ -245,6 +244,23 @@ $image-height: 287px;
 	}
 	ol,ul{
 		padding-left:4em;
+	}
+
+	.home-page-bottom-content {
+		div {
+			vertical-align: top;
+			border: 1px solid gray;
+			display: inline-block;
+			width: 200px;
+			margin-right: 66px;
+			height: 200px;
+		}
+
+		div:last-child {
+			margin-right: 0;
+		}
+
+
 	}
 }
 

@@ -160,6 +160,15 @@ form {
     width: 600px; }
   #leftcontent ol, #leftcontent ul {
     padding-left: 4em; }
+  #leftcontent .home-page-bottom-content div {
+    vertical-align: top;
+    border: 1px solid gray;
+    display: inline-block;
+    width: 200px;
+    margin-right: 66px;
+    height: 200px; }
+  #leftcontent .home-page-bottom-content div:last-child {
+    margin-right: 0; }
 
 ul.member-list {
   width: 500px;
