@@ -253,13 +253,19 @@ $ideaform="
 		<br>
 
 		<input type='radio' name='ideatype' id='class' value='class' required>
-		<label for='class'>Class</label><br>
+		<label for='class'>Class</label>
+		<br>
 
 		<input type='radio' name='ideatype' id='retreat' value='retreat' required>
-		<label for='retreat'>Retreat</label><br>
+		<label for='retreat'>Retreat</label>
+		<br>
 
 		<input type='radio' name='ideatype' id='workshop' value='workshop' required>
 		<label for='workshop'>Workshop</label>
+		<br>
+
+		<input type='radio' name='ideatype' id='other' value='other' required>
+		<label for='other'>Other</label>
 		</p>
 
 		<p><label for='ideadesc'>Describe your idea here:<span class='mandatory'>*</span></label><br>
