@@ -88,7 +88,7 @@ form {
   margin: auto; }
   #header img {
     padding: 1em;
-    width: 30%;
+    width: 25%;
     float: right; }
 
 #slider-chris {
@@ -167,7 +167,10 @@ ul.member-list {
   margin-right: auto;
   padding-left: 4em;
   list-style-type: none;
-  color: RGB(146, 208, 80); }
+  line-height: 1.5em;
+  color: RGB(146, 208, 80);
+  text-transform: uppercase;
+  font-size: 14px; }
 
 #leftform {
   margin: auto;
