@@ -103,10 +103,8 @@ form {
 
 #slider-chris {
   position: relative;
-  width: 720px;
-  height: 287px;
-  overflow: hidden;
-  margin-left: 48px; }
+  width: 100%;
+  overflow-x: hidden; }
   #slider-chris .slider-control-buttons {
     font-size: 20px; }
     #slider-chris .slider-control-buttons.hide {
@@ -156,8 +154,7 @@ form {
         transition: left .2s ease-out; }
     #slider-chris .slide-picture img {
       position: absolute;
-      width: 720px;
-      height: 287px; }
+      width: 100%; }
 
 #leftcontent {
   width: 1000px;
@@ -341,10 +338,19 @@ ul.member-list {
     border-bottom: 1px solid blue; }
 
 /* Contain floats. */
-.cf:after {
-  content: ' ';
+.cf:before, .cf:after {
+  content: '\0020';
   display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0; }
+
+.cf:after {
   clear: both; }
+
+.cf {
+  zoom: 1; }
 
 /* Contain floats *and margins*. */
 .cfm:before,

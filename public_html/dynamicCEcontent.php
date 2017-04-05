@@ -5,7 +5,6 @@
 }
 
 $welcomecontent="
-	<div id='leftcontent'>
 		<div id='slider-chris'>
 			<script>
 				var slideIndex = 0;
@@ -44,6 +43,20 @@ $welcomecontent="
 						sliderControlButtons.className += ' hide';
 					}
 				});
+
+				var savePictureHeight = function() {
+					if (slideCount) {
+						var pictureHeight = pictures[0].querySelectorAll('img').item(0).offsetHeight;
+						console.log(pictureHeight);
+						var sliderContainer = document.getElementById('slider-chris');
+						sliderContainer.style.height = pictureHeight + 'px';
+						// sliderContainer.setAttribute('style','height:' + pictureHeight + 'px');
+						console.log(sliderContainer.style.height);
+					}
+				};
+
+				window.onload = savePictureHeight;
+				window.onresize = savePictureHeight;
 
 				var slideShow = function(on) {
 					// always reset the slideShow
@@ -159,9 +172,6 @@ $welcomecontent="
 				<div class='slide-picture current'><img src='images/CEBannerwalk.png' alt='Service Times 9 AM Every Sunday'></div>
 			</div>
 		</div>
-		<h1>
-			Welcome To <span class='emphwelcomeline'>Christian Education</span>
-		</h1>
 	</div>
 ";
 $whocontent="
