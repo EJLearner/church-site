@@ -29,83 +29,83 @@ function randomquote()
 
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="christianed.css">
-<link rel="icon" type="image/png" href="images/favicon.png">
+	<link rel="stylesheet" type="text/css" href="christianed.css">
+	<link rel="icon" type="image/png" href="images/favicon.png">
 
-<script src="ideaform.js"></script>
-<script src="https://use.fontawesome.com/7410044abd.js"></script>
+	<script src="ideaform.js"></script>
+	<script src="https://use.fontawesome.com/7410044abd.js"></script>
 
-<meta name="keywords" content="baltimore, baptist, city, temple, christian, education, church, grady, yeargin" >
-<meta name="description" content="City Temple Baptist Church - Christian Education Page" >
-<meta name="revised" content="Earl Jones, <?php echo date ("F d Y H:i:s.", filemtime(__FILE__))?>" >
-<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" >
-<title id='title'>City Temple of Baltimore - Christian Education</title>
+	<meta name="keywords" content="baltimore, baptist, city, temple, christian, education, church, grady, yeargin" >
+	<meta name="description" content="City Temple Baptist Church - Christian Education Page" >
+	<meta name="revised" content="Earl Jones, <?php echo date ("F d Y H:i:s.", filemtime(__FILE__))?>" >
+	<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" >
+	<title id='title'>City Temple of Baltimore - Christian Education</title>
 </head>
 <body>
-<div id="header"><img src="images\chrisedtopbanner.png" alt=""></div>
-<div id="menubar">
-<ul class="cfm">
-	<li><a href="christianedu.php?p=welcome">Welcome</a></li>
-	<li><a href="christianedu.php?p=who">Who We are</a></li>
-	<li><a href="christianedu.php?p=why">Why We Are Here</a></li>
-	<li><a href="christianedu.php?p=where">Where We Are Going</a></li>
-	<li><a href="christianedu.php?p=what">What's In Store</a></li>
-	<li class="lastmenuitem"><a href="christianedu.php?p=opinion">Tell Us What You Think</a></li>
-</ul>
-</div>
-<div id="maincontent" class="cf">
-	<?
-		include 'dynamicCEcontent.php';
-		if ($page=="opinion") {echo $ideaform;}
-		else if ($page=='who') {echo $whocontent;}
-		else if ($page=='where') {echo $wherecontent;}
-		else if ($page=='why') {echo $whycontent;}
-		else if ($page=='what') {echo $whatcontent;}
-		else if ($page=="instreg") {echo $instregform;}
-		else if ($page=='opinionsent') {echo $opinionsent;}
-		else {
-			echo $welcomecontent;
-		}
-	?>
-</div>
-<p id="bottomquote"><?php echo randomquote();?></p>
-<div id="footerbar">
-<div id="footer" class="cf">
-	<div id="footerlinks">
-	<div class="footlinklist cf">
-	<h3>About Us</h3>
-	<ul>
-		<li><a href="christianedu.php?p=who">Who We Are</a></li>
-		<li><a href="christianedu.php?p=why">Why We Are Here</a></li>
-		<li><a href="christianedu.php?p=where">Where Are We Going</a></li>
-	</ul>
+	<div id="header"><img src="images\chrisedtopbanner.png" alt=""></div>
+	<div id="menubar">
+		<ul class="cfm">
+			<li><a href="christianedu.php?p=welcome">Welcome</a></li>
+			<li><a href="christianedu.php?p=who">Who We are</a></li>
+			<li><a href="christianedu.php?p=why">Why We Are Here</a></li>
+			<li><a href="christianedu.php?p=where">Where We Are Going</a></li>
+			<li><a href="christianedu.php?p=what">What's In Store</a></li>
+			<li class="lastmenuitem"><a href="christianedu.php?p=opinion">Tell Us What You Think</a></li>
+		</ul>
 	</div>
-	<div class="footlinklist">
-	<h3>Learn More</h3>
-	<ul>
-		<li><a href="christianedu.php?p=what">What's In Store</a></li>
-		<li><a href="/blog/">Pastor's Blog</a></li>
-		<li><a href="aboutpage.php?p=membership">Join Our Church</a></li>
-	</ul>
+	<div id="maincontent" class="cf">
+		<?
+			include 'dynamicCEcontent.php';
+			if ($page=="opinion") {echo $ideaform;}
+			else if ($page=='who') {echo $whocontent;}
+			else if ($page=='where') {echo $wherecontent;}
+			else if ($page=='why') {echo $whycontent;}
+			else if ($page=='what') {echo $whatcontent;}
+			else if ($page=="instreg") {echo $instregform;}
+			else if ($page=='opinionsent') {echo $opinionsent;}
+			else {
+				echo $welcomecontent;
+			}
+		?>
 	</div>
-	<div class="footlinklist">
-	<h3>Participate</h3>
-	<ul>
-		<li><a href="christianedu.php?p=opinion">Tell Us What You Think</a></li>
-		<li><a href="christianedu.php?p=welcome">Take Our Survey</a></li>
-		<li><a href="submenu.php?p=giving">Donate</a></li>
-		<li><a href="christianedu.php?p=instreg">Register</a></li>
-		<li><a href="ministries.php">Join A Ministry</a></li>
-	</ul>
+	<p id="bottomquote"><?php echo randomquote();?></p>
+	<div id="footerbar">
+		<div id="footer" class="cf">
+			<div id="footerlinks">
+			<div class="footlinklist cf">
+			<h3>About Us</h3>
+			<ul>
+				<li><a href="christianedu.php?p=who">Who We Are</a></li>
+				<li><a href="christianedu.php?p=why">Why We Are Here</a></li>
+				<li><a href="christianedu.php?p=where">Where Are We Going</a></li>
+			</ul>
+			</div>
+			<div class="footlinklist">
+			<h3>Learn More</h3>
+			<ul>
+				<li><a href="christianedu.php?p=what">What's In Store</a></li>
+				<li><a href="/blog/">Pastor's Blog</a></li>
+				<li><a href="aboutpage.php?p=membership">Join Our Church</a></li>
+			</ul>
+			</div>
+			<div class="footlinklist">
+			<h3>Participate</h3>
+			<ul>
+				<li><a href="christianedu.php?p=opinion">Tell Us What You Think</a></li>
+				<li><a href="christianedu.php?p=welcome">Take Our Survey</a></li>
+				<li><a href="submenu.php?p=giving">Donate</a></li>
+				<li><a href="christianedu.php?p=instreg">Register</a></li>
+				<li><a href="ministries.php">Join A Ministry</a></li>
+			</ul>
+			</div>
+			</div>
+			<div id="socialcopyright">
+				<a href="https://www.facebook.com/thecitytemple"><img src="images\smfbblack.png" alt="FaceBook Icon"></a>
+				<a href="https://twitter.com/thecitytemple"><img src="images\smtwblack.png" alt="Twitter Icon"></a>
+				<a href="mailto:church@thecitytemple.org"><img src="images\smmailblack.png" alt="Mail Us"></a>
+				<p>&copy; <?php echo date("Y"); ?> The City Temple (Baptist) Church</p>
+			</div>
+		</div>
 	</div>
-	</div>
-	<div id="socialcopyright">
-		<a href="https://www.facebook.com/thecitytemple"><img src="images\smfbblack.png" alt="FaceBook Icon"></a>
-		<a href="https://twitter.com/thecitytemple"><img src="images\smtwblack.png" alt="Twitter Icon"></a>
-		<a href="mailto:church@thecitytemple.org"><img src="images\smmailblack.png" alt="Mail Us"></a>
-		<p>&copy; <?php echo date("Y"); ?> The City Temple (Baptist) Church</p>
-	</div>
-</div>
-</div>
 </body>
 </html>

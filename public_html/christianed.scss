@@ -9,9 +9,21 @@ $RGB77: RGB(77,77,77);
 $RGB63: RGB(63,63,63);
 $RGB95: RGB(95,95,95);
 
+html{
+	height: 100%
+}
+
 body{
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
 	margin:auto;
 	overflow-x:hidden;
+	position: relative;
+}
+
+#maincontent{
+	flex: 1;
 }
 
 a{
@@ -136,19 +148,15 @@ form
 
 	img{
 		padding:1em;
-		width:30%;
+		width:25%;
 		float:right;
 	}
 }
 
 #slider-chris{
-	$image-width: 720px;
-	$image-height: 287px;
 	position: relative;
-	width: $image-width;
-	height: $image-height;;
-	overflow: hidden;
-	margin-left: 48px;
+	width: 100%;
+	overflow-x: hidden;
 
 	.slider-control-buttons {
 		font-size: 20px;
@@ -217,16 +225,14 @@ form
 			z-index: 5;
 			// display: block;
 
-		&.instant {
-			transition: left .2s ease-out;
-		}
-
+			&.instant {
+				transition: left .2s ease-out;
+			}
 		}
 
 		img {
 			position: absolute;
-			width: $image-width;
-			height:$image-height;
+			width: 100%;
 		}
 	}
 }
@@ -270,7 +276,10 @@ ul.member-list{
 	margin-right:auto;
 	padding-left:4em;
 	list-style-type:none;
+	line-height:2.2em;
 	color:$main-green;
+	text-transform: uppercase;
+	font-size: 14px;
 }
 
 #leftform{
@@ -480,13 +489,22 @@ color:grey;
 	}
 }
 
-
-
 /* Contain floats. */
-.cf:after {
-  content: ' ';
+.cf:before, .cf:after {
+	content: '\0020';
   display: block;
-  clear: both;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.cf:after {
+	clear: both;
+}
+
+.cf {
+	zoom: 1;
 }
 
 /* Contain floats *and margins*. */

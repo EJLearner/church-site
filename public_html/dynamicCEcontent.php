@@ -5,7 +5,6 @@
 }
 
 $welcomecontent="
-	<div id='leftcontent'>
 		<div id='slider-chris'>
 			<script>
 				var slideIndex = 0;
@@ -44,6 +43,20 @@ $welcomecontent="
 						sliderControlButtons.className += ' hide';
 					}
 				});
+
+				var savePictureHeight = function() {
+					if (slideCount) {
+						var pictureHeight = pictures[0].querySelectorAll('img').item(0).offsetHeight;
+						console.log(pictureHeight);
+						var sliderContainer = document.getElementById('slider-chris');
+						sliderContainer.style.height = pictureHeight + 'px';
+						// sliderContainer.setAttribute('style','height:' + pictureHeight + 'px');
+						console.log(sliderContainer.style.height);
+					}
+				};
+
+				window.onload = savePictureHeight;
+				window.onresize = savePictureHeight;
 
 				var slideShow = function(on) {
 					// always reset the slideShow
@@ -159,9 +172,6 @@ $welcomecontent="
 				<div class='slide-picture current'><img src='images/CEBannerwalk.png' alt='Service Times 9 AM Every Sunday'></div>
 			</div>
 		</div>
-		<h1>
-			Welcome To <span class='emphwelcomeline'>Christian Education</span>
-		</h1>
 		<div class='home-page-bottom-content'>
 				<div>
 					<h2>Events</h2>
@@ -267,13 +277,19 @@ $ideaform="
 		<br>
 
 		<input type='radio' name='ideatype' id='class' value='class' required>
-		<label for='class'>Class</label><br>
+		<label for='class'>Class</label>
+		<br>
 
 		<input type='radio' name='ideatype' id='retreat' value='retreat' required>
-		<label for='retreat'>Retreat</label><br>
+		<label for='retreat'>Retreat</label>
+		<br>
 
 		<input type='radio' name='ideatype' id='workshop' value='workshop' required>
 		<label for='workshop'>Workshop</label>
+		<br>
+
+		<input type='radio' name='ideatype' id='other' value='other' required>
+		<label for='other'>Other</label>
 		</p>
 
 		<p><label for='ideadesc'>Describe your idea here:<span class='mandatory'>*</span></label><br>

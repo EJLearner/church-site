@@ -1,6 +1,16 @@
+html {
+  height: 100%; }
+
 body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
   margin: auto;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  position: relative; }
+
+#maincontent {
+  flex: 1; }
 
 a {
   text-decoration: none; }
@@ -88,15 +98,13 @@ form {
   margin: auto; }
   #header img {
     padding: 1em;
-    width: 30%;
+    width: 25%;
     float: right; }
 
 #slider-chris {
   position: relative;
-  width: 720px;
-  height: 287px;
-  overflow: hidden;
-  margin-left: 48px; }
+  width: 100%;
+  overflow-x: hidden; }
   #slider-chris .slider-control-buttons {
     font-size: 20px; }
     #slider-chris .slider-control-buttons.hide {
@@ -146,8 +154,7 @@ form {
         transition: left .2s ease-out; }
     #slider-chris .slide-picture img {
       position: absolute;
-      width: 720px;
-      height: 287px; }
+      width: 100%; }
 
 #leftcontent {
   width: 1000px;
@@ -176,7 +183,10 @@ ul.member-list {
   margin-right: auto;
   padding-left: 4em;
   list-style-type: none;
-  color: RGB(146, 208, 80); }
+  line-height: 2.2em;
+  color: RGB(146, 208, 80);
+  text-transform: uppercase;
+  font-size: 14px; }
 
 #leftform {
   margin: auto;
@@ -337,10 +347,19 @@ ul.member-list {
     border-bottom: 1px solid blue; }
 
 /* Contain floats. */
-.cf:after {
-  content: ' ';
+.cf:before, .cf:after {
+  content: '\0020';
   display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0; }
+
+.cf:after {
   clear: both; }
+
+.cf {
+  zoom: 1; }
 
 /* Contain floats *and margins*. */
 .cfm:before,
