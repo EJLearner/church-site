@@ -104,7 +104,7 @@ form {
 #slider-chris {
   position: relative;
   width: 100%;
-  overflow-x: hidden; }
+  overflow: hidden; }
   #slider-chris .slider-control-buttons {
     font-size: 20px; }
     #slider-chris .slider-control-buttons.hide {
