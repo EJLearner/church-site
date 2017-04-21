@@ -156,6 +156,18 @@ form {
       position: absolute;
       width: 100%; }
 
+.home-page-bottom-content {
+  width: 1000px;
+  margin: 3em auto;
+  display: none;
+  justify-content: space-between; }
+  .home-page-bottom-content div {
+    border: 1px solid gray;
+    width: 200px;
+    height: 200px; }
+  .home-page-bottom-content div:last-child {
+    margin-right: 0; }
+
 #leftcontent {
   width: 1000px;
   margin: auto;
@@ -167,15 +179,6 @@ form {
     width: 600px; }
   #leftcontent ol, #leftcontent ul {
     padding-left: 4em; }
-  #leftcontent .home-page-bottom-content div {
-    vertical-align: top;
-    border: 1px solid gray;
-    display: inline-block;
-    width: 200px;
-    margin-right: 66px;
-    height: 200px; }
-  #leftcontent .home-page-bottom-content div:last-child {
-    margin-right: 0; }
 
 ul.member-list {
   width: 500px;

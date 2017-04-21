@@ -235,6 +235,24 @@ form
 	}
 }
 
+.home-page-bottom-content {
+	width: 1000px;
+	margin: 3em auto;
+	display: none;
+	// display: flex;
+	justify-content: space-between;
+
+	div {
+		border: 1px solid gray;
+		width: 200px;
+		height: 200px;
+	}
+
+	div:last-child {
+		margin-right: 0;
+	}
+}
+
 #leftcontent{
 	width: 1000px;
 	margin: auto;
@@ -248,23 +266,6 @@ form
 	}
 	ol,ul{
 		padding-left:4em;
-	}
-
-	.home-page-bottom-content {
-		div {
-			vertical-align: top;
-			border: 1px solid gray;
-			display: inline-block;
-			width: 200px;
-			margin-right: 66px;
-			height: 200px;
-		}
-
-		div:last-child {
-			margin-right: 0;
-		}
-
-
 	}
 }
 
