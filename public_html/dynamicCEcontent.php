@@ -190,9 +190,9 @@ $whocontent="
 		<h1>Who We <span class='emphwelcomeline'>Are</span></h1>
 
 		<ul class='member-list'>
-			<li>April S. Jones, Co-chair</li>
-			<li>Davina Morton, Co-chair</li>
-			<li>Linda Alexander, Treasurer</li>
+			<li>April S. Jones, <span class='member-title'>Co-chair</span></li>
+			<li>Davina Morton, <span class='member-title'>Co-chair</span></li>
+			<li>Linda Alexander, <span class='member-title'>Treasurer</span></li>
 			<li>Violet Churn</li>
 			<li>Iris Ford</li>
 			<li>Min. Charles Gaskins</li>

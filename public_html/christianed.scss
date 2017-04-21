@@ -279,6 +279,10 @@ ul.member-list{
 	color:$main-green;
 	text-transform: uppercase;
 	font-size: 14px;
+
+	.member-title {
+		font-size: 10px;
+	}
 }
 
 #leftform{

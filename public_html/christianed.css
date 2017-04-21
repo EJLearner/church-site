@@ -190,6 +190,8 @@ ul.member-list {
   color: RGB(146, 208, 80);
   text-transform: uppercase;
   font-size: 14px; }
+  ul.member-list .member-title {
+    font-size: 10px; }
 
 #leftform {
   margin: auto;
