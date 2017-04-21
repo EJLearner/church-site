@@ -47,11 +47,8 @@ $welcomecontent="
 				var savePictureHeight = function() {
 					if (slideCount) {
 						var pictureHeight = pictures[0].querySelectorAll('img').item(0).offsetHeight;
-						console.log(pictureHeight);
 						var sliderContainer = document.getElementById('slider-chris');
 						sliderContainer.style.height = pictureHeight + 'px';
-						// sliderContainer.setAttribute('style','height:' + pictureHeight + 'px');
-						console.log(sliderContainer.style.height);
 					}
 				};
 
@@ -170,6 +167,20 @@ $welcomecontent="
 			</div>
 			<div class='slideshow'>
 				<div class='slide-picture current'><img src='images/CEBannerwalk.png' alt='Service Times 9 AM Every Sunday'></div>
+			</div>
+		</div>
+		<div class='home-page-bottom-content'>
+			<div>
+				<h2>Events</h2>
+			</div>
+			<div>
+				<h2>News</h2>
+			</div>
+			<div>
+				<h2>Sunday School Lessons</h2>
+			</div>
+			<div>
+				<h2>Member Spotlight</h2>
 			</div>
 		</div>
 	</div>

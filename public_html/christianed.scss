@@ -156,7 +156,7 @@ form
 #slider-chris{
 	position: relative;
 	width: 100%;
-	overflow-x: hidden;
+	overflow: hidden;
 
 	.slider-control-buttons {
 		font-size: 20px;
@@ -213,7 +213,6 @@ form
 			z-index: 0;
 			left: 100%;
 			transition: left 0s 1s;
-			// display: none;
 			&.instant {
 				transition: left 0s .3s;
 			}
@@ -223,7 +222,6 @@ form
 			left: 0;
 			transition: left 1s ease-out;
 			z-index: 5;
-			// display: block;
 
 			&.instant {
 				transition: left .2s ease-out;
@@ -234,6 +232,24 @@ form
 			position: absolute;
 			width: 100%;
 		}
+	}
+}
+
+.home-page-bottom-content {
+	width: 1000px;
+	margin: 3em auto;
+	display: none;
+	// display: flex;
+	justify-content: space-between;
+
+	div {
+		border: 1px solid gray;
+		width: 200px;
+		height: 200px;
+	}
+
+	div:last-child {
+		margin-right: 0;
 	}
 }
 

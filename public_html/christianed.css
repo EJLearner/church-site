@@ -104,7 +104,7 @@ form {
 #slider-chris {
   position: relative;
   width: 100%;
-  overflow-x: hidden; }
+  overflow: hidden; }
   #slider-chris .slider-control-buttons {
     font-size: 20px; }
     #slider-chris .slider-control-buttons.hide {
@@ -155,6 +155,18 @@ form {
     #slider-chris .slide-picture img {
       position: absolute;
       width: 100%; }
+
+.home-page-bottom-content {
+  width: 1000px;
+  margin: 3em auto;
+  display: none;
+  justify-content: space-between; }
+  .home-page-bottom-content div {
+    border: 1px solid gray;
+    width: 200px;
+    height: 200px; }
+  .home-page-bottom-content div:last-child {
+    margin-right: 0; }
 
 #leftcontent {
   width: 1000px;
