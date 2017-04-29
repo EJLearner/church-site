@@ -175,10 +175,16 @@ $welcomecontent="
 			</div>
 			<div class='slideshow'>
 			<!--
-				<div class='slide-picture current'><img src='images/christian-ed-home-banner-jonah.png' alt='Banner for City Temple trip to see Jonah at Sight & Sound at Lancaster Pa 6/14/2017'></div>
+				<div class='slide-picture current'>
+					<img src='images/christian-ed-home-banner-jonah.png' alt='Banner for City Temple trip to see Jonah at Sight & Sound at Lancaster Pa 6/14/2017'>
+				</div>
 			-->
-				<div class='slide-picture current'><img src='images/christian-ed-home-banner-VBS-temp.png' alt='Banner for City Temple Vacation Bible School. July 10-14 6:30 pm-8:00 pm'></div>
-				<div class='slide-picture'><img src='images/christian-ed-home-banner-2020-temp.png' alt='City Temple 2020 Vision'></div>
+				<div class='slide-picture current'>
+					<img src='images/christian-ed-home-banner-VBS-temp.png' alt='Banner for City Temple Vacation Bible School. July 10-14 6:30 pm-8:00 pm'>
+				</div>
+				<div class='slide-picture'>
+					<img src='images/christian-ed-home-banner-2020-temp.png' alt='City Temple 2020 Vision'>
+				</div>
 
 			</div>
 		</div>
