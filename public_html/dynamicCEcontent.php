@@ -78,10 +78,10 @@ $welcomecontent="
 					[].forEach.call(pictures, function(picture, index) {
 						if (index === displayIndex) {
 							picture.className = 'slide-picture current';
-							pictureSelectButtons[index].className='picture-select-button fa fa-circle current';
+							pictureSelectButtons[index].className='picture-select-button fa-stack current';
 						} else {
 							picture.className = 'slide-picture hidden';
-							pictureSelectButtons[index].className='picture-select-button fa fa-circle hidden';
+							pictureSelectButtons[index].className='picture-select-button fa-stack hidden';
 						}
 
 						// user initiated picture changes should have instant class that doesn't do transition
@@ -128,11 +128,11 @@ $welcomecontent="
 					slideShow(slideShowIsOn);
 					var playPauseClassname;
 					if (slideShowIsOn) {
-						playPauseClassname = 'fa fa-pause';
+						playPauseClassname = 'fa fa-pause-circle-o fa-stack-2x play-pause-icon';
 					} else {
-						playPauseClassname = 'fa fa-play';
+						playPauseClassname = 'fa fa-play-circle-o fa-stack-2x play-pause-icon';
 					}
-					playPauseButton.className = playPauseClassname;
+					playPauseButton.getElementsByClassName('play-pause-icon')[0].className = playPauseClassname;
 				};
 
 			</script>
@@ -142,38 +142,44 @@ $welcomecontent="
 					class='pic-control-button prev fa fa-chevron-circle-left'
 					onClick=\"showPicture('previous')\"
 				>
+						<i class='fa fa-circle fa-stack-1x black'></i>
+						<i class='fa fa-chevron-circle-left fa-stack-1x'></i>
 				</button>
 				<button
 					type='button'
 					class='pic-control-button next fa fa-chevron-circle-right'
 					onClick=\"showPicture('next')\"
 				>
+						<i class='fa fa-circle fa-stack-1x black'></i>
+						<i class='fa fa-chevron-circle-right fa-stack-1x'></i>
 				</button>
 				<div class='select-and-pause-controls'>
 					<button
 						type='button'
-						class='picture-select-button fa fa-circle'
+						class='picture-select-button fa-stack'
 						onClick=\"showPicture(0)\"
 					>
+						<i class='fa fa-circle fa-stack-2x'></i>
+						<i class='fa fa-circle-o fa-stack-2x'></i>
 					</button>
 					<button
 						id='play-pause-button'
 						type='button'
-						class='fa fa-pause'
+						class='fa-stack'
 						onClick='toggleSlideShow()'
 					>
+						<i class='fa fa-circle fa-stack-2x white'></i>
+						<i class='fa fa-pause-circle-o fa-stack-2x play-pause-icon'></i>
 					</button>
 				</div>
 			</div>
 			<div class='slideshow'>
 			<!--
 				<div class='slide-picture current'><img src='images/christian-ed-home-banner-jonah.png' alt='Banner for City Temple trip to see Jonah at Sight & Sound at Lancaster Pa 6/14/2017'></div>
-				</div>
 			-->
 				<div class='slide-picture current'><img src='images/christian-ed-home-banner-VBS-temp.png' alt='Banner for City Temple Vacation Bible School. July 10-14 6:30 pm-8:00 pm'></div>
-				</div>
 				<div class='slide-picture'><img src='images/christian-ed-home-banner-2020-temp.png' alt='City Temple 2020 Vision'></div>
-				</div>
+
 			</div>
 		</div>
 		<div class='home-page-bottom-content'>

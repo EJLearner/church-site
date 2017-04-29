@@ -194,12 +194,33 @@ form
 			transform: translate(-50%);
 
 			.picture-select-button, #play-pause-button {
-				@include slider-control-button();
-				position: static;
+				background: none;
+				border: none;
+				position: relative;
+
+					.fa-circle {
+						color: white;
+						transition: color 2s;
+					}
+
+					.fa-circle-o {
+						color: black;
+						transition: color 2s;
+					}
 
 				&.current {
-					color: black;
-					transition: color .5s
+					.fa-circle {
+						color: black;
+					}
+
+					.fa-circle-o {
+						color: white;
+					}
+				}
+
+				// stacked elements are in the wrong place without this
+				&.fa-stack .fa {
+					top: 0;
 				}
 			}
 		}
@@ -527,3 +548,5 @@ color:grey;
 .thin{font-weight:lighter;}
 .maroon{color:maroon;}
 .bold{font-weight:bolder;}
+.black{color: black}
+.white{color: white}
