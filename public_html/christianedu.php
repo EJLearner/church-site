@@ -50,21 +50,18 @@ function randomquote()
 			<li><a href="christianedu.php?p=why">Why We Are Here</a></li>
 			<li><a href="christianedu.php?p=where">Where We Are Going</a></li>
 			<li><a href="christianedu.php?p=what">What's In Store</a></li>
-			<li class="lastmenuitem"><a href="christianedu.php?p=opinion">Tell Us What You Think</a></li>
+			<li class="lastmenuitem"><a href="christianedu.php?p=ideaform">Tell Us What You Think</a></li>
 		</ul>
 	</div>
 	<div id="maincontent" class="cf">
 		<?
 			include 'dynamicCEcontent.php';
-			if ($page=="opinion") {echo $ideaform;}
-			else if ($page=='who') {echo $whocontent;}
-			else if ($page=='where') {echo $wherecontent;}
-			else if ($page=='why') {echo $whycontent;}
-			else if ($page=='what') {echo $whatcontent;}
-			else if ($page=="instreg") {echo $instregform;}
-			else if ($page=='opinionsent') {echo $opinionsent;}
-			else {
-				echo $welcomecontent;
+
+			$pageContentName = "{$page}Content";
+			if (isset($$pageContentName)) {
+				echo $$pageContentName;
+			} else {
+				echo $welcomeContent;
 			}
 		?>
 	</div>
@@ -91,10 +88,9 @@ function randomquote()
 			<div class="footlinklist">
 			<h3>Participate</h3>
 			<ul>
-				<li><a href="christianedu.php?p=opinion">Tell Us What You Think</a></li>
+				<li><a href="christianedu.php?p=ideaform">Tell Us What You Think</a></li>
 				<li><a href="christianedu.php?p=welcome">Take Our Survey</a></li>
 				<li><a href="submenu.php?p=giving">Donate</a></li>
-				<li><a href="christianedu.php?p=instreg">Register</a></li>
 				<li><a href="ministries.php">Join A Ministry</a></li>
 			</ul>
 			</div>
