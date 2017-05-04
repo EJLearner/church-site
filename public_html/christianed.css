@@ -9,9 +9,6 @@ body {
   overflow-x: hidden;
   position: relative; }
 
-#maincontent {
-  flex: 1; }
-
 a {
   text-decoration: none; }
 
@@ -95,7 +92,8 @@ form {
 
 #header {
   width: 1000px;
-  margin: auto; }
+  margin: auto;
+  min-height: 1px; }
   #header img {
     padding: 1em;
     width: 25%;

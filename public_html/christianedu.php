@@ -53,7 +53,7 @@ function randomquote()
 			<li class="lastmenuitem"><a href="christianedu.php?p=ideaform">Tell Us What You Think</a></li>
 		</ul>
 	</div>
-	<div id="maincontent" class="cf">
+	<div id="maincontent">
 		<?
 			include 'dynamicCEcontent.php';
 
