@@ -15,11 +15,16 @@ html{
 
 body{
 	min-height: 100%;
+	height: 100%;
 	display: flex;
 	flex-direction: column;
 	margin:auto;
 	overflow-x:hidden;
 	position: relative;
+}
+
+#maincontent{
+	flex: 1 0 auto;
 }
 
 a{
@@ -88,7 +93,7 @@ form
 	font-size:90%;
 	font-family: $calibri;
 	text-transform:uppercase;
-	overflow:auto;
+	flex: 0 0 auto;
 
 	ul{
 		margin:0;
@@ -141,7 +146,11 @@ form
 #header{
 	width:1000px;
 	margin: auto;
-	min-height: 1px;
+	position: relative;
+
+	& > div {
+		width: 1000px;
+	}
 
 	img{
 		padding:1em;
@@ -443,10 +452,10 @@ text-align:center;
 font-family: $cambria;
 font-style:italic;
 color:grey;
+flex: 0 0 auto;
 }
 
 #footerbar{
-	overflow:auto;
 	background-color:RGB(180,180,180);
 
 }

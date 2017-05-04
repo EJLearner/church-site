@@ -3,11 +3,15 @@ html {
 
 body {
   min-height: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   margin: auto;
   overflow-x: hidden;
   position: relative; }
+
+#maincontent {
+  flex: 1 0 auto; }
 
 a {
   text-decoration: none; }
@@ -57,7 +61,7 @@ form {
   font-size: 90%;
   font-family: "Segoe UI", Calibri, Candara, Segoe, Optima, Arial, sans-serif;
   text-transform: uppercase;
-  overflow: auto; }
+  flex: 0 0 auto; }
   #menubar ul {
     margin: 0;
     padding: 3px 0;
@@ -93,7 +97,9 @@ form {
 #header {
   width: 1000px;
   margin: auto;
-  min-height: 1px; }
+  position: relative; }
+  #header > div {
+    width: 1000px; }
   #header img {
     padding: 1em;
     width: 25%;
@@ -307,10 +313,10 @@ ul.member-list {
   text-align: center;
   font-family: cambria, georgia, "bookman old style", "times new roman", serif;
   font-style: italic;
-  color: grey; }
+  color: grey;
+  flex: 0 0 auto; }
 
 #footerbar {
-  overflow: auto;
   background-color: RGB(180, 180, 180); }
 
 #footer {

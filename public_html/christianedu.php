@@ -42,7 +42,7 @@ function randomquote()
 	<title id='title'>City Temple of Baltimore - Christian Education</title>
 </head>
 <body>
-	<div id="header"><img src="images\chrisedtopbanner.png" alt=""></div>
+	<div id="header"><div><img src="images\chrisedtopbanner.png" alt=""></div></div>
 	<div id="menubar">
 		<ul class="cfm">
 			<li><a href="christianedu.php?p=welcome">Welcome</a></li>
