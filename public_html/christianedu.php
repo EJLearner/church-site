@@ -49,11 +49,11 @@ function randomquote()
 			<li><a href="christianedu.php?p=who">Who We are</a></li>
 			<li><a href="christianedu.php?p=why">Why We Are Here</a></li>
 			<li><a href="christianedu.php?p=where">Where We Are Going</a></li>
-			<li><a href="christianedu.php?p=what">What's In Store</a></li>
+			<li class='second-to-last-menu-item'><a href="christianedu.php?p=what">What's In Store</a></li>
 			<li class="lastmenuitem"><a href="christianedu.php?p=ideaform">Tell Us What You Think</a></li>
 		</ul>
 	</div>
-	<div id="maincontent">
+	<div id="maincontent" <? echo ($page == "welcome" || $page== "" ? "class='welcome-page-main-content'" : null) ?>>
 		<?
 			include 'dynamicCEcontent.php';
 

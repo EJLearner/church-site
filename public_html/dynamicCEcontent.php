@@ -15,7 +15,6 @@ $welcomeContent="
 			var slideShowTimer;
 			var playPauseButton;
 
-
 			document.addEventListener('DOMContentLoaded', function() {
 				pictures = document.getElementsByClassName('slide-picture');
 				slideCount = pictures && pictures.length;
@@ -280,6 +279,7 @@ $whatContent="
 	</div>
 	</div>
 ";
+
 $ideaFormContent="
 	<div id='leftcontent'><h1>Tell Us What You <span>Think!</span></h1></div>
 		<div id='leftform'>

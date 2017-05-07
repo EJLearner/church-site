@@ -7,11 +7,17 @@ body {
   display: flex;
   flex-direction: column;
   margin: auto;
-  overflow-x: hidden;
   position: relative; }
 
 #maincontent {
+  width: 80%;
+  min-width: 800px;
+  max-width: 1000px;
+  margin: auto;
   flex: 1 0 auto; }
+  #maincontent.welcome-page-main-content {
+    width: 100%;
+    max-width: none; }
 
 a {
   text-decoration: none; }
@@ -56,6 +62,7 @@ form {
 
 #menubar {
   width: 100%;
+  min-width: 800px;
   margin-bottom: 4.5em;
   background-color: RGB(146, 208, 80);
   font-size: 90%;
@@ -63,29 +70,33 @@ form {
   text-transform: uppercase;
   flex: 0 0 auto; }
   #menubar ul {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    min-width: 800px;
+    max-width: 1000px;
+    margin: auto;
     margin: 0;
     padding: 3px 0;
     list-style-type: none;
-    text-align: center;
+    text-align: left;
     vertical-align: center;
-    margin: auto;
-    width: 1000px; }
+    margin: auto; }
     #menubar ul li {
       padding: 0px;
       margin-top: 0px;
-      display: list-item;
-      float: left; }
+      display: list-item; }
       #menubar ul li:first-child {
-        padding: 0px;
-        float: left; }
+        padding: 0px; }
+      #menubar ul li.second-to-last-menu-item {
+        flex: 1 0 auto; }
       #menubar ul li:last-child {
-        float: right;
-        padding-right: 5px;
-        color: white; }
+        color: white;
+        text-align: right; }
         #menubar ul li:last-child a, #menubar ul li:last-child a:visited {
           color: white; }
       #menubar ul li a {
-        padding: .1em 18px;
+        padding: .1em 15px;
         text-decoration: none; }
       #menubar ul li a:visited {
         color: black; }
@@ -95,11 +106,12 @@ form {
         cursor: pointer; }
 
 #header {
-  width: 1000px;
+  width: 80%;
+  min-width: 800px;
+  max-width: 1000px;
+  margin: auto;
   margin: auto;
   position: relative; }
-  #header > div {
-    width: 1000px; }
   #header img {
     padding: 1em;
     width: 25%;
@@ -167,7 +179,10 @@ form {
       width: 100%; }
 
 .home-page-bottom-content {
-  width: 1000px;
+  width: 80%;
+  min-width: 800px;
+  max-width: 1000px;
+  margin: auto;
   margin: 3em auto;
   display: none;
   justify-content: space-between; }
@@ -179,14 +194,17 @@ form {
     margin-right: 0; }
 
 #leftcontent {
-  width: 1000px;
+  width: 80%;
+  min-width: 800px;
+  max-width: 1000px;
+  margin: auto;
   margin: auto;
   font-family: "Segoe UI", Calibri, Candara, Segoe, Optima, Arial, sans-serif;
   color: RGB(63, 63, 63); }
   #leftcontent p, #leftcontent ol, #leftcontent ul {
     margin-left: auto;
     margin-right: auto;
-    width: 600px; }
+    width: 800px; }
   #leftcontent ol, #leftcontent ul {
     padding-left: 4em; }
 
@@ -307,8 +325,10 @@ ul.member-list {
   text-align: center; }
 
 #bottomquote {
-  width: 60%;
-  margin-left: 20%;
+  width: 80%;
+  min-width: 800px;
+  max-width: 1000px;
+  margin: auto;
   padding-top: 3em;
   text-align: center;
   font-family: cambria, georgia, "bookman old style", "times new roman", serif;
@@ -353,7 +373,7 @@ ul.member-list {
     text-decoration: none; }
 
 #socialcopyright {
-  margin-left: 600px;
+  margin-left: 800px;
   padding-top: 15px;
   font-size: 65%;
   font-family: "Segoe UI", Calibri, Candara, Segoe, Optima, Arial, sans-serif; }

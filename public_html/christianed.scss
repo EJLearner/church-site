@@ -9,6 +9,13 @@ $RGB77: RGB(77,77,77);
 $RGB63: RGB(63,63,63);
 $RGB95: RGB(95,95,95);
 
+@mixin content-widths() {
+	width: 80%;
+	min-width: 800px;
+	max-width: 1000px;
+	margin:auto;
+}
+
 html{
 	height: 100%
 }
@@ -19,12 +26,17 @@ body{
 	display: flex;
 	flex-direction: column;
 	margin:auto;
-	overflow-x:hidden;
 	position: relative;
 }
 
 #maincontent{
+	@include content-widths();
 	flex: 1 0 auto;
+
+	&.welcome-page-main-content {
+		width: 100%;
+		max-width: none;
+	}
 }
 
 a{
@@ -88,6 +100,7 @@ form
 
 #menubar{
 	width:100%;
+	min-width: 800px;
 	margin-bottom: 4.5em;
 	background-color:$main-green;
 	font-size:90%;
@@ -95,30 +108,34 @@ form
 	text-transform:uppercase;
 	flex: 0 0 auto;
 
+
 	ul{
+		display: flex;
+		justify-content: space-between;
+		@include content-widths();
 		margin:0;
 		padding:3px 0;
 		list-style-type: none;
-		text-align:center;
+		text-align:left;
 		vertical-align:center;
 		margin:auto;
-		width:1000px;
 
 		li{
 			padding:0px;
 			margin-top:0px;
 			display:list-item;
-			float:left;
 
 			&:first-child {
 				padding:0px;
-				float:left;
+			}
+
+			&.second-to-last-menu-item {
+				flex: 1 0 auto;
 			}
 
 			&:last-child {
-				float:right;
-				padding-right:5px;
 				color:white;
+				text-align: right;
 
 				a, a:visited
 				{
@@ -127,7 +144,7 @@ form
 			}
 
 			a{
-				padding:.1em 18px;
+				padding:.1em 15px;
 				text-decoration: none;
 			}
 			a:visited{
@@ -144,13 +161,15 @@ form
 }
 
 #header{
-	width:1000px;
+	@include content-widths();
 	margin: auto;
 	position: relative;
 
-	& > div {
-		width: 1000px;
-	}
+	// & > div {
+	// 	width: 80%;
+	// 	max-width:1000px;
+	// 	min-width: 800px;
+	// }
 
 	img{
 		padding:1em;
@@ -263,7 +282,7 @@ form
 }
 
 .home-page-bottom-content {
-	width: 1000px;
+	@include content-widths();
 	margin: 3em auto;
 	display: none;
 	justify-content: space-between;
@@ -280,7 +299,7 @@ form
 }
 
 #leftcontent{
-	width: 1000px;
+	@include content-widths();
 	margin: auto;
 	font-family:$calibri;
 	color:$RGB63;
@@ -288,7 +307,7 @@ form
 	p,ol,ul{
 		margin-left:auto;
 		margin-right:auto;
-		width:600px;
+		width:800px;
 	}
 	ol,ul{
 		padding-left:4em;
@@ -445,8 +464,7 @@ $tableleft:300px;
 }
 
 #bottomquote{
-width:60%;
-margin-left:20%;
+@include content-widths();
 padding-top:3em;
 text-align:center;
 font-family: $cambria;
@@ -501,7 +519,7 @@ flex: 0 0 auto;
 }
 
 #socialcopyright{
-	margin-left:600px;
+	margin-left:800px;
 	padding-top:15px;
 	font-size:65%;
 	font-family:$calibri;
