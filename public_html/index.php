@@ -146,7 +146,7 @@
 		<div id="linkboxhome">
 			<h2>Popular Links</h2>
 			<ul>
-				<li><h4><a href="/christianedu.php">Christian Education</a></h4></li>
+				<li><h4><a href="/christianedu.html">Christian Education</a></h4></li>
 				<li><h4><a href="/pgallery/">Photo Gallery</a></h4></li>
 				<li><h4><a href="/blog/">Pastor's Blog</a></h4></li>
 				<li><h4><a href="spiritualpage.php?p=weekly">Weekly Meditation</a></h4></li>

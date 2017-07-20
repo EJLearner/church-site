@@ -4,6 +4,7 @@
     $content='';
 }
 
+
 $welcomeContent="
 	<div id='slider-chris'>
 		<script>
@@ -14,6 +15,8 @@ $welcomeContent="
 			var slideShowIsOn;
 			var slideShowTimer;
 			var playPauseButton;
+
+
 
 			document.addEventListener('DOMContentLoaded', function() {
 				pictures = document.getElementsByClassName('slide-picture');
