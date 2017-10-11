@@ -34,7 +34,6 @@ $transition = clean_input("transition");
 $pastKitchen = clean_input("pastKitchen");
 $pastChaperone = clean_input("pastChaperone");
 
-$to=getCcRegistrationFormAddress();
 $subject= "Someone registered for Children's Church!";
 $message="Submitted information is below:\r\n\r\n";
 $message .= "Email: " . $email . "\r\n";
@@ -61,8 +60,9 @@ $message .= "PastKitchen: " . $pastKitchen . "\r\n";
 $message .= "PastChaperone: " . $pastChaperone . "\r\n";
 $message .= "Submit Date: " . date("F j, Y, g:i a") . "\r\n";
 
-$from = "webmaster@thecitytemple.org";
-$headers = "From:" . $from;
+$to=getCcRegistrationToAddress();
+$from = getCcRegistrationFromAddress();
+$headers = "From: " . $from;
 $mailSent = mail($to, $subject, $message, $headers);
 
 
