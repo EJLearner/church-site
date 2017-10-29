@@ -1,40 +1,49 @@
 <?php
 include "../private/confidential.php";
 
-function get_and_clean_input($key)
+function addDataToMessage($message, $label, $key, $isBool = false)
 {
     $data = isset($_POST[$key]) ? $_POST[$key] : "";
+
+    if ($isBool) {
+        return $data === "true" ? $message . $label . "\r\n" : $message;
+    }
+
     $data = trim($data);
     $data = stripslashes($data);
     $data = htmlspecialchars($data);
 
-    return $data;
+    if ($data) {
+        return $message . $label . ": " . $data . "\r\n";
+    } else {
+        return $message;
+    }
 }
 
 $subject= "Someone registered to volunteer for Children's Church!";
 $message="Submitted information is below:\r\n\r\n";
-$message .= "Email: " . get_and_clean_input("email") . "\r\n";
-$message .= "Name: " . get_and_clean_input("name") . "\r\n";
-$message .= "Dob: " . get_and_clean_input("dob") . "\r\n";
-$message .= "Address Line 1: " . get_and_clean_input("address1") . "\r\n";
-$message .= "Address Line 2: " . get_and_clean_input("address2") . "\r\n";
-$message .= "City: " . get_and_clean_input("city") . "\r\n";
-$message .= "State: " . get_and_clean_input("state") . "\r\n";
-$message .= "Zip: " . get_and_clean_input("zip") . "\r\n";
-$message .= "Mobile: " . get_and_clean_input("mobile") . "\r\n";
-$message .= "Home: " . get_and_clean_input("home") . "\r\n";
-$message .= "Interested in - Teacher: " . get_and_clean_input("teacher") . "\r\n";
-$message .= "Interested in - Admin: " . get_and_clean_input("admin") . "\r\n";
-$message .= "Interested in - Assistant Mentor: " . get_and_clean_input("assistantMentor") . "\r\n";
-$message .= "Interested in - Kitchen: " . get_and_clean_input("kitchen") . "\r\n";
-$message .= "Volunteered in Past for - SundaySchool: " . get_and_clean_input("sundaySchool") . "\r\n";
-$message .= "Volunteered in Past for - BibleSchool: " . get_and_clean_input("bibleSchool") . "\r\n";
-$message .= "Volunteered in Past for - YouthMinistry: " . get_and_clean_input("youthMinistry") . "\r\n";
-$message .= "Had Past Role of Teacher: " . get_and_clean_input("pastTeacher") . "\r\n";
-$message .= "Had Past Role of Admin Staff: " . get_and_clean_input("pastAdmin") . "\r\n";
-$message .= "Had Past Role of Transition Team: " . get_and_clean_input("transition") . "\r\n";
-$message .= "Had Past Role of Kitchen Staff: " . get_and_clean_input("pastKitchen") . "\r\n";
-$message .= "Had Past Role of Chaperone: " . get_and_clean_input("pastChaperone") . "\r\n";
+$message = addDataToMessage($message, "Email", "email");
+$message = addDataToMessage($message, "Name", "name");
+$message = addDataToMessage($message, "Dob", "dob");
+$message = addDataToMessage($message, "Address Line 1", "address1");
+$message = addDataToMessage($message, "Address Line 2", "address2");
+$message = addDataToMessage($message, "City", "city");
+$message = addDataToMessage($message, "State", "state");
+$message = addDataToMessage($message, "Zip", "zip");
+$message = addDataToMessage($message, "Mobile", "mobile");
+$message = addDataToMessage($message, "Home", "home");
+$message = addDataToMessage($message, "Interested in - Teacher", "teacher", true);
+$message = addDataToMessage($message, "Interested in - Admin", "admin", true);
+$message = addDataToMessage($message, "Interested in - Assistant Mentor", "assistantMentor", true);
+$message = addDataToMessage($message, "Interested in - Kitchen", "kitchen", true);
+$message = addDataToMessage($message, "Volunteered in Past for - SundaySchool", "sundaySchool", true);
+$message = addDataToMessage($message, "Volunteered in Past for - BibleSchool", "bibleSchool", true);
+$message = addDataToMessage($message, "Volunteered in Past for - YouthMinistry", "youthMinistry", true);
+$message = addDataToMessage($message, "Had Past Role of Teacher", "pastTeacher", true);
+$message = addDataToMessage($message, "Had Past Role of Admin Staff", "pastAdmin", true);
+$message = addDataToMessage($message, "Had Past Role of Transition Team", "transition", true);
+$message = addDataToMessage($message, "Had Past Role of Kitchen Staff", "pastKitchen", true);
+$message = addDataToMessage($message, "Had Past Role of Chaperone", "pastChaperone", true);
 $message .= "Submit Date: " . date("F j, Y, g:i a") . "\r\n";
 
 $to=getCcRegistrationToAddress();
