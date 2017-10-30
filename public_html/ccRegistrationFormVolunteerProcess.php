@@ -46,10 +46,10 @@ $message = addDataToMessage($message, "Had Past Role of Kitchen Staff", "pastKit
 $message = addDataToMessage($message, "Had Past Role of Chaperone", "pastChaperone", true);
 $message .= "Submit Date: " . date("F j, Y, g:i a") . "\r\n";
 
-$to=getCcRegistrationToAddress();
+$to=getCcRegistrationToAddresses();
 $from = getCcRegistrationFromAddress();
 $headers = "From: " . $from;
-$mailSent = mail($to, $subject, $message, $headers);
+$mailSent = mail(implode(', ', $to), $subject, $message, $headers);
 
 
 $response_array=array();

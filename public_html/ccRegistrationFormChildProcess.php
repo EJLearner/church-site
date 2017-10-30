@@ -37,10 +37,10 @@ $message = addDataToMessage($message, "Subscribe", "subscribe", true);
 $message = addDataToMessage($message, "Known Allergies", "knownAllergies");
 $message .= "Submit Date: " . date("F j, Y, g:i a") . "\r\n";
 
-$to=getCcRegistrationToAddress();
+$to=getCcRegistrationToAddresses();
 $from = getCcRegistrationFromAddress();
 $headers = "From: " . $from;
-$mailSent = mail($to, $subject, $message, $headers);
+$mailSent = mail(implode(', ', $to), $subject, $message, $headers);
 
 
 $response_array=array();
