@@ -37,7 +37,7 @@ $message = addDataToMessage($message, "Subscribe", "subscribe", true);
 $message = addDataToMessage($message, "Known Allergies", "knownAllergies");
 $message .= "Submit Date: " . date("F j, Y, g:i a") . "\r\n";
 
-$to=getCcRegistrationToAddresses();
+$to=getVbsRegistrationToAddresses();
 $from = getFromAddress();
 $headers = "From: " . $from;
 $mailSent = mail(implode(', ', $to), $subject, $message, $headers);

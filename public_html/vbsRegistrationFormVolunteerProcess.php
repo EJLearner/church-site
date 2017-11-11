@@ -20,7 +20,7 @@ function addDataToMessage($message, $label, $key, $isBool = false)
     }
 }
 
-$subject= "Someone registered to volunteer for Children's Church!";
+$subject= "Someone registered to volunteer for Vacation Bible School!";
 $message="Submitted information is below:\r\n\r\n";
 $message = addDataToMessage($message, "Email", "email");
 $message = addDataToMessage($message, "Name", "name");
@@ -46,7 +46,7 @@ $message = addDataToMessage($message, "Had Past Role of Kitchen Staff", "pastKit
 $message = addDataToMessage($message, "Had Past Role of Chaperone", "pastChaperone", true);
 $message .= "Submit Date: " . date("F j, Y, g:i a") . "\r\n";
 
-$to=getCcRegistrationToAddresses();
+$to=getVbsRegistrationToAddresses();
 $from = getFromAddress();
 $headers = "From: " . $from;
 $mailSent = mail(implode(', ', $to), $subject, $message, $headers);
