@@ -23,14 +23,14 @@ function addDataToMessage($message, $label, $key, $isBool = false)
 
 $subject= "Someone told us what they think!";
 $message="Submitted information is below:\r\n\r\n";
-$message = addDataToMessage($message, "Idea type is ",'ideaType');
-$message = addDataToMessage($message, "Description:",'ideaDesc');
-$message = addDataToMessage($message, "Phone:",'phone');
-$message = addDataToMessage($message, "Email:",'email');
-$message = addDataToMessage($message, "Name:",'name');
+$message = addDataToMessage($message, "Idea type is",'ideaType');
+$message = addDataToMessage($message, "Description",'ideaDesc');
+$message = addDataToMessage($message, "Phone",'phone');
+$message = addDataToMessage($message, "Email",'email');
+$message = addDataToMessage($message, "Name",'name');
 $message .="Submit Date: " . date("F j, Y, g:i a") . "\r\n";
 
-$to=getIdeaFormAddress();
+$to=getIdeaFormAddresses();
 $from = getFromAddress();
 $headers = "From:" . $from;
 $mailSent = mail(implode(', ', $to), $subject, $message, $headers);
