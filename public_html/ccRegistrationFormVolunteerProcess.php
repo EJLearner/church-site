@@ -9,6 +9,7 @@ function addDataToMessage($message, $label, $key, $isBool = false)
         return $data === "true" ? $message . $label . "\r\n" : $message;
     }
 
+    // cleaning input
     $data = trim($data);
     $data = stripslashes($data);
     $data = htmlspecialchars($data);
