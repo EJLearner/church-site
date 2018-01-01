@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 include "../private/confidential.php";
 
 function addDataToMessage($message, $label, $key, $isBool = false)
