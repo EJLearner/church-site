@@ -57,6 +57,7 @@ case "leadersstaff";
 	$submenh1=$title;
 	$submentitlepic="none";
 	$submentitlepicalt="Leaders and Staff";
+	$submentext = "";
 	break;
 }
 
@@ -73,35 +74,35 @@ function addmenuitem($linkadd,$imgname,$alternate,$title,$desc)
 			{ ?>
 			<a href="<?php echo $linkadd ?>"><img src="images/<?php echo $imgname?>" alt="<?php echo $alternate?>"></a>
 			<h3><a href="<?php echo $linkadd ?>"><?php echo $title?></a></h3>
-			<? } ?>	
+			<? } ?>
 			<div class="menuitemtext"><?php echo $desc ?></div>
 	</div>
-<?	
+<?
 }
 ?>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
 "http://www.w3.org/TR/html4/strict.dtd">
 
-<html> 
+<html>
 <head>
 <link rel="stylesheet" type="text/css" href="default.css">
 <meta name="verify-v1" content="3wCodnfg43veeFCH3Vs1Fr8lMJCUKtJ5myjNZ35+qeo=">
-<meta name="keywords" content="baltimore, baptist, city, temple, christian, church, grady, yeargin" > 
-<meta name="description" content="City Temple Baptist Church Webpage" > 
-<meta name="revised" content="Earl Jones, <?php echo date ("F d Y H:i:s.", filemtime(__FILE__))?>" > 
+<meta name="keywords" content="baltimore, baptist, city, temple, christian, church, grady, yeargin" >
+<meta name="description" content="City Temple Baptist Church Webpage" >
+<meta name="revised" content="Earl Jones, <?php echo date ("F d Y H:i:s.", filemtime(__FILE__))?>" >
 <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" >
-<meta name="generator" content="Notepad++" > 
-<title>City Temple - <?php echo $title ?></title> 
+<meta name="generator" content="Notepad++" >
+<title>City Temple - <?php echo $title ?></title>
 </head>
 <?php include "bannerandmenu.php" ?>
-	
+
 <div id="container">
 	<div class="submenucontent">
-	<div class="navchain"><A class="titlelink" href="index.php">Home</A> &gt;&gt;  <?php 
+	<div class="navchain"><A class="titlelink" href="index.php">Home</A> &gt;&gt;  <?php
 	if ($page=="leadersstaff")
 	{
-		echo "<a href=\"submenu.php?p=about\">About Us</a> &gt;&gt; "; 
+		echo "<a href=\"submenu.php?p=about\">About Us</a> &gt;&gt; ";
 	}
 	echo $title; ?>	</div>
 <?php if ($page!="worship")
@@ -114,7 +115,7 @@ function addmenuitem($linkadd,$imgname,$alternate,$title,$desc)
 	<hr>
 	<?php echo $submentext ?>
 	<div style="clear:both"></div>
-	<?php 
+	<?php
 }
 	switch ($page)
 	{
@@ -126,7 +127,7 @@ function addmenuitem($linkadd,$imgname,$alternate,$title,$desc)
 		addmenuitem("aboutpage.php?p=membership","membershipthumb.jpg","Standing Church Members","Membership","Learn about how to join this body of Christ");
 		addmenuitem("aboutpage.php?p=history","history.jpg","Rev. Payne Picture","History","A brief overview of how we started");
 		addmenuitem("aboutpage.php?p=organ","organthumb.gif","Organ Picture","Organ History","Learn about the \"miracle organ\"");
-		
+
 	break;
 	case "biblestudy":
 		addmenuitem("index.php","dailydev.jpg","Lake at Sunset","Daily Devotions","Scripture passages to meditate on for each day of the week");
@@ -135,14 +136,14 @@ function addmenuitem($linkadd,$imgname,$alternate,$title,$desc)
 	break;
 	case "worship":
 ?>
-	<h1>Worship</h1> 
+	<h1>Worship</h1>
 	<hr>
-<img style="float:right; padding:1em; border:none;" src="images/worship.jpg" alt="Church Member with Hands Raised">	
-	<p>Here at The City Temple of Baltimore (Baptist), we follow an Order of Worship.  While our intent is to remain consistent with this Order of Worship, the experience can change in the blink of an eye based on a testimony, a musical selection, a prayer or whatever moves the &ldquo;spirit&rdquo; within us.  We are definitely a church family and this is revealed during our worship service by our care and concern for one another.</p> 
-<p>Our Worship Service officially begins at 9:00 am on Sunday morning and is a combination of pastoral ministry, musical ministry including dance and congregational ministry.  The sermon is usually the focal point, surrounded by music, a minimum of five prayers and a moment of complete fellowship.</p> 
-<p>Our Hospitality Ministry is the official welcoming and greeting committee of the church.  As you enter the front doors of the building, members from this ministry are present to greet members and visitors.  Visitors are invited to sign the Visitors&rsquo; Book, located just outside the sanctuary.</p> 
-<p>After entering the sanctuary, our Ushers Ministry is immediately available.  Our ushers are the doorkeepers of the sanctuary and are responsible for continuing receiving members, assisting individuals to their seats, and assisting with the offering.  Our ushers distribute the Sunday Bulletin (as they are available) which consists of the Order of Service as well as church announcements and other items important to the congregation.</p> 
-<p>Our Nurses Ministry provides emergency health assistance during the worship service, should the need arise.</p> 
+<img style="float:right; padding:1em; border:none;" src="images/worship.jpg" alt="Church Member with Hands Raised">
+	<p>Here at The City Temple of Baltimore (Baptist), we follow an Order of Worship.  While our intent is to remain consistent with this Order of Worship, the experience can change in the blink of an eye based on a testimony, a musical selection, a prayer or whatever moves the &ldquo;spirit&rdquo; within us.  We are definitely a church family and this is revealed during our worship service by our care and concern for one another.</p>
+<p>Our Worship Service officially begins at 9:00 am on Sunday morning and is a combination of pastoral ministry, musical ministry including dance and congregational ministry.  The sermon is usually the focal point, surrounded by music, a minimum of five prayers and a moment of complete fellowship.</p>
+<p>Our Hospitality Ministry is the official welcoming and greeting committee of the church.  As you enter the front doors of the building, members from this ministry are present to greet members and visitors.  Visitors are invited to sign the Visitors&rsquo; Book, located just outside the sanctuary.</p>
+<p>After entering the sanctuary, our Ushers Ministry is immediately available.  Our ushers are the doorkeepers of the sanctuary and are responsible for continuing receiving members, assisting individuals to their seats, and assisting with the offering.  Our ushers distribute the Sunday Bulletin (as they are available) which consists of the Order of Service as well as church announcements and other items important to the congregation.</p>
+<p>Our Nurses Ministry provides emergency health assistance during the worship service, should the need arise.</p>
 <p style="padding-bottom:2em;">In general, we anticipate prelude, prayer, offering, sermon, invitation to Christian Discipleship and postlude at each worship service.  All are welcome.</p>	<div style="clear:both"></div>
 <?
 	break;
@@ -169,16 +170,13 @@ function addmenuitem($linkadd,$imgname,$alternate,$title,$desc)
 		addmenuitem("bio.php?p=yeargin","yearginthumb.jpg","Reverend Yeargin Picture","Rev. Dr. Grady A. Yeargin, Jr.","Pastor");
 		addmenuitem("bio.php?p=pyeargin","pyearginthumb.jpg","Pat Yeargin Picture","Min. Patricia Yeargin","First Lady");
 		addmenuitem("bio.php?p=hickman","hickmanthumb.jpg","Hickman Picture","Rev. Debra Hickman","Assistant to the Pastor");
-		//addmenuitem("bio.php?p=jackson","jacksonthumb.jpg","Rev. Geneva Jackson Picture","Rev. Geneva Jackson","Pulpit Associate");
-		addmenuitem("bio.php?p=gaskins","gaskinsthumb.jpg","Min. Charles Gaskins Picture","Min. Charles Gaskins","Pulpit Associate");
 		addmenuitem("bio.php?p=hamiel","hamielthumb.jpg","Min. Michelle Hamiel Picture","Min. Michelle Hamiel","Pulpit Associate & Youth Co-Director");
 		addmenuitem("bio.php?p=curley","curleythumb.jpg","Min. Tyra Curley Picture","Min. Tyra Curley","Pulpit Associate");
-		addmenuitem("bio.php?p=chamiel","chamielthumb.jpg","Min. Carl Hamiel Picture","Min. Carl Hamiel","Pulpit Associate & Youth Co-Director");
 		addmenuitem("bio.php?p=dean","deanthumb.jpg","Dr. Kenneth Dean, Jr. Picture","Dr. Kenneth Dean, Jr.","Minister of Music");
 		addmenuitem("bio.php?p=arnette","arnettethumb.jpg","Charles Arnette Picture","Charles Arnette","Assistant Director of Music");
 		addmenuitem("bio.php?p=jenkins","jenkinsthumb.jpg","Min. Marshell Jenkins Picture","Min. Marshell Jenkins","Minister of Movement");
 		addmenuitem("bio.php?p=ford","lorithumb.jpg","Min. Lori Ford Picture","Min. Lori Ford","Minister of Movement");
-		
+
 		addmenuitem("bio.php?p=friend","friendthumb.jpg","Marcia Friend Picture","Marcia Friend","Church Secretary");
 		addmenuitem("","davisthumb.jpg","Lanette Davis Picture","Lanette Davis","Treasurer");
 		addmenuitem("","nophotothumb.jpg","Charles Payne Picture","Charles Payne","Assistant Treasurer");
@@ -190,7 +188,6 @@ function addmenuitem($linkadd,$imgname,$alternate,$title,$desc)
 		addmenuitem("bio.php?p=alexander","lindathumb.jpg","Linda Alexander Picture","Linda Alexander", "Sunday School Superintendent");
 		addmenuitem("","hamiltonthumb.jpg","Jacqueline Hamilton Picture","Jacqueline Hamilton","B.U.I.L.D. Representative");
 		addmenuitem("bio.php?p=ward","wardthumb.jpg","Patricia Ward Picture","Patricia Ward","AIDS Ministry Co-chair");
-		//addmenuitem("bio.php?p=revell","revellthumb.jpg","Truevina Revell Picture","Truevina Revell","Youth Director");
 	break;
 	/*addmenuitem("index.php","welcomenew2.jpg","Alternate","Lessons","ddddddd");
 		*/
@@ -198,9 +195,9 @@ function addmenuitem($linkadd,$imgname,$alternate,$title,$desc)
 	?>
 	<div style="clear:both"></div>
 	</div><!--endsubmenucontent-->
-	
-	
+
+
 </div>
-<?php include "footer.php"; ?>	
-</body> 
+<?php include "footer.php"; ?>
+</body>
 </html>

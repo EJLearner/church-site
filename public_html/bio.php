@@ -7,118 +7,119 @@ $page=$_GET["p"];
 
 switch ($page)
 {
-case (yeargin);
+case "yeargin";
 	$title="Rev. Dr. Grady A. Yeargin, Jr.";
 	$name=$title;
 	$position="Pastor";
 	$imgname="yearginbio.jpg";
 	$biotext=
-"		<p>The Rev. Dr. Grady Andrew Yeargin, Jr. was born on November 7, 1949 in Greenville, South Carolina.  He attended Sterling High School and was admitted to Morehouse College in 1966 on an early admission scholarship.  In 1970, he graduated from Morehouse with a B.A. Degree in Philosophy and Religion, he graduated from Colgate-Rochester Divinity School with a Master of Divinity Degree in 1973, and he graduated from Wesley Theological Seminary in 2005 with a Doctor of Ministry Degree.</p> 
-<p>Dr. Yeargin began his ministerial career in 1973 as the Associate Minister of the Mount Zion Baptist Church in Newark, NJ under the pastorate of the Rev. Dr. Granville A. Seward.  Along with his responsibilities in the areas of Youth Ministry, Christian Education and Neighborhood Ministry, Dr. Yeargin was also responsible for assuming the pastoral responsibilities in the absence of the Pastor.</p> 
-<p>During his tenure at Mount Zion, Dr. Yeargin served as a board member of the Campus Christian Foundation, the Youth Council of the American Baptist Churches of New Jersey and of the Metropolitan Ecumenical Ministries Committee on Neighborhood and Youth Ministry.</p> 
-<p>In 1976, Dr. Yeargin was called to pastor the Mount Prospect Church in Rock Hill, South Carolina.  Along with providing a new dimension in the area of teaching ministry in the church and in the local Bible College, Dr. Yeargin held positions in both the local and state conventions along with serving on several civic committees.</p> 
-<p>After serving Mount Prospect for nine years, Dr. Yeargin was called to pastor the City Temple of Baltimore (Baptist) on September 10, 1985.  He began his pastorate in January 1986.  Dr. Yeargin has brought a new dimension of spiritual nourishment and growth to City Temple through worship, study, and action.  Under his direction several new ministries have been established in City Temple that include:  the Shelter Ministry, the Dance Ministry, the New Members Counselors Ministry, the Christian Education Ministry, the Courtesy Guild, the Tape Ministry as well as the re-establishment of the Cultural and Fine Arts Ministry and the Building Ministry.</p> 
-<p>Dr. Yeargin has been socially involved in the life of the community through his participation in Baltimoreans United in Leadership Development (B.U.I.L.D.) as well as serving for two years as a clergy co-chairperson, the Interdenominational Ministerial Alliance, the Institute for Christian and Jewish Studies, The United Missionary Baptist Convention of Maryland, and was the previous co-chairperson of the Baltimore affiliate of the National Black Leadership Commission on AIDS.</p> 
-<p>Dr. Yeargin is married to Patricia Ann Yeargin and they share two daughters, Adia Joy and Candace.  He also continues to maintain his sense of fatherhood to his beloved daughter, Kimberly Rei, who is deceased.</p> 
+"		<p>The Rev. Dr. Grady Andrew Yeargin, Jr. was born on November 7, 1949 in Greenville, South Carolina.  He attended Sterling High School and was admitted to Morehouse College in 1966 on an early admission scholarship.  In 1970, he graduated from Morehouse with a B.A. Degree in Philosophy and Religion, he graduated from Colgate-Rochester Divinity School with a Master of Divinity Degree in 1973, and he graduated from Wesley Theological Seminary in 2005 with a Doctor of Ministry Degree.</p>
+<p>Dr. Yeargin began his ministerial career in 1973 as the Associate Minister of the Mount Zion Baptist Church in Newark, NJ under the pastorate of the Rev. Dr. Granville A. Seward.  Along with his responsibilities in the areas of Youth Ministry, Christian Education and Neighborhood Ministry, Dr. Yeargin was also responsible for assuming the pastoral responsibilities in the absence of the Pastor.</p>
+<p>During his tenure at Mount Zion, Dr. Yeargin served as a board member of the Campus Christian Foundation, the Youth Council of the American Baptist Churches of New Jersey and of the Metropolitan Ecumenical Ministries Committee on Neighborhood and Youth Ministry.</p>
+<p>In 1976, Dr. Yeargin was called to pastor the Mount Prospect Church in Rock Hill, South Carolina.  Along with providing a new dimension in the area of teaching ministry in the church and in the local Bible College, Dr. Yeargin held positions in both the local and state conventions along with serving on several civic committees.</p>
+<p>After serving Mount Prospect for nine years, Dr. Yeargin was called to pastor the City Temple of Baltimore (Baptist) on September 10, 1985.  He began his pastorate in January 1986.  Dr. Yeargin has brought a new dimension of spiritual nourishment and growth to City Temple through worship, study, and action.  Under his direction several new ministries have been established in City Temple that include:  the Shelter Ministry, the Dance Ministry, the New Members Counselors Ministry, the Christian Education Ministry, the Courtesy Guild, the Tape Ministry as well as the re-establishment of the Cultural and Fine Arts Ministry and the Building Ministry.</p>
+<p>Dr. Yeargin has been socially involved in the life of the community through his participation in Baltimoreans United in Leadership Development (B.U.I.L.D.) as well as serving for two years as a clergy co-chairperson, the Interdenominational Ministerial Alliance, the Institute for Christian and Jewish Studies, The United Missionary Baptist Convention of Maryland, and was the previous co-chairperson of the Baltimore affiliate of the National Black Leadership Commission on AIDS.</p>
+<p>Dr. Yeargin is married to Patricia Ann Yeargin and they share two daughters, Adia Joy and Candace.  He also continues to maintain his sense of fatherhood to his beloved daughter, Kimberly Rei, who is deceased.</p>
 ";
 break;
 
-case (pyeargin);
+case "pyeargin";
 	$title="Min. Patricia Yeargin";
 	$name=$title;
 	$position="First Lady";
 	$imgname="patyeargin.png";
 	$biotext=
-"		<p>Minister Patricia Ann Yeargin of the City Temple of Baltimore Baptist Church 
-has a profound commitment to God, family, education and servant hood. She 
-holds a Master’s Degree in Social Work from the University of Illinois, a Masters 
-of Divinity and Masters of Christian Education from The Samuel Dewitt Proctor 
+"		<p>Minister Patricia Ann Yeargin of the City Temple of Baltimore Baptist Church
+has a profound commitment to God, family, education and servant hood. She
+holds a Master’s Degree in Social Work from the University of Illinois, a Masters
+of Divinity and Masters of Christian Education from The Samuel Dewitt Proctor
 School of Theology at Virginia Union University.</p>
 
-<p>Minister Yeargin is affiliated with the Baltimore City Public School System as 
-a licensed clinical social worker. She is married to Reverend Doctor Grady A. 
-Yeargin, Jr. who is the Pastor of City Temple of Baltimore Baptist, is the nurturing 
-mother to two daughters: Adia and Candace, and loving grandmother to Damion 
+<p>Minister Yeargin is affiliated with the Baltimore City Public School System as
+a licensed clinical social worker. She is married to Reverend Doctor Grady A.
+Yeargin, Jr. who is the Pastor of City Temple of Baltimore Baptist, is the nurturing
+mother to two daughters: Adia and Candace, and loving grandmother to Damion
 and Aidan.</p>
 
-<p>Minister Yeargin has a great love for the church and parish ministry. Within her 
-home church she serves as an associate minister, ordained deacon, co-leader of 
-Christian Education and Women’s ministry, Sunday school teacher, and is an 
+<p>Minister Yeargin has a great love for the church and parish ministry. Within her
+home church she serves as an associate minister, ordained deacon, co-leader of
+Christian Education and Women’s ministry, Sunday school teacher, and is an
 active member of the choir, and Liturgical Dance ministries. Indeed, the word
-“active” is an understatement in any description of her devoted service to the body 
-of Christ. She is not possessed of idle hands but one might say she possesses “yes 
-we can” hands. The inspiration for her willingness to step out on faith and use 
-her gifts in whatever capacity the Lord ordains comes from her favorite scripture 
-Psalm 27: “The Lord is my light and my salvation; whom shall I fear.” As a 
-reflection of that light, Minister Yeargin is a fearless witness of God’s faithfulness 
+“active” is an understatement in any description of her devoted service to the body
+of Christ. She is not possessed of idle hands but one might say she possesses “yes
+we can” hands. The inspiration for her willingness to step out on faith and use
+her gifts in whatever capacity the Lord ordains comes from her favorite scripture
+Psalm 27: “The Lord is my light and my salvation; whom shall I fear.” As a
+reflection of that light, Minister Yeargin is a fearless witness of God’s faithfulness
 and love.</p>";
 break;
 
-case (hickman);
+case "hickman";
 	$title="Rev. Debra Hickman";
 	$name=$title;
 	$position="Assistand to the Pastor";
 	$imgname="hickmanbio.jpg";
 	$biotext=
-"		<p>Rev. Debra Hickman is a lifelong Baltimore City resident and a recent recipient of her Masters of Divinity Degree from The Samuel DeWitt Proctor School of Theology on the campus of Virginia Union University. She is the proud daughter of Johnnie Hickman, Sr., who has been her rock since the early passing of her mother Hattie Hickman.</p> 
-      <p>Rev. Hickman graduated from The Baltimore School of The Bible in 1995 and received her call to preach in September 1996. She delivered her initial sermon at the City Temple of Baltimore (Baptist) under the Pastorate of Rev. Dr. Grady A. Yeargin, Jr. on January 17, 1997 where she presently serves as Assistant to the Pastor. She has been instrumental in City Temple's winter shelter program, AIDS Ministry, the Praise and Worship Team, Adult Sunday School and formerly served as Youth Minister where she became affectionately known as Rev. Debbie and implemented the Dance Ministry. She is actively involved with the American Baptist Churches of the South and served as the President of the Area I Ministers Council and Vice-President and President of the Regional Ministers Council.</p> 
-      <p>Rev. Hickman is the co-founder of Sisters Together And Reaching, Inc. (STAR) - a faith-based, non-profit, community-based organization that provides spiritual support and direct services and prevention education to HIV/AIDS infected, affected and at-risk African-Americans.  Since its inception, she has served STAR in the capacity of President/CEO and has led a fledgling one-employee organization to a thriving 20-plus employee, nationally and internationally renowned organization.</p> 
-      <p>Rev. Debbie is an ongoing consultant to the Centers for Disease Control and Prevention (CDC). In 1999, she was selected to be among the first 40 CDC Leadership Scholars. Under the leadership of the former Mayor Martin O'Malley and past City Council President Sheila Dixon, Rev. Hickman was appointed to serve as a Commissioner for the Baltimore City HIV Commission and recently appointed by the White House Secretary of Health and Human Service Office to the Centers for Disease Control/Health Resource Services Administration Advisory Board. She is a lecturer in demand both locally and internationally.</p> 
-      <p>She is the devoted and proud mother of Kelly Woolford, Randi Woods, and the Rev. Dr. Dont&eacute L. Hickman, Sr., a beautiful daughter in-law Danielle Hickman and the wonderfully blessed grandmother of Kiara and Kayla Woolford, Dont&eacute Jr. and Dawson Luke.</p>  
+"		<p>Rev. Debra Hickman is a lifelong Baltimore City resident and a recent recipient of her Masters of Divinity Degree from The Samuel DeWitt Proctor School of Theology on the campus of Virginia Union University. She is the proud daughter of Johnnie Hickman, Sr., who has been her rock since the early passing of her mother Hattie Hickman.</p>
+      <p>Rev. Hickman graduated from The Baltimore School of The Bible in 1995 and received her call to preach in September 1996. She delivered her initial sermon at the City Temple of Baltimore (Baptist) under the Pastorate of Rev. Dr. Grady A. Yeargin, Jr. on January 17, 1997 where she presently serves as Assistant to the Pastor. She has been instrumental in City Temple's winter shelter program, AIDS Ministry, the Praise and Worship Team, Adult Sunday School and formerly served as Youth Minister where she became affectionately known as Rev. Debbie and implemented the Dance Ministry. She is actively involved with the American Baptist Churches of the South and served as the President of the Area I Ministers Council and Vice-President and President of the Regional Ministers Council.</p>
+      <p>Rev. Hickman is the co-founder of Sisters Together And Reaching, Inc. (STAR) - a faith-based, non-profit, community-based organization that provides spiritual support and direct services and prevention education to HIV/AIDS infected, affected and at-risk African-Americans.  Since its inception, she has served STAR in the capacity of President/CEO and has led a fledgling one-employee organization to a thriving 20-plus employee, nationally and internationally renowned organization.</p>
+      <p>Rev. Debbie is an ongoing consultant to the Centers for Disease Control and Prevention (CDC). In 1999, she was selected to be among the first 40 CDC Leadership Scholars. Under the leadership of the former Mayor Martin O'Malley and past City Council President Sheila Dixon, Rev. Hickman was appointed to serve as a Commissioner for the Baltimore City HIV Commission and recently appointed by the White House Secretary of Health and Human Service Office to the Centers for Disease Control/Health Resource Services Administration Advisory Board. She is a lecturer in demand both locally and internationally.</p>
+      <p>She is the devoted and proud mother of Kelly Woolford, Randi Woods, and the Rev. Dr. Dont&eacute L. Hickman, Sr., a beautiful daughter in-law Danielle Hickman and the wonderfully blessed grandmother of Kiara and Kayla Woolford, Dont&eacute Jr. and Dawson Luke.</p>
       <p>Rev. Hickman's favorite scripture is Psalm 34 and she attempts to carry this scripture out through a life that truly blesses the Lord by following his commands and sharing His love wherever she goes.  Rev. Hickman is known as a visionary and her motto is, \"Be Forward Focused and Not Past Possessed.\"</p>";
 break;
-case (gaskins);
+
+case "gaskins";
 	$title="Min. Charles Gaskins";
 	$name=$title;
 	$position="";
 	$imgname="charles.jpg";
 	$biotext=
-"		<p>Charles H. Gaskins, Jr. is one of three children born to the late Charles H. Sr. and Dora A. Gaskins, and is a native of Baltimore, Maryland.  He is married to the love of his life, Carolyn D. Gaskins, and together they have two children, Charles Christian and Christina Deloris.</p>  
-           <p>Charles received his education in the Baltimore City Public School system.  After discharge from the U.S. Army, Charles continued his education and graduated from the University of Maryland Baltimore County with a B.A. degree in History.</p> 
-      
-      <p>Over the past 30 years, Charles has held several positions ranging from Police Detective, Housing Administrator, and Baltimore City School Teacher.</p> 
-      
-      <p>Charles accepted Christ as his personal savior in 1977 under the pastorate of the now deceased Rev. Dr. Leonard Hicks of the Greater New Hope Baptist Church.  While attending Greater New Hope, Charles simultaneously served as a Deacon, co-chairman of the Trustee Board, and choir member.</p> 
-      
-      <p>Charles has been a member of the City Temple of Baltimore (Baptist) since December 1980.  During his membership at City Temple, he has served in numerous capacities including chairman of the Trustee Board, Sunday School teacher, choir member, and members of various committees.  Charles and his family were briefly members of the mother church, Wayland Baptist, under the pastorate of Rev. Dr. Hoffman Brown, III.</p> 
-      
+"		<p>Charles H. Gaskins, Jr. is one of three children born to the late Charles H. Sr. and Dora A. Gaskins, and is a native of Baltimore, Maryland.  He is married to the love of his life, Carolyn D. Gaskins, and together they have two children, Charles Christian and Christina Deloris.</p>
+           <p>Charles received his education in the Baltimore City Public School system.  After discharge from the U.S. Army, Charles continued his education and graduated from the University of Maryland Baltimore County with a B.A. degree in History.</p>
+
+      <p>Over the past 30 years, Charles has held several positions ranging from Police Detective, Housing Administrator, and Baltimore City School Teacher.</p>
+
+      <p>Charles accepted Christ as his personal savior in 1977 under the pastorate of the now deceased Rev. Dr. Leonard Hicks of the Greater New Hope Baptist Church.  While attending Greater New Hope, Charles simultaneously served as a Deacon, co-chairman of the Trustee Board, and choir member.</p>
+
+      <p>Charles has been a member of the City Temple of Baltimore (Baptist) since December 1980.  During his membership at City Temple, he has served in numerous capacities including chairman of the Trustee Board, Sunday School teacher, choir member, and members of various committees.  Charles and his family were briefly members of the mother church, Wayland Baptist, under the pastorate of Rev. Dr. Hoffman Brown, III.</p>
+
       <p>During the late 1970s, a former missionary who served in the jungles of South America witnessed to Charles.  His witness led Charles to seek more knowledge about God.  To satisfy this urge for more knowledge, he enrolled in and attended the Baltimore School of the Bible.  The more knowledge that Charles obtained, the stronger the spirit led him to spread the word to others.  After struggling with the call to preach, and talking to his pastor, the Rev. Dr. Grady A. Yeargin, Jr., Charles accepted the call.  He believes that God can use anyone, if he makes himself available.</p>";
 break;
 
-case (hamiel);
+case "hamiel";
 	$title="Min. Michelle Hamiel";
 	$name=$title;
 	$position="";
 	$imgname="hamielbio.jpg";
 	$biotext=
 "		<p>Born in Baltimore, Maryland in December, Michelle has resided in Maryland for
-more than 45 years. Michelle was known throughout Maryland for telling stories 
-and promoting the love of reading. She began her career as a storyteller in 
-1988, while serving as a librarian at Enoch Pratt Free Library. Michelle believed 
-storytelling is what God called her to do. She was unaware that God was only 
+more than 45 years. Michelle was known throughout Maryland for telling stories
+and promoting the love of reading. She began her career as a storyteller in
+1988, while serving as a librarian at Enoch Pratt Free Library. Michelle believed
+storytelling is what God called her to do. She was unaware that God was only
 preparing her for a higher calling.</p>
 
-<p>When storytelling did not seem to be all God wanted, Michelle became active in 
-her church. Before responding to her call to preach, Michelle held a variety of 
-roles in City Temple that demonstrated her love of teaching and her thirst for 
-religious knowledge; from Co-chair of the Christian Education Ministry, New 
+<p>When storytelling did not seem to be all God wanted, Michelle became active in
+her church. Before responding to her call to preach, Michelle held a variety of
+roles in City Temple that demonstrated her love of teaching and her thirst for
+religious knowledge; from Co-chair of the Christian Education Ministry, New
 Members instructor to coordinator for Vacation Bible school.</p>
 
-<p>Michelle currently enjoys and has the honor of serving with her son, Minister Carl 
+<p>Michelle currently enjoys and has the honor of serving with her son, Minister Carl
 Hamiel as one of the youth ministers at City Temple.</p>
 
-<p>Michelle’s spiritual journey began when she gave her life to Christ at a young 
-age at Grace Presbyterian Church in Baltimore. She firmly believes in her 
-favorite scripture, Proverbs 3: 5-6. Trusting in the Lord, Michelle answered her 
-call to preach in May 2008 while under the tutelage of her spiritual father, the 
-Reverend Dr. Grady A. Yeargin, Jr., of the City Temple of Baltimore (Baptist). 
+<p>Michelle’s spiritual journey began when she gave her life to Christ at a young
+age at Grace Presbyterian Church in Baltimore. She firmly believes in her
+favorite scripture, Proverbs 3: 5-6. Trusting in the Lord, Michelle answered her
+call to preach in May 2008 while under the tutelage of her spiritual father, the
+Reverend Dr. Grady A. Yeargin, Jr., of the City Temple of Baltimore (Baptist).
 Presently, Michelle serves as a member of the ministerial staff of City Temple.</p>
 
-<p>Michelle is the daughter of Leon and Peggy Hargrove, the wife of Gary Hamiel 
+<p>Michelle is the daughter of Leon and Peggy Hargrove, the wife of Gary Hamiel
 and the mother of Carl Anthony Hamiel and Briana Lynn Hamiel.</p>";
 break;
 
-case (curley);
+case "curley";
 	$title="Min. Tyra Curley";
 	$name=$title;
 	$position="";
@@ -132,7 +133,7 @@ case (curley);
 <p>Rev. Curley’s favorite scriptures are Psalms 121:1-2, \"I will lift up mine eyes unto the hills, from whence cometh my help. My help cometh from the Lord, which made heaven and \" and Hebrews 11: 1, \"Now faith is the substance of things hoped for, the evidence of things not seen.\"</p>";
 break;
 
-case (dean);
+case "dean";
 	$title="Dr. Kenneth Dean, Jr.";
 	$name=$title;
 	$position="Minister of Music";
@@ -192,8 +193,8 @@ of Baltimore were invited to attend the UNESCO Choir Festival in Prague in the C
 <p>While under the direction of Dr. Dean, The Masters Trio was presented in a monumental effort at the Joseph
 Meyerhoff Concert Hall to a packed and enthusiastic audience in September 2007.</p>";
 	$moreunderpic="
-		<div class=\"videocapbox\"> 
-			<object type=\"application/x-shockwave-flash\" data=\"http://www.youtube.com/v/JqdwR3bXWuQ&hl=en&fs=1\" width=\"180\" height=\"130\"><param name=\"movie\" value=\"http://www.youtube.com/v/JqdwR3bXWuQ&hl=en&fs=1\" /><param name=\"FlashVars\" value=\"playerMode=embedded\" /><param name=\"wmode\" value=\"transparent\" /></object> 
+		<div class=\"videocapbox\">
+			<object type=\"application/x-shockwave-flash\" data=\"http://www.youtube.com/v/JqdwR3bXWuQ&hl=en&fs=1\" width=\"180\" height=\"130\"><param name=\"movie\" value=\"http://www.youtube.com/v/JqdwR3bXWuQ&hl=en&fs=1\" /><param name=\"FlashVars\" value=\"playerMode=embedded\" /><param name=\"wmode\" value=\"transparent\" /></object>
 
 		</div>
 ";
@@ -205,30 +206,30 @@ case "arnette";
 	$position="Associate Director of Music";
 	$imgname="arnette.jpg";
 	$biotext=
-"<p>Charles Arnette currently serves as Minister of Music at Enon Baptist, Associate Director 
+"<p>Charles Arnette currently serves as Minister of Music at Enon Baptist, Associate Director
 at City Temple and Staff Musician at Saint Francis Xavier Catholic Church. </p>
 
-<p>He received his Bachelor of Arts degree from Southern Illinois University at Carbondale 
-in 1975 and his Master of Arts degree from Baltimore’s Historically Black University Morgan 
-State in 1979. He began his teaching career in the Baltimore City Public School System as a 
+<p>He received his Bachelor of Arts degree from Southern Illinois University at Carbondale
+in 1975 and his Master of Arts degree from Baltimore’s Historically Black University Morgan
+State in 1979. He began his teaching career in the Baltimore City Public School System as a
 Music Resource teacher retiring in 2012 after 31 years of service. </p>
 
-<p>He is a member of the American Guild of Organists and was awarded the Service playing 
-certificate. He has served on the Adjunct Music Faculty of Baltimore City Community College 
-and currently on the Adjunct Faculty at Coppin State University teaching both “Survey of Jazz” 
+<p>He is a member of the American Guild of Organists and was awarded the Service playing
+certificate. He has served on the Adjunct Music Faculty of Baltimore City Community College
+and currently on the Adjunct Faculty at Coppin State University teaching both “Survey of Jazz”
 and “African-American Music”. </p>
 
-<p>He performs regularly in Baltimore as a freelance Jazz pianist as well as with the Charles 
-Arnette and Friends Jazz Combo. He has released 3 CDs, which include his own arrangements 
-of Hymns, Christmas Music and Love Songs- All available for purchase via 
+<p>He performs regularly in Baltimore as a freelance Jazz pianist as well as with the Charles
+Arnette and Friends Jazz Combo. He has released 3 CDs, which include his own arrangements
+of Hymns, Christmas Music and Love Songs- All available for purchase via
 <a href='mailto:charles.arnette1@verizon.net'>charles.arnette1@verizon.net</a>.</p>
 
-<p>He is married to Miriam Brooks-Arnette and has one daughter, Seanta Camille Amette. 
-He enjoys an active lifestyle of swimming, entertainment and community services. His favorite 
+<p>He is married to Miriam Brooks-Arnette and has one daughter, Seanta Camille Amette.
+He enjoys an active lifestyle of swimming, entertainment and community services. His favorite
 scripture is Philippians 4:13, “I can do all things through Christ which strengthened me.”";
 break;
 
-case (jenkins);
+case "jenkins";
 	$title="Min. Marshell Jenkins";
 	$name=$title;
 	$position="Minister of Music";
@@ -241,13 +242,13 @@ case (jenkins);
 <p>This sister has yet to quench her thirst for more knowledge, so keep your eyes on this minister as she keeps on the “move”!</p>";
 break;
 
-case (ford);
+case "ford";
 	$title="Min. Lori Ford";
 	$name=$title;
 	$position="Minister of Music";
 	$imgname="loribio.jpg";
 	$biotext=
-"		<p>Lori Ford is a Minister of Movement at the City Temple of Baltimore (Baptist) Church. God called her to the ministry of dance in 2002. She was later consecrated by her pastor, Rev. Dr. Grady Yeargin, Jr., as Minister of Movement in 2006. Since that time she has traveled to Virginia, New Jersey, New York, and Canada, where she has ministered and taught the movement ministry through biblical studies.</p> 
+"		<p>Lori Ford is a Minister of Movement at the City Temple of Baltimore (Baptist) Church. God called her to the ministry of dance in 2002. She was later consecrated by her pastor, Rev. Dr. Grady Yeargin, Jr., as Minister of Movement in 2006. Since that time she has traveled to Virginia, New Jersey, New York, and Canada, where she has ministered and taught the movement ministry through biblical studies.</p>
 <p>Accepting Christ at a young age, Lori served on the usher board, youth choir, and youth ministry at Metropolitan United Methodist Church in Severn MD. With limited transportation to the Temple, her family always made sure she was involved in serving the Lord.</p>
 <p>As a result of allowing God to direct her path, Lori is now serving as co-choreographer for the adult and youth dance ministries at the City Temple of Baltimore Baptist Church. She is also the choreographer for the Jehovah Jireh Dance Ministry at the Church of the Living God located in Baltimore MD. Lori believes in equipping the saints to do God's will which led her to the Christian Education Ministry in 2001 where she is now serving as co-director.</p>
 <p>In her professional life, Lori is the owner of Event Perfect, an Event Planning and Design Company serving the Baltimore/Washington Metropolitan area. With an eye for detail, she truly enjoys the execution of turning dreams in to reality!</p>
@@ -255,7 +256,7 @@ case (ford);
 <p>Her favorite scripture is Philippians 4:13: \"I can do all things through Christ which strengthens me.\"</p>";
 break;
 /* STAFF ************************************************************/
-case (friend);
+case "friend";
 	$title="Marcia Friend";
 	$name=$title;
 	$position="";
@@ -265,7 +266,7 @@ case (friend);
 <p>Currently, Marcia is working on a long-term project/ministry for women who have survived childhood sexual abuse.</p>
 <p>She graduated from Mercy High School in Baltimore, MD. She is the mother of two children, Kenneth and Ashleigh, and the grandmother of three, Morgan, Kenneth, Jr. and Madison.</p>";
 break;
-case (henderson);
+case "henderson";
 	$title="Louis C. Henderson, Jr.";
 	$name=$title;
 	$position="";
@@ -296,7 +297,7 @@ case (henderson);
 <p>Favorite Bible Verses:
 <p><i>Trust in the Lord with all thine heart and lean not unto thine own understanding, in all thy ways acknowledge Him and He shall direct your path. (Proverbs 3:5-6)</i></p>";
 break;
-case (allen);
+case "allen";
 	$title="Delores Allen";
 	$name=$title;
 	$position="";
@@ -308,7 +309,7 @@ case (allen);
 <p>Delores loves singing, sewing and reading. She is very committed to her pastor and church family. Whenever there&rsquo;s a need, she doesn&rsquo;t hesitate to step in to help. Her favorite scripture is Philippians 4:13, &ldquo;I can do all things through Christ who strengthens me.&rdquo;</p>";
 break;
 
-case (smith);
+case "smith";
 	$title="Racquel Smith";
 	$name=$title;
 	$position="";
@@ -377,15 +378,15 @@ break;
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
 "http://www.w3.org/TR/html4/strict.dtd">
 
-<html> 
+<html>
 <head>
 <link rel="stylesheet" type="text/css" href="default.css">
-<meta name="keywords" content="baltimore, baptist, city, temple, christian, church, on-line, giving, grady, yeargin" > 
-<meta name="description" content="City Temple Baptist Church Webpage" > 
-<meta name="revised" content="Earl Jones, <?php echo date ("F d Y H:i:s.", filemtime(__FILE__))?>" > 
+<meta name="keywords" content="baltimore, baptist, city, temple, christian, church, on-line, giving, grady, yeargin" >
+<meta name="description" content="City Temple Baptist Church Webpage" >
+<meta name="revised" content="Earl Jones, <?php echo date ("F d Y H:i:s.", filemtime(__FILE__))?>" >
 <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" >
-<meta name="generator" content="Notepad++" > 
-<title>City Temple of Baltimore - <? echo $title ?></title> 
+<meta name="generator" content="Notepad++" >
+<title>City Temple of Baltimore - <? echo $title ?></title>
 </head>
 
 <body>
@@ -399,16 +400,14 @@ break;
 		<p><a href="bio.php?p=yeargin">Rev. Dr. Grady A. Yeargin, Jr.</a></p>
 		<p><a href="bio.php?p=pyeargin">Min. Patricia Yeargin</a></p>
 		<p><a href="bio.php?p=hickman">Rev. Debra Hickman</a></p>
-		<p><a href="bio.php?p=gaskins">Min. Charles Gaskins</a></p>
 		<p><a href="bio.php?p=hamiel">Min. Michelle Hamiel</a></p>
 		<p><a href="bio.php?p=curley">Min. Tyra Curley</a></p>
-		<p><a href="bio.php?p=chamiel">Min. Carl Hamiel</a></p>
 		<p><a href="bio.php?p=dean">Dr. Kenneth Dean, Jr.</a></p>
 		<p><a href="bio.php?p=arnette">Charles Arnette</a></p>
 		<p><a href="bio.php?p=jenkins">Min. Marshell Jenkins</a></p>
 		<p><a href="bio.php?p=ford">Min. Lori Ford</a></p>
-		
-		
+
+
 		<h3>Staff</h3>
 		<hr>
 		<p style="color:maroon;">Lanette Davis</p>
