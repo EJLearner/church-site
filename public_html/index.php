@@ -65,6 +65,12 @@
 
 <div id="container" class="homepagecontainer">
 	<ul id="slider1">
+		<?
+		if (date('Y-m-d') < "2018-02-03")
+		{?>
+		<li><a href='funeralpage.php?p=cgaskins'><img src="images/homebanner-CG-memorial.png" alt="Charles Gaskins Memorial Banner"></a></li>
+		<?}
+		?>
 		<li><img src="images/homebannerservicetimes.png" alt="Service Times 9 AM Every Sunday"></li>
 
 		<?
