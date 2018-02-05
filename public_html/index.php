@@ -140,13 +140,7 @@
 					</a>",
 					"2016-10-31"
 				);
-				addevent("October 17", "Next Ged Class", "2016-10-18");
-				addevent("November 6 During Morning Worship", "Memorial Celebration", "2016-11-07");
-				addevent("November 19 11 a.m - 2 p.m.", "Open Closet - Outreach Program", "2016-11-20");
-				addevent("October 11 6 p.m. -  7:30 p.m.", "God's Gift Liturgical Dance Ministry", "2016-10-12");
-				addevent("October 18 6 p.m. -  7:30 p.m.", "God's Gift Liturgical Dance Ministry", "2016-10-19");
 				addevent("October 25 6 p.m. -  7:30 p.m.", "God's Gift Liturgical Dance Ministry", "2016-10-26");
-				addevent("February 3","<a href='funeralpage.php?p=cgaskins'>Minister Charles Gaskins Memorial Service</a><br />Wake - 10:00 a.m.<br />Memorial Service 11:00 a.m.","2018-02-05");
 				?>
 			</ul>
 		</div>
