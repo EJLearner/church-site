@@ -56,10 +56,10 @@
 <?php include "bannerandmenu.php" ?>
 <?php include "sliderhead.php" ?>
 
-<?if ((date('U') < strtotime("2016-01-25")) & (TRUE))
+<?if (date('U') < strtotime("2018-02-19"))
 {?>
-<div id="urgentmessagebox"><img src="images/urgent.jpg"><p>Sunday's Church Service Cancelled <span class="urgentpostdate">Posted 01-23-2016 4:20 p.m.</span><br></p>
-	<p>Due to weather conditions, Sunday's church service is cancelled.<br>You can submit offerings online <a href="onlinegiving.php?p=tithing">here</a>.</p><div class="clear"></div>
+<div id="urgentmessagebox"><img src="images/urgent.jpg"><p>Sunday's Church Service Delayed <span class="urgentpostdate">Posted 02-17-2018 10:00 p.m.</span><br></p>
+	<p>Church service for Sunday, February 18 will start at 11:00 am.</p><div class="clear"></div>
 </div>
 <?}?>
 
