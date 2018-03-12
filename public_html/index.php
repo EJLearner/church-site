@@ -83,17 +83,20 @@
 		{?>
 				<li><img src="images/homebannerthanksgiving.png" alt="Thanksgiving Banner"></li>
 		<?}
-		if (date('Y-m-d') <= "2015-12-20") //Need to take the date off to make it perpetual
-		{?>
-				<li><img src="images/homebannerchristmas.png" alt="Christmas Banner"></li>
-		<?}
 		if (date('m-d') > "01-25" && date('m-d') < "03-01")
 		{?>
 				<li><img src="images/homebannerBlackHistory.png" alt="Black History Month Banner"></li>
 		<?}?>
 
-		<li><img src="images/homebannerbiblestudy.png" alt="Bible Study Tuesday Noon and 7:30 PM. Saturday at Noon"></li>
-		<li><img src="images/homebanneramazinggrace.jpg" alt="712-432-1620 Prayer Line Pass code is 987357# Call begins 6 am"></li>
+		<li><img src="images/home-banner-cc.png" alt="Children’s Church - Every Second Sunday"></li>
+		<li><img src="images/home-banner-bible-study.png" alt="Bible Study Tuesday Noon and 7:30 PM. Saturday at Noon"></li>
+		<li><img src="images/home-banner-seed-sowing.png" alt="2018 - The year of sacrificial sowing"></li>
+		<?
+		if (date('Y-m-d') < "2018-04-16")
+		{?>
+		<li><img src="images/home-banner-ushers-nurses.png" alt="48th Anniversary Ushers and Nurses - April 15, 2018 at 3:30 pm"></li>
+		<?}?>
+		<!-- <li><img src="images/homebanneramazinggrace.jpg" alt="712-432-1620 Prayer Line Pass code is 987357# Call begins 6 am"></li> -->
 		<!--<li><img src="images/homebannerDfree.png" alt="DFree Banner"></li>-->
 		<!--<li><a href="aboutpage.php?p=ged"><img src="images/homebannerGED.png" alt="GED Banner and Link"></a></li>-->
 		<!--<li><a href="/blog/"><img src="images/homebannerblog.png" alt="Blog Banner and Link"></a></li>-->
