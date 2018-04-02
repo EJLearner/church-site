@@ -65,12 +65,6 @@
 
 <div id="container" class="homepagecontainer">
 	<ul id="slider1">
-		<?
-		if (date('Y-m-d') < "2018-02-03")
-		{?>
-		<li><a href='funeralpage.php?p=cgaskins'><img src="images/homebanner-CG-memorial.png" alt="Charles Gaskins Memorial Banner"></a></li>
-		<?}
-		?>
 		<li><img src="images/homebannerservicetimes.png" alt="Service Times 9 AM Every Sunday"></li>
 
 		<?
@@ -93,9 +87,20 @@
 		<li><img src="images/home-banner-seed-sowing.png" alt="2018 - The year of sacrificial sowing"></li>
 		<?
 		if (date('Y-m-d') < "2018-04-16")
-		{?>
-		<li><img src="images/home-banner-ushers-nurses.png" alt="48th Anniversary Ushers and Nurses - April 15, 2018 at 3:30 pm"></li>
-		<?}?>
+		{
+			?>
+			<li><img src="images/home-banner-ushers-nurses.png" alt="48th Anniversary Ushers and Nurses - April 15, 2018 at 3:30 pm"></li>
+			<?
+		}
+		?>
+		<?
+		if (date('Y-m-d') < "2018-04-23")
+		{
+			?>
+			<li><img src="images/home-banner-2018-womens-day.png" alt="Women’s Day Service - Guest Preacher Min. Lori Ford - April 22, 2018"></li>
+			<?
+		}
+		?>
 		<!-- <li><img src="images/homebanneramazinggrace.jpg" alt="712-432-1620 Prayer Line Pass code is 987357# Call begins 6 am"></li> -->
 		<!--<li><img src="images/homebannerDfree.png" alt="DFree Banner"></li>-->
 		<!--<li><a href="aboutpage.php?p=ged"><img src="images/homebannerGED.png" alt="GED Banner and Link"></a></li>-->
