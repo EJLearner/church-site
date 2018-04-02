@@ -245,8 +245,8 @@ break;
 case "ford";
 	$title="Min. Lori Ford";
 	$name=$title;
-	$position="Minister of Music";
-	$imgname="loribio.jpg";
+	$position="Pulpit Associate and Minister of Movement";
+	$imgname="lori-bio.png";
 	$biotext=
 "		<p>Lori Ford is a Minister of Movement at the City Temple of Baltimore (Baptist) Church. God called her to the ministry of dance in 2002. She was later consecrated by her pastor, Rev. Dr. Grady Yeargin, Jr., as Minister of Movement in 2006. Since that time she has traveled to Virginia, New Jersey, New York, and Canada, where she has ministered and taught the movement ministry through biblical studies.</p>
 <p>Accepting Christ at a young age, Lori served on the usher board, youth choir, and youth ministry at Metropolitan United Methodist Church in Severn MD. With limited transportation to the Temple, her family always made sure she was involved in serving the Lord.</p>

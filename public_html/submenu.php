@@ -170,12 +170,12 @@ function addmenuitem($linkadd,$imgname,$alternate,$title,$desc)
 		addmenuitem("bio.php?p=yeargin","yearginthumb.jpg","Reverend Yeargin Picture","Rev. Dr. Grady A. Yeargin, Jr.","Pastor");
 		addmenuitem("bio.php?p=pyeargin","pyearginthumb.jpg","Pat Yeargin Picture","Min. Patricia Yeargin","First Lady");
 		addmenuitem("bio.php?p=hickman","hickmanthumb.jpg","Hickman Picture","Rev. Debra Hickman","Assistant to the Pastor");
-		addmenuitem("bio.php?p=hamiel","hamielthumb.jpg","Min. Michelle Hamiel Picture","Min. Michelle Hamiel","Pulpit Associate & Youth Co-Director");
+		addmenuitem("bio.php?p=hamiel","hamielthumb.jpg","Min. Michelle Hamiel Picture","Min. Michelle Hamiel","Pulpit Associate and Youth Co-Director");
 		addmenuitem("bio.php?p=curley","curleythumb.jpg","Min. Tyra Curley Picture","Min. Tyra Curley","Pulpit Associate");
 		addmenuitem("bio.php?p=dean","deanthumb.jpg","Dr. Kenneth Dean, Jr. Picture","Dr. Kenneth Dean, Jr.","Minister of Music");
 		addmenuitem("bio.php?p=arnette","arnettethumb.jpg","Charles Arnette Picture","Charles Arnette","Assistant Director of Music");
 		addmenuitem("bio.php?p=jenkins","jenkinsthumb.jpg","Min. Marshell Jenkins Picture","Min. Marshell Jenkins","Minister of Movement");
-		addmenuitem("bio.php?p=ford","lorithumb.jpg","Min. Lori Ford Picture","Min. Lori Ford","Minister of Movement");
+		addmenuitem("bio.php?p=ford","lori-thumb.png","Min. Lori Ford Picture","Min. Lori Ford","Pulpit Associate and Minister of Movement");
 
 		addmenuitem("bio.php?p=friend","friendthumb.jpg","Marcia Friend Picture","Marcia Friend","Church Secretary");
 		addmenuitem("","davisthumb.jpg","Lanette Davis Picture","Lanette Davis","Treasurer");
