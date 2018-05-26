@@ -140,8 +140,8 @@
 				addevent("March 30 11:00 a.m.","<a href='funeralpage.php?p=ddavenport'>Delores Davenport Funeral Service</a>","2016-03-31");
 				addevent(
 					"July 21 1:00 p.m.",
-					"<a href='images/temp/OrganscapeFlyer2016.jpg' onclick=\"openOnClick(event, 'name', .75)\">
-						Artscape to Organscape 2016
+					"<a href='images/temp/2018-organscape.jpg' onclick=\"openOnClick(event, 'name', .75)\">
+						Artscape to Organscape 2018
 					</a>",
 					"2018-07-22"
 				);
