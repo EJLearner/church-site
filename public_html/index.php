@@ -138,15 +138,19 @@
 					"2015-9-27"
 				);
 				addevent("March 30 11:00 a.m.","<a href='funeralpage.php?p=ddavenport'>Delores Davenport Funeral Service</a>","2016-03-31");
-				addevent("July 16 1:00 p.m.",
-					"<a href='#' onclick=\"openOnClick(event,'images/temp/OrganscapeFlyer2016.jpg','name', .75)\">Artscape to Organscape 2016</a>",
-					"2016-07-17");
+				addevent(
+					"July 21 1:00 p.m.",
+					"<a href='images/temp/OrganscapeFlyer2016.jpg' onclick=\"openOnClick(event, 'name', .75)\">
+						Artscape to Organscape 2016
+					</a>",
+					"2018-07-22"
+				);
 				addevent(
 					"October 30 6:00 p.m.",
 					"<a href='images/temp/AnniversaryConcert2016.jpg' onclick=\"openOnClick(event, 'anniversary', .8)\">
 						City Temple Anniversary Concert
 					</a>",
-					"2016-10-31"
+					"2018-10-31"
 				);
 				addevent("October 25 6 p.m. -  7:30 p.m.", "God's Gift Liturgical Dance Ministry", "2016-10-26");
 				?>
