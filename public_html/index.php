@@ -150,7 +150,7 @@
 					"<a href='images/temp/AnniversaryConcert2016.jpg' onclick=\"openOnClick(event, 'anniversary', .8)\">
 						City Temple Anniversary Concert
 					</a>",
-					"2018-10-31"
+					"2016-10-31"
 				);
 				addevent("October 25 6 p.m. -  7:30 p.m.", "God's Gift Liturgical Dance Ministry", "2016-10-26");
 				?>
