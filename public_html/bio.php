@@ -193,11 +193,13 @@ of Baltimore were invited to attend the UNESCO Choir Festival in Prague in the C
 <p>While under the direction of Dr. Dean, The Masters Trio was presented in a monumental effort at the Joseph
 Meyerhoff Concert Hall to a packed and enthusiastic audience in September 2007.</p>";
 	$moreunderpic="
-		<div class=\"videocapbox\">
-			<object type=\"application/x-shockwave-flash\" data=\"http://www.youtube.com/v/JqdwR3bXWuQ&hl=en&fs=1\" width=\"180\" height=\"130\"><param name=\"movie\" value=\"http://www.youtube.com/v/JqdwR3bXWuQ&hl=en&fs=1\" /><param name=\"FlashVars\" value=\"playerMode=embedded\" /><param name=\"wmode\" value=\"transparent\" /></object>
-
-		</div>
-";
+			<div class=\"videocapbox\">
+				<object type=\"application/x-shockwave-flash\" data=\"http://www.youtube.com/v/JqdwR3bXWuQ&hl=en&fs=1\" width=\"180\" height=\"130\"><param name=\"movie\" value=\"http://www.youtube.com/v/JqdwR3bXWuQ&hl=en&fs=1\" /><param name=\"FlashVars\" value=\"playerMode=embedded\" /><param name=\"wmode\" value=\"transparent\" /></object>
+			</div>
+			<div class=\"videocapbox\">
+				<object type=\"application/x-shockwave-flash\" data=\"http://www.youtube.com/v/aKfDZ5WzUDg&hl=en&fs=1\" width=\"180\" height=\"130\"><param name=\"movie\" value=\"http://www.youtube.com/v/aKfDZ5WzUDg&hl=en&fs=1\" /><param name=\"FlashVars\" value=\"playerMode=embedded\" /><param name=\"wmode\" value=\"transparent\" /></object>
+			</div>
+	";
 break;
 
 case "arnette";
