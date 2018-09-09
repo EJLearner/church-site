@@ -1,16 +1,16 @@
 ﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
 "http://www.w3.org/TR/html4/strict.dtd">
 
-<html> 
-<head> 
+<html>
+<head>
 <link rel="stylesheet" type="text/css" href="default.css">
 
-<meta name="keywords" content="baltimore, baptist, city, temple, christian, church, location, contact" > 
-<meta name="description" content="City Temple Baptist Church Webpage - Contact Us" > 
-<meta name="revised" content="Earl Jones, <?php echo date ("F d Y H:i:s.", filemtime(__FILE__))?>" > 
+<meta name="keywords" content="baltimore, baptist, city, temple, christian, church, location, contact" >
+<meta name="description" content="City Temple Baptist Church Webpage - Contact Us" >
+<meta name="revised" content="Earl Jones, <?php echo date ("F d Y H:i:s.", filemtime(__FILE__))?>" >
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" >
-<meta name="generator" content="Notepad++" > 
-<title>City Temple of Baltimore - Contact Us</title> 
+<meta name="generator" content="Notepad++" >
+<title>City Temple of Baltimore - Contact Us</title>
 </head>
 
 <body>
@@ -62,7 +62,7 @@
 		</div>
 		<div style="clear:both"></div>
 	</div>
-	
+
 </div>
 <? include "footer.php" ?>
 </body>
