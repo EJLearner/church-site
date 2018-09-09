@@ -46,7 +46,17 @@ if (isSet($sent) && $sent)
 }
 if (isSet($sent) && $sent && $page=="tithing")
 {
-	$amount_arr=array("amount_1" => $amount_1, "amount_2" => $amount_2, "amount_3" => $amount_3, "amount_4" => $amount_4, "amount_5" => $amount_5, "amount_6" => $amount_6, "amount_7" => $amount_7);
+	$amount_arr=array(
+		"amount_1" => $amount_1,
+		"amount_2" => $amount_2,
+		"amount_3" => $amount_3,
+		"amount_4" => $amount_4,
+		"amount_5" => $amount_5,
+		"amount_6" => $amount_6,
+		"amount_7" => $amount_7,
+		"amount_8" => $amount_8,
+	);
+
 	$amount_total=0;
 	foreach($amount_arr as $key => $value)
 	{
@@ -147,6 +157,8 @@ if ($valid)
 	<input type="hidden" name="amount_6" value="<?php echo $amount_6+0; ?>">
 	<input type="hidden" name="item_name_7" value="Outreach">
 	<input type="hidden" name="amount_7" value="<?php echo $amount_7+0; ?>">
+	<input type="hidden" name="item_name_8" value="Sowing Seeds">
+	<input type="hidden" name="amount_8" value="<?php echo $amount_8+0; ?>">
 	<input type="hidden" name="cmd" value="_cart">
 	<input type="hidden" name="upload" value="1">
 	<?php
@@ -266,6 +278,11 @@ Pledge Offering:</div> <input type="text" name="amount_6" value="<?php $amount_6
 <input type="hidden" name="item_name_7" value="Outreach">
 <div class="formline"><div class="label<?php echo isError('amount_7') ?>">
 Outreach:</div> <input type="text" name="amount_7" value="<?php $amount_7 ?>" size="10" maxlength="100"> USD</div>
+
+<input type="hidden" name="item_name_8" value="Outreach">
+<div class="formline"><div class="label<?php echo isError('amount_8') ?>">
+Sowing Seeds:</div> <input type="text" name="amount_8" value="<?php $amount_8 ?>" size="10" maxlength="100"> USD</div>
+
 <input type="hidden" name="cmd" value="_cart">
 <input type="hidden" name="upload" value="1">
 <?php
@@ -285,6 +302,7 @@ elseif ($page=="donating")
 			<option value="Outreach Donation" <?php echo writeselected("Outreach Donation", $item_name)?>>Outreach</option>
 			<option value="William Bryant Scholarship Fund Donation" <?php echo writeselected("William Bryant Scholarship Fund Donation", $item_name)?>>William Bryant Scholarship Fund</option>
 			<option value="Youth Ministry Donation" <?php echo writeselected("Youth Ministry Donation", $item_name)?>>Youth Ministry</option>
+			<option value="Sowing Seeds" <?php echo writeselected("Sowing Seeds", $item_name)?>>Sowing Seeds</option>
 		</select>
 	</div>
 <input type="hidden" name="cmd" value="_donations">
