@@ -3,9 +3,9 @@
 <?php
 include_once '../private/db_connect.php';
 include_once '../private/functions.php';
- 
+
 sec_session_start();
- 
+
 if (login_check($mysqli) == true) {
     $logged = 'in';
 } else {
@@ -15,13 +15,13 @@ if (login_check($mysqli) == true) {
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="default.css">
-		<meta name="revised" content="Earl Jones, <?php echo date ("F d Y H:i:s.", filemtime(__FILE__))?>" > 
+		<meta name="revised" content="Earl Jones, <?php echo date ("F d Y H:i:s.", filemtime(__FILE__))?>" >
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8" >
-		<meta name="generator" content="Notepad++" > 
+		<meta name="generator" content="Notepad++" >
 		<META NAME="robots" CONTENT="noindex">
-		<title>City Temple of Baltimore - Login</title> 
-		<script type="text/JavaScript" src="js/sha512.js"></script> 
-        <script type="text/JavaScript" src="js/forms.js"></script> 
+		<title>City Temple of Baltimore - Login</title>
+		<script type="text/JavaScript" src="js/sha512.js"></script>
+        <script type="text/JavaScript" src="js/forms.js"></script>
     </head>
     <body>
 		<?php include "bannerandmenu.php"?>
@@ -32,20 +32,20 @@ if (login_check($mysqli) == true) {
         if (isset($_GET['error'])) {
             echo '<p class="error">Error Logging In!</p>';
         }
-        ?> 
-        <form action="../private/process_login.php" method="post" name="login_form">                      
+        ?>
+        <form action="../private/process_login.php" method="post" name="login_form">
             Email: <input type="text" name="email" />
-            Password: <input type="password" 
-                             name="password" 
+            Password: <input type="password"
+                             name="password"
                              id="password"/>
-            <input type="button" 
-                   value="Login" 
-                   onclick="formhash(this.form, this.form.password);" /> 
+            <input type="button"
+                   value="Login"
+                   onclick="formhash(this.form, this.form.password);" />
         </form>
         <p>This area is for ministry leaders only. If you need a login, please contact the City Temple Webmaster</a></p>
-		
+
 	</div>
-	
+
 </div>
 <? include "footer.php" ?>
 		</body>
