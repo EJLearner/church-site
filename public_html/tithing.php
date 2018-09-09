@@ -1,16 +1,16 @@
 ﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
 "http://www.w3.org/TR/html4/strict.dtd">
 
-<html> 
-<head> 
+<html>
+<head>
 <link rel="stylesheet" type="text/css" href="default.css">
 
-<meta name="keywords" content="baltimore, baptist, city, temple, christian, church, on-line, giving, grady, yeargin, tithe, donation" > 
-<meta name="description" content="City Temple Baptist Church Webpage - On-line Giving" > 
-<meta name="revised" content="Earl Jones, <?php echo date ("F d Y H:i:s.", filemtime(__FILE__))?>" > 
+<meta name="keywords" content="baltimore, baptist, city, temple, christian, church, on-line, giving, grady, yeargin, tithe, donation" >
+<meta name="description" content="City Temple Baptist Church Webpage - On-line Giving" >
+<meta name="revised" content="Earl Jones, <?php echo date ("F d Y H:i:s.", filemtime(__FILE__))?>" >
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" >
-<meta name="generator" content="Notepad++" > 
-<title>City Temple of Baltimore - On-line Tithing</title> 
+<meta name="generator" content="Notepad++" >
+<title>City Temple of Baltimore - On-line Tithing</title>
 </head>
 
 <body>
@@ -20,7 +20,7 @@
 <div class="leftside">
 <h3 class="help">Keep an Account</h3>
 <hr class="line">
-<div class="blurb2"><?php include "financenews.php" ?>
+<div class="blurb2">
 </div>
 </div>
 <div class="rightside">
@@ -35,7 +35,7 @@ On-line giving provides a fast, convenient and secure way for members to offer t
 </p>
 <p>
 You will still receive a Yearly Stewardship Report of your tax-deductible offerings in accordance with IRS requirements if you choose to give your offering on-line.  Indicate your tithing envelope box number to ensure your offering will be properly accounted on your Yearly Stewardship Report.
-<h6 class="proceed"><a href="onlinegiving.php?p=tithing">Proceed to On-line Offering Form</a></h6> 
+<h6 class="proceed"><a href="onlinegiving.php?p=tithing">Proceed to On-line Offering Form</a></h6>
 </p>
 </div><!--rightside-->
 </div><!--bothsides-->
