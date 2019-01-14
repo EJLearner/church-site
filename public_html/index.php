@@ -56,10 +56,10 @@
 <?php include "bannerandmenu.php" ?>
 <?php include "sliderhead.php" ?>
 
-<?if (date('U') < strtotime("2018-02-19"))
+<?if (date('U') < strtotime("2019-01-15 11:00 PM"))
 {?>
-<div id="urgentmessagebox"><img src="images/urgent.jpg"><p>Sunday's Church Service Delayed <span class="urgentpostdate">Posted 02-17-2018 10:00 p.m.</span><br></p>
-	<p>Church service for Sunday, February 18 will start at 11:00 am.</p><div class="clear"></div>
+<div id="urgentmessagebox"><img src="images/urgent.jpg"><p>Sunday's Church Service Rescheduled <span class="urgentpostdate">Posted 01-13-2019</span><br></p>
+	<p>Church Service will take place Tuesday June 13, 2019 7:00 p.m.</p><div class="clear"></div>
 </div>
 <?}?>
 
