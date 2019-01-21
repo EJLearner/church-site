@@ -39,7 +39,7 @@ $image = "funeralcross.jpg";
 $imageAlt = "Christian Cross With Clouds";
 
 $name="Minister Charles Gaskins";
-$serviceSiteWebsite = "http://www.thecitytemple.org";
+$serviceSiteWebsite = "https://www.thecitytemple.org";
 $serviceSiteName = "The City Temple of Baltimore (Baptist)";
 $serviceSiteAddress = "317 Dolphin Street, Baltimore, MD 21217";
 $serviceDate = "Saturday, February 3";
@@ -85,7 +85,7 @@ case("ddavenport");
 		$viewingTimeAndInfo =
 			"Family Viewing: 2:30 - 3:00 p.m.<br>
 			Public Viewing: 3:00 - 7:00 p.m.";
-		$serviceSiteWebsite = "http://www.thecitytemple.org";
+		$serviceSiteWebsite = "https://www.thecitytemple.org";
 		$serviceSiteName = "Baltimore City Temple (Baptist)";
 		$serviceSiteAddress = "317 Dolphin Street, Baltimore, MD 21229";
 		$serviceDate = "Wednesday, March 30";

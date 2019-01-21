@@ -137,8 +137,8 @@ if ($valid)
 	<input type="hidden" name="custom" value="<?php echo 'Box:' . $custom; ?>">
 
 	<input type="hidden" name="business" value="giving@thecitytemple.org">
-	<input type="hidden" name="return" value="http://www.thecitytemple.org/">
-	<input type="hidden" name="cancel_return" value="http://www.thecitytemple.org/">
+	<input type="hidden" name="return" value="https://www.thecitytemple.org/">
+	<input type="hidden" name="cancel_return" value="https://www.thecitytemple.org/">
 	<input type="hidden" name="no_shipping" value="1">
 <?php
 	if ($page=="tithing")
@@ -243,8 +243,8 @@ if (strpos($errorlist, 'amount')!==false)
 </div>
 
 <input type="hidden" name="business" value="giving@thecitytemple.org">
-<input type="hidden" name="return" value="http://www.thecitytemple.org/">
-<input type="hidden" name="cancel_return" value="http://www.thecitytemple.org/">
+<input type="hidden" name="return" value="https://www.thecitytemple.org/">
+<input type="hidden" name="cancel_return" value="https://www.thecitytemple.org/">
 <input type="hidden" name="no_shipping" value="1">
 
 <?php

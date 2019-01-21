@@ -486,7 +486,7 @@ body {
     <span style=FONT-FAMILY:Elephant><b><font size=5>Baltimore, Maryland&nbsp; 21217</font></b></span>
   </p>
   <p style=" MARGIN:0pt; TEXT-ALIGN:center">
-    <span style=FONT-FAMILY:Elephant><b><font size=4>Call our Music Ministry Office</font></b></span><span style=FONT-FAMILY:Elephant><b><font size=4> at 410-462-4801; the Church O</font></b></span><span style=FONT-FAMILY:Elephant><b><font size=4>ffice at 410-462-4800</font></b></span><span style=FONT-FAMILY:Elephant><b><font size=4>; or visit </font></b></span><a href=http://www.thecitytemple.org><span style="COLOR:#000000; FONT-FAMILY:Elephant"><u><b><font size=4>www.thecitytemple.org</font></b></u></span></a> <span style=FONT-FAMILY:Elephant><b><font size=4>for additional information</font></b></span><span style=FONT-FAMILY:Elephant><b><font size=4>.</font></b></span>
+    <span style=FONT-FAMILY:Elephant><b><font size=4>Call our Music Ministry Office</font></b></span><span style=FONT-FAMILY:Elephant><b><font size=4> at 410-462-4801; the Church O</font></b></span><span style=FONT-FAMILY:Elephant><b><font size=4>ffice at 410-462-4800</font></b></span><span style=FONT-FAMILY:Elephant><b><font size=4>; or visit </font></b></span><a href=https://www.thecitytemple.org><span style="COLOR:#000000; FONT-FAMILY:Elephant"><u><b><font size=4>www.thecitytemple.org</font></b></u></span></a> <span style=FONT-FAMILY:Elephant><b><font size=4>for additional information</font></b></span><span style=FONT-FAMILY:Elephant><b><font size=4>.</font></b></span>
   </p>
   <p style="MARGIN:0pt; TEXT-ALIGN:center">
     <span style=FONT-FAMILY:Elephant><b><font size=4>Rev. Dr. Grady A. Yeargin, Jr., Pastor</font></b></span>
