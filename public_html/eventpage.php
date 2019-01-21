@@ -19,25 +19,25 @@ case ("organscape");
 ?>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
-"http://www.w3.org/TR/html4/strict.dtd"> 
- 
-<html> 
-<head> 
+"https://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+<head>
 <link rel="stylesheet" type="text/css" href="default.css">
 
-<meta name="keywords" content="baltimore, baptist, city, temple, christian, church<?php echo $morekeywords;?>"> 
-<meta name="description" content="City Temple Baptist Church - <?php echo $description;?>"> 
-<meta name="generator" content="notepad++" > 
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
- 
-<title><?php echo $title?></title> 
- 
-</head> 
- 
-<body> 
-<?php include "bannerandmenu.php"?> 
-	<div id="container"> 
-	<div class="eventpagecontent"> 
+<meta name="keywords" content="baltimore, baptist, city, temple, christian, church<?php echo $morekeywords;?>">
+<meta name="description" content="City Temple Baptist Church - <?php echo $description;?>">
+<meta name="generator" content="notepad++" >
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title><?php echo $title?></title>
+
+</head>
+
+<body>
+<?php include "bannerandmenu.php"?>
+	<div id="container">
+	<div class="eventpagecontent">
 		<div class="navchain"><A class="titlelink" href="index.php">Home</A> &gt;&gt; <? echo $title?></div>
 		<?php
 		switch($page)
@@ -74,9 +74,9 @@ case ("organscape");
 			break;
 		}?>
 
-	</div> 
-	
-</div> 
+	</div>
+
+</div>
 <?php include "footer.php"?>
-</body> 
+</body>
 </html>

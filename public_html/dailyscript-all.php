@@ -15,20 +15,20 @@ $daysCounter = 0;
 $currentYear = date("Y");
 
 for ($i = $weekbeg; getVerse(date($i)) or $daysCounter < 35; $i++) {
-    $isLeapYear = date('L', mktime(0, 0, 0, 1, 1, $currentYear));  
+    $isLeapYear = date('L', mktime(0, 0, 0, 1, 1, $currentYear));
     $currentDate = DateTime::createFromFormat('z-Y', $i-$isLeapYear . '-' . $currentYear);
     $rightText.= "<h2 class=\"date\">". $i;
     $rightText.= " (" . $currentDate->format('n/j/Y') . ")-";
     $rightText.= "<span class=\"verse-ddev\">" . getverse(date($i)) . "</span></h2>";
     // $rightText.= "<div class=\"scripture\">" . getScripture(0, date($i)) . "</div>";
-    
+
     // if last day of the week
     if (date('w', $currentDate->format('U')) == 6) {
         $rightText.= "<h2 class=\"date\">Weekly Passage</h2>" . getPassage(date($i-6));
         $rightText.= "<hr>";
     }
 
-    // if last day of the year    
+    // if last day of the year
     if($i == 364 + $isLeapYear) {
         // restarting counter to beginning of the year, out of days
         $i = -1;
@@ -50,7 +50,7 @@ for ($i = $weekbeg; getVerse(date($i)) or $daysCounter < 35; $i++) {
 
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
-"http://www.w3.org/TR/html4/strict.dtd">
+"https://www.w3.org/TR/html4/strict.dtd">
 
 <html>
 <head>

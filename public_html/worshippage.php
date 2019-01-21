@@ -29,7 +29,7 @@ case ("dance");
 
 <p>1.  Be a member of City Temple in good standing.</p>
 <p>2. Contact one of the group leaders to schedule a brief orientation.</p>
-<p>3. Attend rehearsals.</p> 
+<p>3. Attend rehearsals.</p>
 
 <h3 class=\"subsubmenutitle\">Group Leaders</h3>
 <p>The dance ministry is currently under the direction of Ministers Lori Ford and Marshell Jenkins.  The group leaders are Beverly Clinton and Kristin Ford.</p>
@@ -50,24 +50,24 @@ break;
 }
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
-"http://www.w3.org/TR/html4/strict.dtd">
+"https://www.w3.org/TR/html4/strict.dtd">
 
-<html> 
+<html>
 <head>
 <link rel="stylesheet" type="text/css" href="default.css">
 
-<meta name="keywords" content="baltimore, baptist, city, temple, christian, church, grady, yeargin" > 
-<meta name="description" content="City Temple Baptist Church Webpage" > 
-<meta name="revised" content="Earl Jones, <?php echo date ("F d Y H:i:s.", filemtime(__FILE__))?>" > 
+<meta name="keywords" content="baltimore, baptist, city, temple, christian, church, grady, yeargin" >
+<meta name="description" content="City Temple Baptist Church Webpage" >
+<meta name="revised" content="Earl Jones, <?php echo date ("F d Y H:i:s.", filemtime(__FILE__))?>" >
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" >
-<meta name="generator" content="Notepad++" > 
-<title>City Temple of Baltimore - <? echo $title ?></title> 
+<meta name="generator" content="Notepad++" >
+<title>City Temple of Baltimore - <? echo $title ?></title>
 </head>
 
 <body>
 <? include "bannerandmenu.php" ?>
 <div id="container">
-	
+
 <div class="bothsides">
 	<div class="leftside">
 		<?php include "servicetimesleft.php"?>

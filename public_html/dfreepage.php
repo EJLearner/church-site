@@ -6,18 +6,18 @@ header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
 $page=$_GET["p"];
 
 $lifestyleclass = $holidayclass = $monthlyclass = $workclass = $homeclass = "";
- 
+
 switch ($page)
 {
 	case ("lifestyle"):
 	$title="dfree Lifestyle";
 	$lifestyleclass="class='dfreehighlight'";
 	$righttext="<p>The dfree Lifestyle has no fast and easy checklist that fits all situations as it is evangelistic as well as practical. One way to begin is to compile a written list of everything you buy, everything you spend money on, everything you intend to spend money on -- every magazine, every lunch, every breath mint -- in one week. Then, write down WHY you spend money on those items -- groceries, medications, prepared food (such as fast food), car wash, birthday/holiday/sympathy cards.</p>
-	
+
 	<p>This beginning shows where your money goes and should prompt you to identify what you need to change. At the same time, this can apply to your spiritual life -- awareness of your thinking and how it translates into attitudes that command behavior -- benefitting every area of your life. Becoming aware of how your spirit impacts your spending helps to create a system of rules, responsibilities and expectation within your home.</p>
-	
+
 	<p>The holidays are usually family centered and oriented. This means family needs to be informed that you intend to live a debt free life, starting now. Your Aunt Peaches will definitely understand because she has completed a dfree Lifestyle Campaign Training Session. With that base, I've listed a few options below. Please feel free to ask any questions.</p>
-	
+
 	<h3>MAKE A PLEDGE -- should include, but is not limited to</h3>
 <ul class='dfreespacedlist'>
 	<li>Apply God's strategy for managing your money</li>
@@ -25,7 +25,7 @@ switch ($page)
 	<li>Pay bills on time</li>
 	<li>Contribute to your church and its ministries (time, money and talent)</li>
 </ul>
-	
+
 	<h3>MAKE A LIST OF EXPENSES and INCOME</h3>
 <ul class='dfreespacedlist'>
 	<li>Create a chart with at least three columns</li>
@@ -60,7 +60,7 @@ switch ($page)
 	</ul>
 	<p>Please keep in mind that dfree Living is a lifestyle change. It does not happen overnight or immediately; it happens over time -- and, you have to stick with  it consistently. Support from family is important, but not critical.</p>";
 	break;
-	
+
 	case ("holiday"):
 	$title="Holiday Debt-Free Tips";
 	$holidayclass="class='dfreehighlight'";
@@ -78,9 +78,9 @@ switch ($page)
 
 <p>If handmade gifts aren't your thing, consider making your own greeting cards. Plus, your card recipients will feel extra special after receiving such a thoughtful item in the mail or at a holiday gathering.</p>
 
-<h3>3. Change Your Tax Withholding</h3> 
+<h3>3. Change Your Tax Withholding</h3>
 
-<p>If you normally receive a tax refund, try adjusting your tax withholding at your job so that your next few paychecks are a little bigger. That will mean more money in your pocket around the holidays, but a smaller refund. That's not necessarily a bad thing. Getting money back via a tax refund means the government got an interest-free loan from you. Turn that around and enjoy that interest-free loan for 
+<p>If you normally receive a tax refund, try adjusting your tax withholding at your job so that your next few paychecks are a little bigger. That will mean more money in your pocket around the holidays, but a smaller refund. That's not necessarily a bad thing. Getting money back via a tax refund means the government got an interest-free loan from you. Turn that around and enjoy that interest-free loan for
 yourself.</p>
 
 <h3>4. Strategically Plan Your Shopping</h3>
@@ -111,7 +111,7 @@ yourself.</p>
 
 <p>Sophia Bera is a virtual financial planner for millennials and the founder of <a href='http://genyplanning.com/'>Gen Y Planning</a>. She is location-independent but calls Minneapolis home. She offers a free <a href='http://genyplanning.com/'>Gen Y Planning newsletter</a>.</p>";
 	break;
-	
+
 	case ("monthlyadvice"):
 	$title="Monthly Saving Advice";
 	$monthlyclass="class='dfreehighlight'";
@@ -140,7 +140,7 @@ yourself.</p>
 <p><span class='bold'>Shop for office supplies.</span> If you don't have school-age kids, you may not realize how deeply office supplies are discounted during back-to-school sales -- or how early those sales begin. You can get copy paper, pens, tape, markers and other supplies for a fraction of what they would cost the rest of the year.</p>
 
 	<h3>August</h3>
-	<p><span class='bold'>Review automatic purchases.</span> Automatic bill payments are a convenient, secure way to ensure you never incur a late fee or damage your credit scores. But no spending should be entirely automatic. You could be wasting a small fortune on a gym membership you're not using, subscriptions you're not reading or games you're not playing. Internet, television and phone bills may have crept upward without your noticing. Take a few minutes to sit down with your bank and credit card statements to make sure you're getting enough value for your money.</p> 
+	<p><span class='bold'>Review automatic purchases.</span> Automatic bill payments are a convenient, secure way to ensure you never incur a late fee or damage your credit scores. But no spending should be entirely automatic. You could be wasting a small fortune on a gym membership you're not using, subscriptions you're not reading or games you're not playing. Internet, television and phone bills may have crept upward without your noticing. Take a few minutes to sit down with your bank and credit card statements to make sure you're getting enough value for your money.</p>
 
 	<h3>September</h3>
 	<p><span class='bold'>Contribute to an individual retirement account.</span> This tip won't stretch your dollars now, because contributions to a Roth IRA aren't tax deductible. You'll be glad you did it, though, because the money comes out tax-free in retirement. You can contribute up to $5,500 in 2013 ($6,500 if you're 50 or over). Your ability to contribute begins to phase out at $178,000 in income for married couples or $112,000 for singles. If you make too much to contribute to a Roth directly, however, you can use the \"back door\" by contributing to a traditional IRA then convert it to a Roth, since income limits on conversions have been erased. You may owe taxes on the conversion, and those could be substantial if you have a lot of other money in regular IRAs, so check with a tax professional first.</p>
@@ -156,38 +156,38 @@ yourself.</p>
 
 <p class='italic'>Liz Weston is the Web's most-read personal-finance writer. She is the author of several books, most recently \"The 10 Commandments of Money: Survive and Thrive in the New Economy\". Weston's award-winning columns appear every Monday and Thursday, exclusively on MSN Money.</p>";
 	break;
-	
+
 	case ("workwithus"):
 	$title="Work With Us";
 	$workclass="class='dfreehighlight'";
 	$righttext="<h3>PROGRAM ADMINISTRATOR</h3>
-	
+
 <p>This role functions as single point of contact for all things dfree&reg; by establishing the approved functions, processes and activities necessary to successfully launch the dfree&reg; Lifestyle Campaign within a particular church, community and/or region. The person(s) functioning this role will work directly with the Executive Leadership team to develop a comprehensive strategy for implementation and then direct the efforts of the other roles to ensure initiative remains on track and aligned to the primary tenets of dfree&reg;. <span class='bold'>The core responsibilities are, but not limited to:</span></p>
-<ul class='dfreespacedlist'>	
+<ul class='dfreespacedlist'>
 <li>eliminating obstacles to a successful integration of the campaign</li>
-<li>generating participation and activity reports on the number of attendees and 
+<li>generating participation and activity reports on the number of attendees and
 percentage of participants who successfully complete the program</li>
-<li>creates and manages communication, marketing and all important 
+<li>creates and manages communication, marketing and all important
 documentation respective to the initiative</li>
 <li>oversees all contractual agreements</li>
 <li>ensures compliance regulations are current, i.e. use of dfree&reg; logo</li>
-</ul>	
+</ul>
 <h3>AMBASSADOR</h3>
 
 <p>This role is primarily responsible for forging strategic business relationships with the heads of Faith Based, Higher Learning institutions and/or Corporations interested in supporting and/or implementing the dfree&reg; Lifestyle Campaign within their organization. The person(s) functioning in this role will work directly with the dfree&reg; Program Administrator and senior leadership at participating organizations. <span class='bold'>The core responsibilities are, but not limited to:</span></p>
 <ul class='dfreespacedlist'>
-<li>identifying and pursuing viable dfree&reg; Lifestyle Campaign opportunities 
+<li>identifying and pursuing viable dfree&reg; Lifestyle Campaign opportunities
 and cultivating interest of most promising Prospects</li>
-<li>inspiring and motivating prospects by reviewing information on the Value 
+<li>inspiring and motivating prospects by reviewing information on the Value
 proposition associated with implementing dfree&reg;.</li>
-<li>should excel at fostering a safe and confidential working relationship 
-in which Prospects feel comfortable addressing their own financial 
+<li>should excel at fostering a safe and confidential working relationship
+in which Prospects feel comfortable addressing their own financial
 challenges</li>
-<li>educate prospective clients of the risk, cost and requirements involved in 
+<li>educate prospective clients of the risk, cost and requirements involved in
 successfully implementing and running the initiative in their organization</li>
-<li>outlines the equipment and appropriate resources necessary to execute 
+<li>outlines the equipment and appropriate resources necessary to execute
 responsibilities with consistent excellence</li>
-<li>identifies change opportunities that help to expand organization's capacity 
+<li>identifies change opportunities that help to expand organization's capacity
 to help members obtain Economic Empowerment</li>
 </ul>
 <h3>CHAMPION</h3>
@@ -195,16 +195,16 @@ to help members obtain Economic Empowerment</li>
 <p>This role is responsible for the smooth integration of the dfree&reg; Lifestyle Campaign. This person(s) works directly with the Ambassador and senior leadership on the implementation team; providing continuous updates on the effectiveness of the Change Management and Marketing efforts underway for each functioning area. This person needs to be a consummate influencer with a proven track record for quickly gaining buy-in from Key Stakeholders and ensures the appropriate support and messages are cascaded through the organization on the benefits of enrolling in the dfree&reg; 12 step classes. Additionally, this person(s) provides leadership/oversight in achieving the overall mission and vision of Economic Empowerment through the dfree&reg; Lifestyle Campaign; establishing plans and strategies to increase participation and support of the program. This person(s) develops a strategic Communication Plan to ensure Senior Leadership and Trainers are consistently sharing the same messages on the dfree&reg; methodology. <span class='bold'>The core responsibilities are, but not limited to:</span></p>
 
 <ul class='dfreespacedlist'>
-<li>develop a business plan and promotion strategy for the organization that 
-ensures attainment of maximum participation goals for dfree&reg; and 
+<li>develop a business plan and promotion strategy for the organization that
+ensures attainment of maximum participation goals for dfree&reg; and
 significant debt reduction by attendees</li>
-<li>coaches dfree&reg; attendees through the more challenging aspects of the 
-campaign so that participants feel adequately supported and prepared 
+<li>coaches dfree&reg; attendees through the more challenging aspects of the
+campaign so that participants feel adequately supported and prepared
 to make more complex financial decisions</li>
 <li>assists in developing and implementing of marketing plans</li>
-<li>audits records of all program registration, pricing, sales and activity reports 
+<li>audits records of all program registration, pricing, sales and activity reports
 submitted by Trainers</li>
-<li>works with Ambassador to create and conduct proposal presentations on 
+<li>works with Ambassador to create and conduct proposal presentations on
 progress reports to the organization</li>
 </ul>
 
@@ -215,19 +215,19 @@ progress reports to the organization</li>
 <ul class='dfreespacedlist'>
 	<li>\"hands-on,\" highly motivated, self-starter</li>
 <li>can create and deliver a \"training vision\" for the organization</li>
-<li>assist in defining the organization structure to achieve the training 
+<li>assist in defining the organization structure to achieve the training
 objectives</li>
-<li>some experience with Financial Literacy training and/or possess a 
+<li>some experience with Financial Literacy training and/or possess a
 Financial Certification is desired, but not required</li>
-<li>develops key metrics to measure the effectiveness of the program and 
+<li>develops key metrics to measure the effectiveness of the program and
 adjust priorities to achieve business objectives</li>
-<li>content will be accompanied by a plan to effectively communicate and 
+<li>content will be accompanied by a plan to effectively communicate and
 imbed desired impact into the implementing organization</li>
-<li>content delivery ranges from traditional classroom lecture to blended 
+<li>content delivery ranges from traditional classroom lecture to blended
 learning format at individual sites</li>
 </ul>";
 	break;
-	
+
 	default:
 	$title="Home";
 	$homeclass="class='dfreehighlight'";
@@ -237,10 +237,10 @@ learning format at individual sites</li>
 The dfree&reg; Lifestyle Campaign is based on the following biblical values:
 <ul>
 <li>ROMANS 13:8 - &ldquo;Let no debt remain outstanding, except the continuing debt to 	love one another,...&rdquo; NIV </li>
-<li>PROVERBS 22:7 - &ldquo;The rich rule over the poor, and the borrower is servant to 	the lender.&rdquo; NIV</li> 
+<li>PROVERBS 22:7 - &ldquo;The rich rule over the poor, and the borrower is servant to 	the lender.&rdquo; NIV</li>
 <li>LUKE 14:28 - &ldquo;Suppose one of you wants to build a tower. Will he not first sit 	down and estimate the cost.&rdquo; NIV </li>
 </ul>
-The three principles of dfree&reg; are - 
+The three principles of dfree&reg; are -
 <ol>
 <li>No debt</li>
 <li>No delinquencies</li>
@@ -263,16 +263,16 @@ break;
 }
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
-"http://www.w3.org/TR/html4/strict.dtd">
-<html> 
+"https://www.w3.org/TR/html4/strict.dtd">
+<html>
 <head>
 <link rel="stylesheet" type="text/css" href="default.css">
-<meta name="keywords" content="baltimore, baptist, city, temple, christian, dfree,debt" > 
-<meta name="description" content="City Temple Baptist Church Webpage" > 
-<meta name="revised" content="Earl Jones, <?php echo date ("F d Y H:i:s.", filemtime(__FILE__))?>" > 
+<meta name="keywords" content="baltimore, baptist, city, temple, christian, dfree,debt" >
+<meta name="description" content="City Temple Baptist Church Webpage" >
+<meta name="revised" content="Earl Jones, <?php echo date ("F d Y H:i:s.", filemtime(__FILE__))?>" >
 <meta http-equiv="content-type" content="text/html; charset=ISO 8859-1" >
-<meta name="generator" content="Notepad++" > 
-<title>dfree - <? echo $title ?></title> 
+<meta name="generator" content="Notepad++" >
+<title>dfree - <? echo $title ?></title>
 </head>
 <body>
 	<? include "bannerandmenu.php" ?>
@@ -294,4 +294,4 @@ break;
 </div>
 <?include "footer.php"?>
 </body>
-</html>  
+</html>

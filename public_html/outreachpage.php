@@ -21,7 +21,7 @@ case ("financialassist");
 
 <h3 class=\"subsubmenutitle\">Have Questions?</h3>
 <p>If you have more questions about financial assistance, please contact the director Gary Hamiel at (410)&nbsp;383-8040 or call the church office at (410)&nbsp;462-4800. Gary is available at the church office Monday-Thursday, between the hours of 10:00 a.m.-2:00 p.m.</p>
-	
+
 	";
 break;
 case ("soupkitchen");
@@ -98,7 +98,7 @@ case ("aidscounseling");
 <li>Of those 1 million, 1 out of 5 do not know they are infected</li>
 <li>Despite new therapies, people with HIV still develop aids</li>
 <li>Over 1 million people in the United STates have been diagnosed with AIDS</li>
-<li>More than 14,000 people with AIDS still die each year in the United States</li> 
+<li>More than 14,000 people with AIDS still die each year in the United States</li>
 ";
 	$righttext="<img style=\"float:right; padding:1em; width:30%;\" src=\"images\\hivcounseling.jpg\"><p>As a part of our commitment to the community, City Temple&rsquo;s AIDS Ministry now offers counseling and testing to the public.  Testing and education are vital to the survival of our communities, and knowing your status helps you to protect yourself and others.  In addition, counseling can offer peace and teach acceptance and self-esteem.</p>
 
@@ -118,24 +118,24 @@ break;
 }
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
-"http://www.w3.org/TR/html4/strict.dtd">
+"https://www.w3.org/TR/html4/strict.dtd">
 
-<html> 
+<html>
 <head>
 <link rel="stylesheet" type="text/css" href="default.css">
 
-<meta name="keywords" content="baltimore, baptist, city, temple, christian, church, grady, yeargin" > 
-<meta name="description" content="City Temple Baptist Church Webpage" > 
-<meta name="revised" content="Earl Jones, <?php echo date ("F d Y H:i:s.", filemtime(__FILE__))?>" > 
+<meta name="keywords" content="baltimore, baptist, city, temple, christian, church, grady, yeargin" >
+<meta name="description" content="City Temple Baptist Church Webpage" >
+<meta name="revised" content="Earl Jones, <?php echo date ("F d Y H:i:s.", filemtime(__FILE__))?>" >
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" >
-<meta name="generator" content="Notepad++" > 
-<title>City Temple of Baltimore - <? echo $title ?></title> 
+<meta name="generator" content="Notepad++" >
+<title>City Temple of Baltimore - <? echo $title ?></title>
 </head>
 
 <body>
 <? include "bannerandmenu.php" ?>
 <div id="container">
-	
+
 <div class="bothsides">
 	<div class="leftside">
 		<?php echo $lefttext ?>
