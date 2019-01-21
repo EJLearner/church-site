@@ -13,7 +13,7 @@ case ("directions");
 	$righttext=
 	"<p>Please enter your address and click the \"Get Directions\" button.</p>
 
-<form action=\"http://www.mapquest.com/directions/main.adp\" method=\"get\">
+<form action=\"https://www.mapquest.com/directions/main.adp\" method=\"get\">
 <fieldset>
 <legend>From:</legend>
 <label class=\"addlabel\">Address:</label> <input class=\"textarea\" type=\"text\" name=\"1a\" value=\"\" size=\"20\" maxlength=\"50\">

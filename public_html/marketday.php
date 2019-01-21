@@ -29,8 +29,8 @@ $pickup="2011-09-17";
 
 With such conveniently packaged items, it's deliciously easy to help:
 <ol>
-<li><a href="http://www.marketday.com/">SHOP</a> the monthly order guide.</li>
-<li><a href="http://www.marketday.com/">ORDER at MarketDay.com</a> OR return the EZ order form to our Market Day Chairpersons at City Temple <?if (strtotime($orderdate) >= date(U)){?>by <span class="md-emphasize"><? echo date('l, F jS',strtotime($orderdate));?></span><?}?>.<br>
+<li><a href="https://www.marketday.com/">SHOP</a> the monthly order guide.</li>
+<li><a href="https://www.marketday.com/">ORDER at MarketDay.com</a> OR return the EZ order form to our Market Day Chairpersons at City Temple <?if (strtotime($orderdate) >= date(U)){?>by <span class="md-emphasize"><? echo date('l, F jS',strtotime($orderdate));?></span><?}?>.<br>
 Use account number 28124 for online City Temple Baptist Church orders.<br>
 Market Day Chairpersons are Ericka Richardson and Crystal Williams.</li>
 <li><a href="aboutpage.php?p=directions">PICK UP</a> your order <?if (strtotime($pickup) >= date(U)){?>on <span class="md-emphasize"><?echo date('l, F jS',strtotime($pickup));?></span><?}?> at City Temple Baptist Church.</li>

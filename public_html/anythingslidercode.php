@@ -1,5 +1,5 @@
 ﻿<!-- jQuery (required) -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
 <!-- Optional plugins -->
 <script src="js/jquery.easing.1.2.js"></script>

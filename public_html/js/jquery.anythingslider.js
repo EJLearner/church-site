@@ -1,6 +1,6 @@
 ﻿/*!
 	AnythingSlider v1.9.4
-	Original by Chris Coyier: http://css-tricks.com
+	Original by Chris Coyier: https://css-tricks.com
 	Get the latest version: https://github.com/CSS-Tricks/AnythingSlider
 
 	To use the navigationFormatter function, you must have a function that
@@ -178,7 +178,7 @@
 				}
 			});
 			if ($.isFunction(o.onSlideComplete)){
-				// Added setTimeout (zero time) to ensure animation is complete... see this bug report: http://bugs.jquery.com/ticket/7157
+				// Added setTimeout (zero time) to ensure animation is complete... see this bug report: https://bugs.jquery.com/ticket/7157
 				base.$el.bind('slide_complete', function(){
 					setTimeout(function(){ o.onSlideComplete(base); }, 0);
 					return false;
@@ -237,7 +237,7 @@
 
 			// Top and tail the list with 'visible' number of items, top has the last section, and tail has the first
 			// This supports the "infinite" scrolling, also ensures any cloned elements don't duplicate an ID
-			// Moved removeAttr before addClass otherwise IE7 ignores the addClass: http://bugs.jquery.com/ticket/9871
+			// Moved removeAttr before addClass otherwise IE7 ignores the addClass: https://bugs.jquery.com/ticket/9871
 			if (o.mode !== 'fade' && o.infiniteSlides && base.pages > 1) {
 				base.$el.prepend( base.$items.filter(':last').clone().addClass('cloned') );
 				// Add support for multiple sliders shown at the same time

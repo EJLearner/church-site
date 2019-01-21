@@ -1,7 +1,7 @@
 ﻿/*==================================================*
  $Id: slideshow.js,v 1.16 2003/10/14 12:39:00 pat Exp $
  Copyright 2000-2003 Patrick Fitzgerald
- http://slideshow.barelyfitz.com/
+ https://slideshow.barelyfitz.com/
 
  This program is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -91,7 +91,7 @@ function slide(src,link,text,target,attr) {
       // use them to open the new window
       if (this.attr) {
         mywindow = window.open(this.link, this.target, this.attr);
-  
+
       } else {
         // If window attributes are not specified, do not use them
         // (this will copy the attributes from the originating window)
@@ -170,9 +170,9 @@ function slideshow( slideshowname ) {
     // Add a slide to the slideshow.
     // For example:
     // SLIDES1.add_slide(new slide("s1.jpg", "link.html"))
-  
+
     var i = this.slides.length;
-  
+
     // Prefetch the slide image if necessary
     if (this.prefetch == -1) {
       slide.load();
@@ -186,16 +186,16 @@ function slideshow( slideshowname ) {
     // This method implements the automatically running slideshow.
     // If you specify the "timeout" argument, then a new default
     // timeout will be set for the slideshow.
-  
+
     // Make sure we're not already playing
     this.pause();
-  
+
     // If the timeout argument was specified (optional)
     // then make it the new default
     if (timeout) {
       this.timeout = timeout;
     }
-  
+
     // If the current slide has a custom timeout, use it;
     // otherwise use the default timeout
     if (typeof this.slides[ this.current ].timeout != 'undefined') {
@@ -211,7 +211,7 @@ function slideshow( slideshowname ) {
   //--------------------------------------------------
   this.pause = function() {
     // This method stops the slideshow if it is automatically running.
-  
+
     if (this.timeoutid != 0) {
 
       clearTimeout(this.timeoutid);
@@ -226,7 +226,7 @@ function slideshow( slideshowname ) {
 
     // Make sure the slideshow has been initialized correctly
     if (! this.valid_image()) { return; }
-  
+
     // Call the pre-update hook function if one was specified
     if (typeof this.pre_update_hook == 'function') {
       this.pre_update_hook();
@@ -247,7 +247,7 @@ function slideshow( slideshowname ) {
 
     // Load the slide image if necessary
     slide.load();
-  
+
     // Apply the filters for the image transition
     if (dofilter) {
 
@@ -316,15 +316,15 @@ function slideshow( slideshowname ) {
     // onClick="myslides.goto_slide(0)"
     // onClick="myslides.goto_slide(-1)"
     // onClick="myslides.goto_slide(5)"
-  
+
     if (n == -1) {
       n = this.slides.length - 1;
     }
-  
+
     if (n < this.slides.length && n >= 0) {
       this.current = n;
     }
-  
+
     this.update();
   }
 
@@ -334,7 +334,7 @@ function slideshow( slideshowname ) {
     // Picks a random slide (other than the current slide) and
     // displays it.
     // If the include_current parameter is true,
-    // then 
+    // then
     // See also: shuffle()
 
     var i;
@@ -347,7 +347,7 @@ function slideshow( slideshowname ) {
       do {
         i = Math.floor(Math.random()*this.slides.length);
       } while (i == this.current);
- 
+
       // Display the slide
       this.goto_slide(i);
     }
@@ -372,14 +372,14 @@ function slideshow( slideshowname ) {
   //--------------------------------------------------
   this.previous = function() {
     // This method goes to the previous slide.
-  
+
     // Decrement the image number
     if (this.current > 0) {
       this.current--;
     } else if (this.repeat) {
       this.current = this.slides.length - 1;
     }
-  
+
     this.update();
   }
 
@@ -433,7 +433,7 @@ function slideshow( slideshowname ) {
   //--------------------------------------------------
   this.get_text = function() {
     // This method returns the text of the current slide
-  
+
     return(this.slides[ this.current ].text);
   }
 
@@ -447,20 +447,20 @@ function slideshow( slideshowname ) {
     // document.write("<ul>");
     // document.write(s.get_all_text("<li>","\n"));
     // document.write("<\/ul>");
-  
+
     all_text = "";
-  
+
     // Loop through all the slides in the slideshow
     for (i=0; i < this.slides.length; i++) {
-  
+
       slide = this.slides[i];
-    
+
       if (slide.text) {
         all_text += before_slide + slide.text + after_slide;
       }
-  
+
     }
-  
+
     return(all_text);
   }
 
@@ -468,13 +468,13 @@ function slideshow( slideshowname ) {
   //--------------------------------------------------
   this.display_text = function(text) {
     // Display the text for the current slide
-  
+
     // If the "text" arg was not supplied (usually it isn't),
     // get the text from the slideshow
     if (!text) {
       text = this.slides[ this.current ].text;
     }
-  
+
     // If a textarea has been specified,
     // then change the text displayed in it
     if (this.textarea && typeof this.textarea.value != 'undefined') {
@@ -498,7 +498,7 @@ function slideshow( slideshowname ) {
   //--------------------------------------------------
   this.hotlink = function() {
     // This method calls the hotlink() method for the current slide.
-  
+
     this.slides[ this.current ].hotlink();
   }
 
@@ -508,11 +508,11 @@ function slideshow( slideshowname ) {
     // Saves the position of the slideshow in a cookie,
     // so when you return to this page, the position in the slideshow
     // won't be lost.
-  
+
     if (!cookiename) {
       cookiename = this.name + '_slideshow';
     }
-  
+
     document.cookie = cookiename + '=' + this.current;
   }
 
@@ -521,19 +521,19 @@ function slideshow( slideshowname ) {
   this.restore_position = function(cookiename) {
   // If you previously called slideshow_save_position(),
   // returns the slideshow to the previous state.
-  
+
     //Get cookie code by Shelley Powers
-  
+
     if (!cookiename) {
       cookiename = this.name + '_slideshow';
     }
-  
+
     var search = cookiename + "=";
-  
+
     if (document.cookie.length > 0) {
       offset = document.cookie.indexOf(search);
       // if cookie exists
-      if (offset != -1) { 
+      if (offset != -1) {
         offset += search.length;
         // set index of beginning of value
         end = document.cookie.indexOf(";", offset);
@@ -554,22 +554,22 @@ function slideshow( slideshowname ) {
     // give non-javascript browsers access to your slideshow information.
     // This also ensures that your slideshow text and images are indexed
     // by search engines.
-  
+
     $html = "\n";
-  
+
     // Loop through all the slides in the slideshow
     for (i=0; i < this.slides.length; i++) {
-  
+
       slide = this.slides[i];
-  
+
       $html += '<P>';
 	/*
       if (slide.link) {
         $html += '<a href="' + slide.link + '">';
       }
-  
+
       $html += '<img src="' + slide.src + '" ALT="slideshow image">';
-  
+
       if (slide.link) {
         $html += "<\/a>";
       }
@@ -577,15 +577,15 @@ function slideshow( slideshowname ) {
       if (slide.text) {
         $html += "<BR>\n" + slide.text;
       }
-  
+
       $html += "<\/P>" + "\n\n";
     }
-  
+
     // Make the HTML browser-safe
     $html = $html.replace(/\&/g, "&amp;" );
     $html = $html.replace(/</g, "&lt;" );
     $html = $html.replace(/>/g, "&gt;" );
-  
+
     return('<pre>' + $html + '</pre>');
   }
 
@@ -611,7 +611,7 @@ function slideshow( slideshowname ) {
     } else { // we're at the last slide
       this.next();
     }
-    
+
     // Keep playing the slideshow
     this.play( );
   }
@@ -620,7 +620,7 @@ function slideshow( slideshowname ) {
   //--------------------------------------------------
   this.valid_image = function() {
     // Returns 1 if a valid image has been set for the slideshow
-  
+
     if (!this.image)
     {
       return false;
@@ -646,7 +646,7 @@ function slideshow( slideshowname ) {
       return undefined;
     }
   }
-  
+
 
   //==================================================
   // Deprecated methods

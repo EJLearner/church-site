@@ -11,10 +11,10 @@ switch ($page)
 Son Of Lilian D Lyde, nephew of Dora Gaskins, cousin of  Minister Charles Gaskins<br>
 <br>
 <h3>Viewing</h3>
-<a href=\"http://www.chatmanharrisfh.com/\">Chatman-Harris Funeral Home</a><br>
+<a href=\"https://www.chatmanharrisfh.com/\">Chatman-Harris Funeral Home</a><br>
 5240 Reisterstown Road, Baltimore, MD 21215<br>
 Thursday, February 18, 2010 1pm-8pm<br>
-<iframe width=\"300\" height=\"300\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=chapman-harris+funeral+home&amp;sll=39.343502,-76.685013&amp;sspn=0.014006,0.026157&amp;gl=us&amp;g=5240+Reisterstown+Rd,+Baltimore,+MD+21215&amp;ie=UTF8&amp;hq=chapman-harris+funeral+home&amp;hnear=5240+Reisterstown+Rd,+Baltimore,+MD+21215&amp;cid=10873325582475284409&amp;ll=39.343724,-76.685772&amp;spn=0.009957,0.012875&amp;z=15&amp;iwloc=A&amp;output=embed\"></iframe><br />
+<iframe width=\"300\" height=\"300\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\" src=\"https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=chapman-harris+funeral+home&amp;sll=39.343502,-76.685013&amp;sspn=0.014006,0.026157&amp;gl=us&amp;g=5240+Reisterstown+Rd,+Baltimore,+MD+21215&amp;ie=UTF8&amp;hq=chapman-harris+funeral+home&amp;hnear=5240+Reisterstown+Rd,+Baltimore,+MD+21215&amp;cid=10873325582475284409&amp;ll=39.343724,-76.685772&amp;spn=0.009957,0.012875&amp;z=15&amp;iwloc=A&amp;output=embed\"></iframe><br />
 <h3>Funeral</h3>
 <p>Friday, February 19, 2010<br>
 Family Hour: 12:30pm - 1pm<br>
@@ -78,7 +78,7 @@ case("ddavenport");
 		$imageAlt = "Christian Cross With Clouds";
 
 		$name="Delores Davenport";
-		$viewingSiteWebsite = "http://www.mortonfuneralhomes.com/";
+		$viewingSiteWebsite = "https://www.mortonfuneralhomes.com/";
 		$viewingSiteName = "James A. Morton Funeral Home";
 		$viewingSiteAddress = "1701 Laurens St, Baltimore, MD 21217";
 		$viewingDate = "Tuesday, March 29";

@@ -59,7 +59,7 @@
 							panel    : tmp.closest('.panel')[0],
 							service  : service,
 							selector : sel,
-							status   : -1 // YouTube uses -1 to mean the video is unstarted 
+							status   : -1 // YouTube uses -1 to mean the video is unstarted
 						};
 						video.hasVid = true;
 						if (sel.match('embed|object')) {
@@ -116,15 +116,15 @@
 				}
 			});
 
-			// Returns URL parameter; url: http://www.somesite.com?name=hello&id=11111
-			// Original code from Netlobo.com (http://www.netlobo.com/url_query_string_javascript.html)
+			// Returns URL parameter; url: https://www.somesite.com?name=hello&id=11111
+			// Original code from Netlobo.com (https://www.netlobo.com/url_query_string_javascript.html)
 			video.gup = function(n,s){
 				n = n.replace(/[\[]/,"\\[").replace(/[\]]/,"\\]");
 				var p = (new RegExp("[\\?&]"+n+"=([^&#]*)")).exec(s || window.location.href);
 				return (p===null) ? "" : p[1];
 			};
 
-			// postMessage to iframe - http://benalman.com/projects/jquery-postmessage-plugin/ (FOR IE7)
+			// postMessage to iframe - https://benalman.com/projects/jquery-postmessage-plugin/ (FOR IE7)
 			video.postMsg = function(data, vid){
 				var $vid = $('#' + vid);
 				if ($vid.length){
@@ -251,7 +251,7 @@ $.fn.anythingSliderVideo.services = {
 		}
 	},
 
-	// *** Vimeo iframe *** isolated demo: http://jsfiddle.net/Mottie/GxwEX/
+	// *** Vimeo iframe *** isolated demo: https://jsfiddle.net/Mottie/GxwEX/
 	vimeo1 : {
 		selector : 'iframe[src*=vimeo]',
 		init: function(base, $vid, index){
@@ -259,7 +259,7 @@ $.fn.anythingSliderVideo.services = {
 			$vid.attr('src', function(i,r){
 				// initialze api and add wmode parameter
 				return r + (vidsrc.match(/\?/g) ? '' : '?') + '&wmode=' + (base.video.options.wmode || base.options.addWmodeToObject) +
-					'&api=1&player_id=' + $vid[0].id; 
+					'&api=1&player_id=' + $vid[0].id;
 			});
 		},
 		cont : function(base, $vid, index){
@@ -323,12 +323,12 @@ $.fn.anythingSliderVideo.services = {
 		}
 	},
 
-	// *** iframe YouTube *** isolated demo: http://jsfiddle.net/Mottie/qk5MY/
+	// *** iframe YouTube *** isolated demo: https://jsfiddle.net/Mottie/qk5MY/
 	youtube1 : {
 		selector : 'iframe[src*=youtube]',
 		init: function(base, $vid, index){
 			if (!$.fn.anythingSliderVideo.youTubeLoaded && base.video.options.youtubeAutoLoad) {
-				$.getScript("http://www.youtube.com/iframe_api", function(data, textStatus, jqxhr) {
+				$.getScript("https://www.youtube.com/iframe_api", function(data, textStatus, jqxhr) {
 					$.fn.anythingSliderVideo.youTubeLoaded = true;
 				});
 			}

@@ -85,11 +85,11 @@ yourself.</p>
 
 <h3>4. Strategically Plan Your Shopping</h3>
 
-<p>Plan when it comes to both everyday shopping and <a href='http://www.dailyfinance.com/2014/10/29/holiday-shopping-strategies-black-friday-beyond/'>shopping for holiday gifts</a>. Consolidate your shopping to a day or two during the week and shop at a cluster of stores if possible. That reduces both mileage, which saves gas, and time (which may save your sanity).</p>
+<p>Plan when it comes to both everyday shopping and <a href='https://www.dailyfinance.com/2014/10/29/holiday-shopping-strategies-black-friday-beyond/'>shopping for holiday gifts</a>. Consolidate your shopping to a day or two during the week and shop at a cluster of stores if possible. That reduces both mileage, which saves gas, and time (which may save your sanity).</p>
 
 <h3>5. Redeem Reward Points from Credit Cards</h3>
 
-<p>Do you have any unused points waiting to be redeemed from your <a href='http://genyplanning.com/2014/07/30/understanding-your-credit-score/'>credit cards</a>? You can redeem most points for cash back or gift cards than can be used for loved ones. Next year, don't use any of your credit card rewards until the holidays so you'll already have money saved for your holiday shopping. This is a strategy I've used for years.</p>
+<p>Do you have any unused points waiting to be redeemed from your <a href='https://genyplanning.com/2014/07/30/understanding-your-credit-score/'>credit cards</a>? You can redeem most points for cash back or gift cards than can be used for loved ones. Next year, don't use any of your credit card rewards until the holidays so you'll already have money saved for your holiday shopping. This is a strategy I've used for years.</p>
 
 <h3>6. Look for Coupons and Discounts</h3>
 
@@ -105,11 +105,11 @@ yourself.</p>
 
 <p>If you're really serious about saving in these last weeks before the holidays, establish a no-spend challenge for part of the time, say weekends, every other week or all of November.</p>
 
-<p>A no-spend challenge is what it sounds like: a period that you choose to not spend any (extra) money. Yes, you'll still need spend on rent, utilities, gas and groceries. The no-spend idea is for discretionary expenses, like dining out, going to an event or shopping for yourself. For an added challenge, see how many $0 days you can achieve in a row. One writer I know <a href='http://www.huffingtonpost.com/learnvest/budgeting_b_1916056.html'>used this technique to help pay off her debt</a>.</p>
+<p>A no-spend challenge is what it sounds like: a period that you choose to not spend any (extra) money. Yes, you'll still need spend on rent, utilities, gas and groceries. The no-spend idea is for discretionary expenses, like dining out, going to an event or shopping for yourself. For an added challenge, see how many $0 days you can achieve in a row. One writer I know <a href='https://www.huffingtonpost.com/learnvest/budgeting_b_1916056.html'>used this technique to help pay off her debt</a>.</p>
 
-<p>If you have a no-spend weekend, for example, cook and eat all your meals at home, plan on a family game night or take yourself on a walking tour of some part of your community. Plan on <a href='http://www.dailyfinance.com/2014/06/10/staycations-summer-fun-closer-home/'>free activities</a> or use resources you already have. Then, put the surplus your no-spend time created toward holiday expenses.</p>
+<p>If you have a no-spend weekend, for example, cook and eat all your meals at home, plan on a family game night or take yourself on a walking tour of some part of your community. Plan on <a href='https://www.dailyfinance.com/2014/06/10/staycations-summer-fun-closer-home/'>free activities</a> or use resources you already have. Then, put the surplus your no-spend time created toward holiday expenses.</p>
 
-<p>Sophia Bera is a virtual financial planner for millennials and the founder of <a href='http://genyplanning.com/'>Gen Y Planning</a>. She is location-independent but calls Minneapolis home. She offers a free <a href='http://genyplanning.com/'>Gen Y Planning newsletter</a>.</p>";
+<p>Sophia Bera is a virtual financial planner for millennials and the founder of <a href='https://genyplanning.com/'>Gen Y Planning</a>. She is location-independent but calls Minneapolis home. She offers a free <a href='https://genyplanning.com/'>Gen Y Planning newsletter</a>.</p>";
 	break;
 
 	case ("monthlyadvice"):
@@ -118,7 +118,7 @@ yourself.</p>
 	$righttext="<h2>Reduce Spending &ndash; " . date("Y") . "</h2>
 
 <h3>January</h3>
-<p><span class='bold'>Ditch your bank.</span> Monthly service fees are rising, and it's getting harder to avoid them. The average minimum balance needed to avoid fees soared $856 in 2012 to a whopping $4,447, according to a <a href='http://www.money-rates.com/research-center/bank-fees/'>survey of 100 banks by MoneyRates.com</a>. Only 25% of big banks <a href='http://www.uspirg.org/reports/usp/big-banks-bigger-fees-1'>examined by the U.S. Public Interest Group</a> still offered free checking.</p>
+<p><span class='bold'>Ditch your bank.</span> Monthly service fees are rising, and it's getting harder to avoid them. The average minimum balance needed to avoid fees soared $856 in 2012 to a whopping $4,447, according to a <a href='https://www.money-rates.com/research-center/bank-fees/'>survey of 100 banks by MoneyRates.com</a>. Only 25% of big banks <a href='https://www.uspirg.org/reports/usp/big-banks-bigger-fees-1'>examined by the U.S. Public Interest Group</a> still offered free checking.</p>
 
 <p>If you can't ditch the fees, ditch the bank. USPIRG found that 60% of smaller banks still offered free checking. Online banks such as ING Direct, FNBO, Ally and others don't have monthly fees or minimum-balance requirements. Most large credit unions still offer free checking without minimum-balance requirements, as well.</p>
 
@@ -256,7 +256,7 @@ Training sessions scheduled for 2015 are:
 
 <li>Saturdays -- September 5, 2015-November 21, 2015; 9:30am-11:00am</li>
 </ul>
-<p>To register for training sessions, please leave a message on the registration line (410-633-8932), visit 	our web page (<a href='http://www.dfreebaltimore.org'>www.dfreebaltimore.org</a >) or see Deacon Willie Simmons and Bobbie Jean Hargrove.</p>
+<p>To register for training sessions, please leave a message on the registration line (410-633-8932), visit 	our web page (<a href='https://www.dfreebaltimore.org'>www.dfreebaltimore.org</a >) or see Deacon Willie Simmons and Bobbie Jean Hargrove.</p>
 
 <p>Our team consists of several roles &ndash; Program Administrators (Willie Simmons, Bobbie Jean 	Hargrove); Trainers (Marlene Jones, LaNette Davis, Chianti Jackson Harpool, Alan James); 	Champion (Adrian Harpool); Ambassador (LaNette Davis). The program is currently recruiting 	trainers and technical assistants.</p>";
 break;

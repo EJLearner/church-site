@@ -20,9 +20,9 @@
 		"url": "https://github.com/CSS-Tricks/AnythingSlider/blob/master/license.txt"
 	}],
 	"bugs": "https://github.com/CSS-Tricks/AnythingSlider/issues",
-	"homepage": "http://css-tricks.com/3412-anythingslider-jquery-plugin/",
+	"homepage": "https://css-tricks.com/3412-anythingslider-jquery-plugin/",
 	"docs": "https://github.com/CSS-Tricks/AnythingSlider/wiki",
-	"demo": "http://css-tricks.github.com/AnythingSlider/",
+	"demo": "https://css-tricks.github.com/AnythingSlider/",
 	"dependencies": {
 		"jquery": ">=1.4.2"
 	},
