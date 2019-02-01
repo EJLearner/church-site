@@ -138,6 +138,7 @@
 					"2015-9-27"
 				);
 				addevent("March 30 11:00 a.m.","<a href='funeralpage.php?p=ddavenport'>Delores Davenport Funeral Service</a>","2016-03-31");
+				addevent("February 8 10:00 a.m.","<a href='funeralpage.php?p=wwomack'>Woodrow Womack Wake and Funeral Service</a>","2019-02-09");
 				addevent(
 					"July 21 1:00 p.m.",
 					"<a href='images/temp/2018-organscape.pdf'>Artscape to Organscape 2018</a>",
