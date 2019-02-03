@@ -74,7 +74,6 @@ switch ($page)
 		break;
 
 	case("ddavenport");
-		//defaults
 		$image = "funeralcross.jpg";
 		$imageAlt = "Christian Cross With Clouds";
 
@@ -93,8 +92,8 @@ switch ($page)
 		$serviceTimeAndInfo =
 			"Wake: 11:00 a.m. - 11:30 a.m.<br>
 			Funeral: 11:30 a.m.</p>";
-		$internMentSite = "Garrison Forest Veteran's Cemetery";
-		$internMentAddress = "";
+		$internmentSite = "Garrison Forest Veteran's Cemetery";
+		$internmentAddress = "";
 		$additionalContent =
 			"<h3>Additional Information</h3>
 			<p>Repast will follow internment</p>
@@ -120,12 +119,11 @@ switch ($page)
 		$serviceTimeAndInfo</p>
 
 		<h3>Internment</h3>
-		$internMentSite<br>
+		$internmentSite<br>
 		$additionalContent";
 		break;
 
-		case("wwomack");
-		//defaults
+	case("wwomack");
 		$image = "funeralcross.jpg";
 		$imageAlt = "Christian Cross With Clouds";
 
@@ -150,6 +148,60 @@ switch ($page)
 		$serviceSiteAddress<br>
 		$serviceDate<br>
 		$serviceTimeAndInfo</p>
+		";
+		break;
+
+	case("gwhite");
+		$image = "funeralcross.jpg";
+		$imageAlt = "Christian Cross With Clouds";
+		$name="Geraldine White";
+		$viewingSiteWebsite = "https://vaughncgreene.com/85/Wildwood.html";
+		$viewingSiteName = "Vaughn Greene WildWood";
+		$viewingSiteAddress = "4101 Edmondson Avenue, Baltimore, Maryland 21229";
+		$viewingDate = "Friday, February 8";
+		$viewingTimeAndInfo = "4:00 - 8:00 p.m.";
+		$serviceSiteWebsite = "https://www.thecitytemple.org";
+		$serviceSiteName = "The City Temple of Baltimore (Baptist)";
+		$serviceSiteAddress = "317 Dolphin Street, Baltimore, MD 21217";
+		$serviceDate = "Friday, February 9";
+		$serviceTimeAndInfo ="
+			Wake: 10:30 a.m. - 11:00 a.m.<br>
+			Funeral: 11:00 a.m.</p>
+		";
+		$internmentSite = "Woodlawn Cemetary";
+		$internmentAddress = "2130 Woodlawn Drive, Baltimore MD 21207";
+		$additionalContent ="
+			<h3>Additional Information</h3>
+			<p>Condolencenses may me sent to: Mrs. Tiffany Bailey
+		";
+
+		$content="
+			<h1>Homegoing Service for $name</h1>
+			<hr>
+
+			<figure>
+				<img src='images/funeralcross.jpg' alt='Christian Cross With Clouds'>
+				<figcaption><a href='https://flic.kr/p/a9TZVv'>\"shining cross\"</a> by fairytaleweaver / CC BY-SA</figcaption>
+			</figure>
+
+			<h3>Viewing</h3>
+			<a href='$viewingSiteWebsite'>$viewingSiteName</a><br>
+			$viewingDate<br>
+			$viewingSiteAddress<br>
+			$viewingTimeAndInfo
+
+			<h3>Homegoing Services</h3>
+			<p>
+				<a href='$serviceSiteWebsite'>$serviceSiteName</a><br>
+				$serviceSiteAddress<br>
+				$serviceDate<br>
+				$serviceTimeAndInfo
+			</p>
+
+			<h3>Internment</h3>
+			$internmentSite<br>
+			$internmentAddress<br>
+			$additionalContent
 		";
 		break;
 }
