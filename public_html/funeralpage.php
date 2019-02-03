@@ -172,7 +172,7 @@ switch ($page)
 		$internmentAddress = "2130 Woodlawn Drive, Baltimore MD 21207";
 		$additionalContent ="
 			<h3>Additional Information</h3>
-			<p>Condolencenses may be sent to: Mrs. Tiffany Bailey
+			<p>Condolencenses may be sent to Mrs. Tiffany Bailey
 		";
 
 		$content="
