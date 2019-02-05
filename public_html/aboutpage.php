@@ -15,7 +15,7 @@ case ("directions");
 
 <form action=\"https://www.mapquest.com/directions/main.adp\" method=\"get\">
 <fieldset>
-<legend>From:</legend>
+<legend>From:1</legend>
 <label class=\"addlabel\">Address:</label> <input class=\"textarea\" type=\"text\" name=\"1a\" value=\"\" size=\"20\" maxlength=\"50\">
 <br><br>
 <label class=\"addlabel\">City:</label> <input class=\"textarea\" type=\"text\" name=\"1c\" size=\"20\" value=\"\" maxlength=\"50\">
