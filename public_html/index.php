@@ -142,9 +142,9 @@
 				addevent("February 8 4:00 p.m.","<a href='funeralpage.php?p=gwhite'>Geraldine White Viewing</a>","2019-02-10");
 				addevent("February 9 10:30 a.m.","<a href='funeralpage.php?p=gwhite'>Geraldine White Wake and Funeral Service</a>","2019-02-11");
 				addevent(
-					"July 21 1:00 p.m.",
-					"<a href='images/temp/2018-organscape.pdf'>Artscape to Organscape 2018</a>",
-					"2018-07-22"
+					"July 20 1:00 p.m.",
+					"<a href='images/temp/2019-organscape.pdf'>Artscape to Organscape 2019</a>",
+					"2019-07-21"
 				);
 				addevent(
 					"October 30 6:00 p.m.",
@@ -178,6 +178,6 @@
 		<div class="clear"></div>
 	</div>
 </div>
-<? include "footer.php" ?>
+<?php include "footer.php" ?>
 </body>
 </html>
