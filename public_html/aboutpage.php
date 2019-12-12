@@ -238,7 +238,7 @@ case ("ged");
 	$h1=$title;
 	$righttext="
 	<p>The W.W. Payne Education and Community Center was built to support Rev. Dr. Grady
-A. Yeargin, Jr.â€™s vision to provide outreach services to the community. In July 2005,
+A. Yeargin, Jr.’s vision to provide outreach services to the community. In July 2005,
 in a meeting with Rev. Dr. Yeargin, Gary Hamiel, Marlene Jones and Patricia Payne,
 staff from the Baltimore City Community College presented a proposal to initiate a free,
 daytime GED class for members and community of the City Temple of Baltimore Baptist
@@ -250,8 +250,8 @@ while City Temple agreed to provide a classroom with a blackboard. In addition, 
 Temple also agreed to:</p>
 <ul>
 <li>Offer lunch to the students enrolled in the program.</li>
-<li>Provide duplicating privileges for the instructorâ€™s use.</li>
-<li>Purchase a file cabinet for the instructorâ€™s use.</li>
+<li>Provide duplicating privileges for the instructor’s use.</li>
+<li>Purchase a file cabinet for the instructor’s use.</li>
 </ul>
 <p>The largest commitment made by City Temple was the responsibility to recruit and retain
 15-20 students for the class. Patricia A. Payne was asked to lead this charge.</p>

@@ -161,19 +161,11 @@
 			<h2>Popular Links</h2>
 			<ul>
 				<li><h4><a href="/christianedu.html">Christian Education</a></h4></li>
-				<li><h4><a href="/pgallery/">Photo Gallery</a></h4></li>
 				<li><h4><a href="/blog/">Pastor's Blog</a></h4></li>
 				<li><h4><a href="spiritualpage.php?p=weekly">Weekly Meditation</a></h4></li>
-				<li><h4><a href="marketday.php">Market Day</a></h4></li>
-				<!--<li><h4><a href="submenu.php?p=outreach">Bible Study</a></h4></li>-->
 				<li><h4><a href="ministries.php">Ministries</a></h4></li>
 				<li><h4><a href="aboutpage.php?p=ged">GED Program</a></h4></li>
 			</ul>
-		</div>
-		<div class="devotionalshome">
-			<h2>Daily Devotional - <?php echo date("F j")?></h2>
-			<a href="spiritualpage.php?p=daily"><img src="images/devotionalpage.jpg" alt="Mountain Sunset"></a>
-			<div class="scripture"><?php echo getVerse(date('z'));?><br><?php  echo getScripture(0, date('z'))?></div>
 		</div>
 		<div class="clear"></div>
 	</div>
