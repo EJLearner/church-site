@@ -9,7 +9,6 @@
 	<? include "dayscriptset.php"; ?>
 
 	<? include "anythingslidercode.php"; ?>
-	<!--<script type="text/javascript" src="tFader.js"></script> -->
 	<script type="text/javascript" src="popup.js"></script>
 	<script>
 		var openOnClick = function(event, target, whRatio){
@@ -28,9 +27,9 @@
 				style.type = 'text/css';
 
 				if (style.styleSheet){
-				  style.styleSheet.cssText = css;
+					style.styleSheet.cssText = css;
 				} else {
-				  style.appendChild(newWindow.document.createTextNode(css));
+					style.appendChild(newWindow.document.createTextNode(css));
 				}
 
 				newWindow.document.getElementsByTagName('head')[0].appendChild(style);
@@ -41,7 +40,6 @@
 			return null;
 		}
 	</script>
-
 
 	<meta name="verify-v1" content="3wCodnfg43veeFCH3Vs1Fr8lMJCUKtJ5myjNZ35+qeo=">
 	<meta name="keywords" content="baltimore, baptist, city, temple, christian, church, grady, yeargin" >
@@ -58,8 +56,11 @@
 
 <?if (date('U') < strtotime("2019-01-15 11:00 PM"))
 {?>
-<div id="urgentmessagebox"><img src="images/urgent.jpg"><p>Sunday's Church Service Rescheduled <span class="urgentpostdate">Posted 01-13-2019</span><br></p>
-	<p>Church Service will take place Tuesday January 15, 2019 7:00 p.m.</p><div class="clear"></div>
+<div id="urgentmessagebox">
+	<img src="images/urgent.jpg">
+	<p>Sunday's Church Service Rescheduled <span class="urgentpostdate">Posted 01-13-2019</span><br></p>
+	<p>Church Service will take place Tuesday January 15, 2019 7:00 p.m.</p>
+	<div class="clear"></div>
 </div>
 <?}?>
 
