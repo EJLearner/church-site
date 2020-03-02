@@ -28,7 +28,7 @@ $message = addDataToMessage($message, "Email",'emailAddress');
 $message = addDataToMessage($message, "Message",'message');
 $message .="Submit Date: " . date("F j, Y, g:i a") . "\r\n";
 
-$to=getIdeaFormAddresses();
+$to=getContactFormAddresses();
 $from = getFromAddress();
 $headers = "From:" . $from;
 $mailSent = mail(implode(', ', $to), $subject, $message, $headers);
