@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.9833f282.chunk.css",
-    "main.js": "/static/js/main.514362b5.chunk.js",
-    "main.js.map": "/static/js/main.514362b5.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ad4722bc.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ad4722bc.js.map",
-    "static/css/2.97be3157.chunk.css": "/static/css/2.97be3157.chunk.css",
-    "static/js/2.62b487c9.chunk.js": "/static/js/2.62b487c9.chunk.js",
-    "static/js/2.62b487c9.chunk.js.map": "/static/js/2.62b487c9.chunk.js.map",
+    "main.css": "/static/css/main.8a68b69a.chunk.css",
+    "main.js": "/static/js/main.517ec5e7.chunk.js",
+    "main.js.map": "/static/js/main.517ec5e7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b663b47d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b663b47d.js.map",
+    "static/css/2.9a9b1a2c.chunk.css": "/static/css/2.9a9b1a2c.chunk.css",
+    "static/js/2.1fdd8af5.chunk.js": "/static/js/2.1fdd8af5.chunk.js",
+    "static/js/2.1fdd8af5.chunk.js.map": "/static/js/2.1fdd8af5.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.72d8973c738c4ad8002b327d297bd218.js": "/precache-manifest.72d8973c738c4ad8002b327d297bd218.js",
+    "precache-manifest.e8bae4d24f7b520fbe5545a7e329d6c4.js": "/precache-manifest.e8bae4d24f7b520fbe5545a7e329d6c4.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.97be3157.chunk.css.map": "/static/css/2.97be3157.chunk.css.map",
-    "static/css/main.9833f282.chunk.css.map": "/static/css/main.9833f282.chunk.css.map",
-    "static/js/2.62b487c9.chunk.js.LICENSE.txt": "/static/js/2.62b487c9.chunk.js.LICENSE.txt",
+    "static/css/2.9a9b1a2c.chunk.css.map": "/static/css/2.9a9b1a2c.chunk.css.map",
+    "static/css/main.8a68b69a.chunk.css.map": "/static/css/main.8a68b69a.chunk.css.map",
+    "static/js/2.1fdd8af5.chunk.js.LICENSE.txt": "/static/js/2.1fdd8af5.chunk.js.LICENSE.txt",
     "static/media/30th-anniversary-choir.jpg": "/static/media/30th-anniversary-choir.90928b7d.jpg",
     "static/media/RetreatPowerPoint.ppsx": "/static/media/RetreatPowerPoint.ce936a6d.ppsx",
     "static/media/afram-museum.jpg": "/static/media/afram-museum.30d39a18.jpg",
@@ -65,10 +65,10 @@
     "static/media/yearginbio.jpg": "/static/media/yearginbio.36f52039.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ad4722bc.js",
-    "static/css/2.97be3157.chunk.css",
-    "static/js/2.62b487c9.chunk.js",
-    "static/css/main.9833f282.chunk.css",
-    "static/js/main.514362b5.chunk.js"
+    "static/js/runtime-main.b663b47d.js",
+    "static/css/2.9a9b1a2c.chunk.css",
+    "static/js/2.1fdd8af5.chunk.js",
+    "static/css/main.8a68b69a.chunk.css",
+    "static/js/main.517ec5e7.chunk.js"
   ]
 }
