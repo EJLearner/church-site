@@ -24,7 +24,7 @@ function addDataToMessage($message, $label, $key, $isBool = false)
 $subject= "Someone contacted us!";
 $message="Submitted message is below:\r\n\r\n";
 $message = addDataToMessage($message, "Name",'name');
-$message = addDataToMessage($message, "Email",'emailAddress');
+$message = addDataToMessage($message, "Email",'email');
 $message = addDataToMessage($message, "Message",'message');
 $message .="Submit Date: " . date("F j, Y, g:i a") . "\r\n";
 
