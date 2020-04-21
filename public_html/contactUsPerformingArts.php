@@ -29,7 +29,7 @@ $message = addDataToMessage($message, "Email",'email');
 $message = addDataToMessage($message, "Talent Area",'talentArea');
 $message .="Submit Date: " . date("F j, Y, g:i a") . "\r\n";
 
-$to=getPerformingArtsFormAddress();
+$to=getPerformingArtsFormAddresses();
 $from = getFromAddress();
 $headers = "From:" . $from;
 $mailSent = mail(implode(', ', $to), $subject, $message, $headers);
