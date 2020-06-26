@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.edec5419.chunk.css",
-    "main.js": "/static/js/main.43c8d254.chunk.js",
-    "main.js.map": "/static/js/main.43c8d254.chunk.js.map",
+    "main.css": "/static/css/main.71fcb615.chunk.css",
+    "main.js": "/static/js/main.cdbe0f11.chunk.js",
+    "main.js.map": "/static/js/main.cdbe0f11.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b663b47d.js",
     "runtime-main.js.map": "/static/js/runtime-main.b663b47d.js.map",
     "static/css/2.9a9b1a2c.chunk.css": "/static/css/2.9a9b1a2c.chunk.css",
-    "static/js/2.0203c319.chunk.js": "/static/js/2.0203c319.chunk.js",
-    "static/js/2.0203c319.chunk.js.map": "/static/js/2.0203c319.chunk.js.map",
+    "static/js/2.671d1db7.chunk.js": "/static/js/2.671d1db7.chunk.js",
+    "static/js/2.671d1db7.chunk.js.map": "/static/js/2.671d1db7.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c01d9b6bf7bda004101a4c82ba35fef4.js": "/precache-manifest.c01d9b6bf7bda004101a4c82ba35fef4.js",
+    "precache-manifest.7e68d6e3ab05488cbc5eeae779f6b472.js": "/precache-manifest.7e68d6e3ab05488cbc5eeae779f6b472.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.9a9b1a2c.chunk.css.map": "/static/css/2.9a9b1a2c.chunk.css.map",
-    "static/css/main.edec5419.chunk.css.map": "/static/css/main.edec5419.chunk.css.map",
-    "static/js/2.0203c319.chunk.js.LICENSE.txt": "/static/js/2.0203c319.chunk.js.LICENSE.txt",
+    "static/css/main.71fcb615.chunk.css.map": "/static/css/main.71fcb615.chunk.css.map",
+    "static/js/2.671d1db7.chunk.js.LICENSE.txt": "/static/js/2.671d1db7.chunk.js.LICENSE.txt",
+    "static/media/2020-graduates.pptx": "/static/media/2020-graduates.496aa669.pptx",
     "static/media/30th-anniversary-choir.jpg": "/static/media/30th-anniversary-choir.90928b7d.jpg",
     "static/media/GED-thumbnail.png": "/static/media/GED-thumbnail.3e935305.png",
     "static/media/RetreatPowerPoint.ppsx": "/static/media/RetreatPowerPoint.ce936a6d.ppsx",
@@ -60,6 +61,8 @@
     "static/media/shofar-blower-thumb.png": "/static/media/shofar-blower-thumb.29b0b564.png",
     "static/media/shofar-blower.png": "/static/media/shofar-blower.8e2bf830.png",
     "static/media/shofar-blowers.jpg": "/static/media/shofar-blowers.fb932743.jpg",
+    "static/media/slideshow-thumb.png": "/static/media/slideshow-thumb.b795e20f.png",
+    "static/media/slideshow.png": "/static/media/slideshow.c8149662.png",
     "static/media/suicide-bridge-sign.jpg": "/static/media/suicide-bridge-sign.db49e5ee.jpg",
     "static/media/vbsregpicture.png": "/static/media/vbsregpicture.a5b61ce5.png",
     "static/media/worship.png": "/static/media/worship.161158f0.png",
@@ -68,8 +71,8 @@
   "entrypoints": [
     "static/js/runtime-main.b663b47d.js",
     "static/css/2.9a9b1a2c.chunk.css",
-    "static/js/2.0203c319.chunk.js",
-    "static/css/main.edec5419.chunk.css",
-    "static/js/main.43c8d254.chunk.js"
+    "static/js/2.671d1db7.chunk.js",
+    "static/css/main.71fcb615.chunk.css",
+    "static/js/main.cdbe0f11.chunk.js"
   ]
 }
