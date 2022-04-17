@@ -104,7 +104,7 @@ form
 	margin-bottom: 4.5em;
 	background-color:$main-green;
 	font-size:90%;
-	font-family: $calibri;
+	font-family: var(--calibri);
 	text-transform:uppercase;
 	flex: 0 0 auto;
 
@@ -467,7 +467,7 @@ $tableleft:300px;
 @include content-widths();
 padding-top:3em;
 text-align:center;
-font-family: $cambria;
+font-family: var(--cambria);
 font-style:italic;
 color:grey;
 flex: 0 0 auto;
